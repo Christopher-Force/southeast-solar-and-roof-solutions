@@ -5,7 +5,7 @@ export default function Hero() {
         <div className="relative bg-black z-10">
             <div classname="">
             <div className="md:mx-20 grid justify-items-center">
-                <video className="max-w-6xl" style={{objectFit: "fill", width: "100%"}} autoPlay muted playsinline>
+                <video className="max-w-6xl" style={{objectFit: "fill", width: "100%"}} autoPlay muted playsInline>
                     <source id="myvideo" src={logoAnimated} type="video/mp4" />
                 </video>
             </div>
