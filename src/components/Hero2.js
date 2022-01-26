@@ -39,7 +39,7 @@ export default function Hero2() {
                                 {/* IMAGE 2 */}
                                 <div className="grid justify-items-center">
                                     <div className="w-32 md:ml-4 md:w-72 md:h-64 mb-10 mt-4 md:mb-2 md:mt-3 bg-black flex-shrink-0 justify-items-center grid">
-                                        <video loop className="max-w-6xl" style={{objectFit: "fill", width: "110%"}} autoPlay muted>
+                                        <video loop className="max-w-6xl" style={{objectFit: "fill", width: "110%"}} autoPlay muted playsinline>
                                             <source id="myvideo" src={stateFlorida} type="video/mp4" />
                                         </video>
                                     </div>
