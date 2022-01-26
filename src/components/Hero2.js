@@ -1,4 +1,3 @@
-import react from "react";
 import washMe from "../assets/img/washMe.jpg";
 import stateFlorida from "../assets/video/stateFlorida.mp4"
 
@@ -14,7 +13,7 @@ export default function Hero2() {
                                 {/* IMAGE 1 */}
                                 <div className="grid justify-items-center mt-2">
                                     <div className="w-32 md:w-64 md:h-64 sm:mb-0 mb-7 md:mb-4 bg-black flex-shrink-0 justify-items-center grid ">
-                                        <img src={washMe} className="rounded-lg"/>
+                                        <img src={washMe} alt="Wash me" className="rounded-lg"/>
                                     </div>
                                 </div>
                                 {/* encloses text */}
@@ -24,11 +23,11 @@ export default function Hero2() {
                                 <p className="leading-relaxed text-white text-center">We do solar panel cleanings for homeowners and business owners!</p>
                                 {/* LEARN MORE LINK, DIV MADE TO ALIGN TO BOTTOM OF CONTAINER */}
                                 <div className="">
-                                    <a className="mt-3 text-lime-400 inline-flex items-center">Learn More
+                                    <div className="mt-3 text-lime-400 inline-flex items-center">Learn More
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                                     </svg>
-                                    </a>
+                                    </div>
                                 </div>
                             </div>
                             </div>
@@ -48,11 +47,11 @@ export default function Hero2() {
                                         <h2 className="text-white text-lg title-font font-medium mb-3 text-center">We're Statewide!</h2>
                                         <p className="leading-relaxed text-white text-center">We do solar panel cleanings for homeowners and business owners!</p>
                                         {/* learn more bottom */}
-                                        <a className="mt-3 text-lime-400 inline-flex items-center self-end">Learn More
+                                        <div className="mt-3 text-lime-400 inline-flex items-center self-end">Learn More
                                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                                         </svg>
-                                        </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

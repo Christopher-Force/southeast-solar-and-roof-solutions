@@ -1,4 +1,3 @@
-import react from "react";
 import logoAnimated from "../assets/video/animatedLogo.mp4"
 
 export default function Hero() {

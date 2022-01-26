@@ -1,4 +1,3 @@
-import react from "react";
 import logoLight from "../assets/img/Logo light.png"
 
 export default function Footer() {
@@ -6,12 +5,15 @@ export default function Footer() {
         <footer class="bg-gradient-to-r from-orange-900 to-orange-600 text-lime-400 body-font">
             <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                 <div class="w-64 flex-shrink-0 md:mx-0 m-auto text-center md:text-left">
-                    <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
-                        <img src={logoLight} />
-                    </a>
+                    <div class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+                        <img src={logoLight} alt="Southeast Solar" />
+                    </div>
                 </div>
                 <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-                <div class="w-full px-4">
+
+{/* LINKS */}
+
+                {/* <div class="w-full px-4">
                     <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
                     <nav class="list-none mb-10">
                     <li>
@@ -44,7 +46,9 @@ export default function Footer() {
                         <a class="text-lime-400 hover:text-gray-800">Fourth Link</a>
                     </li>
                     </nav>
-                </div>
+                </div> */}
+
+
                 {/* <div class="lg:w-1/4 md:w-1/2 w-full px-4">
                     <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
                     <nav class="list-none mb-10">
