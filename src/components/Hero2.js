@@ -22,8 +22,8 @@ export default function Hero2() {
                                 {/* encloses text */}
                             <div className="relative flex-grow grid justify-items-center mb-1 ">
                                 {/* MX-2 ALLOWS FOR LINE SPREADING */}
-                                <h2 className="sm:mx-2 mx-3 md:mx-0 text-white text-lg title-font font-medium mb-2 text-center">Solar Cleaning</h2>
-                                <p className="leading-relaxed text-white text-center">We do solar panel cleanings for homeowners and business owners!</p>
+                                <h2 className="sm:mx-2 mx-3 md:mx-0 text-white text-lg title-font font-medium mb-2 text-center">Solar Panel Cleaning</h2>
+                                <p className="leading-relaxed text-white text-center">We do residential and commericial solar panel cleanings!</p>
                                 {/* LEARN MORE LINK, DIV MADE TO ALIGN TO BOTTOM OF CONTAINER */}
                                 <div className="">
                                     {/* Learn More Button */}
@@ -45,15 +45,16 @@ export default function Hero2() {
                                 {/* IMAGE 2 */}
                             <div className="grid justify-items-center">
                                 <Link to="/statewide">
-                                    <div className="w-32 md:ml-4 md:w-72 md:h-64 mb-10 mt-4 md:mb-2 md:mt-3 bg-black flex-shrink-0 justify-items-center grid">
+                                    <div className="w-32 md:ml-4 md:w-72 md:h-64 mb-10 mt-4 md:mb-2 md:mt-3 bg-black flex-shrink-0 justify-items-center grid mr-2">
                                             <video loop className="max-w-6xl" style={{objectFit: "fill", width: "110%"}} autoPlay muted playsInline>
                                                 <source id="myvideo" src={stateFlorida} type="video/mp4" />
                                             </video>
                                     </div>
                                 </Link>
                                     <div className="relative flex-grow grid justify-items-center">
-                                        <h2 className="text-white text-lg title-font font-medium mb-3 text-center">We're Statewide!</h2>
-                                        <p className="leading-relaxed text-white text-center">We do solar panel cleanings for homeowners and business owners!</p>
+                                        <h2 className="text-white text-lg title-font font-medium mb-3 text-center">We're Statewide</h2>
+                                        <p className="leading-relaxed text-white text-center">Cleaning the entire state of Florida!</p>
+                                        <br />
                                         {/* learn more bottom */}
                                         <Link to="/statewide">
                                             <div className="mt-3 text-lime-400 inline-flex items-center self-end">Learn More
