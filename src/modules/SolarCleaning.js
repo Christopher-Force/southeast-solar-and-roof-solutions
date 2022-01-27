@@ -1,5 +1,5 @@
-import logoDark from "../assets/img/Logo dark.png"
-import MaterialIcon from 'material-icons-react';
+// import logoDark from "../assets/img/Logo dark.png"
+// import MaterialIcon from 'material-icons-react';
 
 
 export default function SolarCleaning () {
