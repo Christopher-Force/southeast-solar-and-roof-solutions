@@ -30,12 +30,12 @@ export default function Nav () {
                       Skylights
                 </span>
               </a>
-              <div class="btn btn-ghost btn-sm rounded-btn">
+              <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener" class="btn btn-ghost btn-sm rounded-btn">
               <MaterialIcon icon="360" color="#FAFAFA" />
                 <span className="pl-2">
                       Solar Attic Fans
                 </span>
-              </div>
+              </a>
               <div class="btn btn-ghost btn-sm rounded-btn">
               <MaterialIcon icon="water_drop" color="#FAFAFA" />
                 <span className="pl-2">
@@ -68,9 +68,9 @@ export default function Nav () {
                 <li>
                   <span>
                     <MaterialIcon icon="360" color="#FAFAFA" />
-                    <span className="pl-2">
+                    <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener" className="pl-2">
                       Solar Attic Fans
-                    </span>
+                    </a>
                   </span>
                 </li>
                 <li>
