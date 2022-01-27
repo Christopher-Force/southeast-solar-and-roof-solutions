@@ -37,11 +37,11 @@ export default function SolarCleaning () {
                 5. The integrity of all mounting brackets to ensure a tight and proper fit
                 6. Any possible inverter error codes
                 </p>
-                <a class="text-green-500 inline-flex items-center">Learn More
+                <div class="text-green-500 inline-flex items-center">Learn More
                   <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
-                </a>
+                </div>
               </div>
             </div>
           </div>

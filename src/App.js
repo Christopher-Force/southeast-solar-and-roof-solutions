@@ -2,8 +2,7 @@ import Home from "./modules/Home"
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Nav from "./modules/Nav"
 import SolarCleaning from "./modules/SolarCleaning"

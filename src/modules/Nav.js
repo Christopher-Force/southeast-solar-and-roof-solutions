@@ -1,9 +1,9 @@
 import logo from "../assets/img/Logo dark.png"
 // import RoofingIcon from '@mui/icons-material/Abc';
-import MaterialIcon, {colorPalette} from 'material-icons-react';
+import MaterialIcon from 'material-icons-react';
 import { Link } from "react-router-dom"
 
-export default function () {
+export default function Nav () {
     return(
       <div className="bg-green-900 pb-1 relative z-30">
         <div class="navbar shadow-lg bg-black text-neutral-content rounded-box drop-shadow-lg">
@@ -15,14 +15,14 @@ export default function () {
           <div class="flex-none hidden px-2 mx-2 lg:flex">
             <div class="flex items-stretch">
               {/* <Link> */}
-                <a class="btn btn-ghost btn-sm rounded-btn">
+                <div class="btn btn-ghost btn-sm rounded-btn">
                 <span className="">
                   <MaterialIcon icon="roofing" color="#FAFAFA" />
                 </span>
                   <span className="pl-2">
                     Roof Shampoo
                   </span>
-                </a>
+                </div>
               {/* </Link> */}
               <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener" class="btn btn-ghost btn-sm rounded-btn">
               <MaterialIcon icon="wb_sunny" color="#FAFAFA" />
@@ -30,18 +30,18 @@ export default function () {
                       Skylights
                 </span>
               </a>
-              <a class="btn btn-ghost btn-sm rounded-btn">
+              <div class="btn btn-ghost btn-sm rounded-btn">
               <MaterialIcon icon="360" color="#FAFAFA" />
                 <span className="pl-2">
                       Solar Attic Fans
                 </span>
-              </a>
-              <a class="btn btn-ghost btn-sm rounded-btn">
+              </div>
+              <div class="btn btn-ghost btn-sm rounded-btn">
               <MaterialIcon icon="water_drop" color="#FAFAFA" />
                 <span className="pl-2">
                       Roof Leak Repair
                 </span>
-              </a>
+              </div>
             </div>
           </div>
           {/* dropdown  */}
