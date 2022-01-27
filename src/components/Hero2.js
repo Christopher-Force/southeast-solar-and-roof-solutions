@@ -23,7 +23,7 @@ export default function Hero2() {
                             <div className="relative flex-grow grid justify-items-center mb-1 ">
                                 {/* MX-2 ALLOWS FOR LINE SPREADING */}
                                 <h2 className="sm:mx-2 mx-3 md:mx-0 text-white text-lg title-font font-medium mb-2 text-center">Solar Panel Cleaning</h2>
-                                <p className="leading-relaxed text-white text-center">We do residential and commericial solar panel cleanings!</p>
+                                <p className="leading-relaxed text-white text-center">Our focus is residential and commericial solar panel cleanings!</p>
                                 {/* LEARN MORE LINK, DIV MADE TO ALIGN TO BOTTOM OF CONTAINER */}
                                 <div className="">
                                     {/* Learn More Button */}

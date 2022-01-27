@@ -37,13 +37,19 @@ export default function SolarCleaning () {
                 <br />
                 <p>Experts agree that dirty solar panels do not produce as much power as clean ones. According to the National Renewable Energy Lab, the loss may be as high as 25% annually. In industrial areas, locations of high traffic, high agricultural activities, close proximity to saltwater, and high pollen regions it may be even worse.</p>
                 <br />
-                <p>LET US DO THE DIRTY WORK!!</p>
+                <h2 className="font-medium text-center text-xl text-green-400">LET US DO THE DIRTY WORK!!</h2>
+                <div className="grid justify-center">
+                  <div class="w-44 h-0.5 bg-green-500 rounded mt-2 mb-4"></div>
+                </div>
                 <br />
                 <p>Not only do we return your solar panels to the cleanest and highest production standards, we also use equipment and solution that was exclusively designed for, and approved by all solar panel manufacturers. </p>
                 <br />
-                <p>Our service also includes a six-point inspection of your system. </p>
+                <h2 className="font-medium text-center text-xl text-green-400">SIX POINT INSPECTION</h2>
+                <div className="grid justify-center">
+                  <div class="w-36 h-0.5 bg-green-500 rounded mt-2 mb-4"></div>
+                </div>
                 <br />
-                <p>This inspection consists of checking for:</p>
+                <p>Our service also includes a six-point inspection of your system. This inspection consists of checking for:</p>
                 <br />
                 <p>
                   <ol className="list-decimal  list-inside">
