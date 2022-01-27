@@ -3,7 +3,7 @@ import logoLight from "../assets/img/Logo light.png"
 export default function Footer() {
     return(
         <footer class="bg-gradient-to-r from-orange-900 to-orange-600 text-lime-400 body-font">
-            <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="container px-5 py-12 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                 <div class="w-64 flex-shrink-0 md:mx-0 m-auto text-center md:text-left">
                     <div class="flex title-font font-medium items-center md:justify-start justify-center text-white">
                         <img src={logoLight} alt="Southeast Solar" />
@@ -13,40 +13,40 @@ export default function Footer() {
 
 {/* LINKS */}
 
-                {/* <div class="w-full px-4">
-                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+                <div class="w-1/2 px-4">
+                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">SERVICES</h2>
                     <nav class="list-none mb-10">
                     <li>
-                        <a class="text-lime-400 hover:text-gray-800">First Link</a>
+                        <a class="text-lime-400 hover:text-gray-800">Roof Shampoo</a>
                     </li>
                     <li>
-                        <a class="text-lime-400 hover:text-gray-800">Second Link</a>
+                        <a class="text-lime-400 hover:text-gray-800">Skylights</a>
                     </li>
                     <li>
                         <a class="text-lime-400 hover:text-gray-800">Third Link</a>
                     </li>
                     <li>
-                        <a class="text-lime-400 hover:text-gray-800">Fourth Link</a>
+                        <a class="text-lime-400 hover:text-gray-800">Roof Leak Repair</a>
                     </li>
                     </nav>
                 </div>
-                <div class="w-full px-4">
-                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
+                <div class="w-1/2 px-4">
+                    <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">SERVICES</h2>
                     <nav class="list-none mb-10">
                     <li>
-                        <a class="text-lime-400 hover:text-gray-800">First Link</a>
+                        <a class="text-lime-400 hover:text-gray-800">Roof Shampoo</a>
                     </li>
                     <li>
-                        <a class="text-lime-400 hover:text-gray-800">Second Link</a>
+                        <a class="text-lime-400 hover:text-gray-800">Skylights</a>
                     </li>
                     <li>
                         <a class="text-lime-400 hover:text-gray-800">Third Link</a>
                     </li>
                     <li>
-                        <a class="text-lime-400 hover:text-gray-800">Fourth Link</a>
+                        <a class="text-lime-400 hover:text-gray-800">Roof Leak Repair</a>
                     </li>
                     </nav>
-                </div> */}
+                </div>
 
 
                 {/* <div class="lg:w-1/4 md:w-1/2 w-full px-4">
