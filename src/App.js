@@ -9,6 +9,8 @@ import SolarCleaning from "./modules/SolarCleaning"
 import Footer from "./components/Footer"
 import Statewide from "./modules/Statewide";
 import Banner from "./components/Banner"
+import ContactUs from "./modules/ContactUs";
+import PrivacyPolicy from "./modules/PrivacyPolicy";
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/cleaning" element={<SolarCleaning />} />
           <Route path="/statewide" element={<Statewide />} />
+          <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         </Routes>
         <div>
           <Footer />

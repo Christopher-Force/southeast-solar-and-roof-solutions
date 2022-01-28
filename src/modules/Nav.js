@@ -20,7 +20,7 @@ export default function Nav () {
                   <MaterialIcon icon="roofing" color="#FAFAFA" />
                 </span>
                   <span className="pl-2">
-                    Roof Shampoo
+                    <a href="https://www.roofshampoo.com/" target="_blank" rel="noreferrer noopener" >Roof Shampoo</a>
                   </span>
                 </div>
               {/* </Link> */}
@@ -30,7 +30,7 @@ export default function Nav () {
                       Skylights
                 </span>
               </a>
-              <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener" className="btn btn-ghost btn-sm rounded-btn">
+              <a href="https://fcskylights.net/solar-fans/" target="_blank" rel="noreferrer noopener" className="btn btn-ghost btn-sm rounded-btn">
               <MaterialIcon icon="360" color="#FAFAFA" />
                 <span className="pl-2">
                       Solar Attic Fans
@@ -53,7 +53,7 @@ export default function Nav () {
                   <span>
                     <MaterialIcon icon="roofing" color="#FAFAFA" />
                     <span className="pl-2">
-                      Roof Shampoo
+                      <a href="https://www.roofshampoo.com/" target="_blank" rel="noreferrer noopener">Roof Shampoo</a>
                     </span>
                   </span>
                 </li>
@@ -68,7 +68,7 @@ export default function Nav () {
                 <li>
                   <span>
                     <MaterialIcon icon="360" color="#FAFAFA" />
-                    <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener" className="pl-2">
+                    <a href="https://fcskylights.net/solar-fans/" target="_blank" rel="noreferrer noopener" className="pl-2">
                       Solar Attic Fans
                     </a>
                   </span>
