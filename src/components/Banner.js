@@ -11,8 +11,8 @@ export default function Banner () {
                                 <span className="mr-2">
                                     <MaterialIcon icon="support_agent" color="#FAFAFA" />
                                 </span>
-                                <span className="text-white">
-                                    <a href="tel:800-240-4055">OFFICE: (800) 240-4055</a>
+                                <span className="text-white underline-offset-4">
+                                    <a href="tel:800-240-4055" >OFFICE: <u>(800) 240-4055</u></a>
                                 </span>
                             </span>
                             {/* cell */}
@@ -20,9 +20,9 @@ export default function Banner () {
                             <span className="mr-1">
                                     <MaterialIcon icon="phone_iphone" color="#FAFAFA" />
                                 </span>
-                                <span className="text-white">
+                                <span className="text-white underline-offset-4">
 
-                                <a href="tel:727-423-1716">CELL: (727) 423-1716</a>
+                                <a href="tel:727-423-1716">CELL: <u>(727) 423-1716</u></a>
                                 </span>
                             </span>
                             {/* email */}
@@ -30,8 +30,8 @@ export default function Banner () {
                             <span className=" mr-2">
                                     <MaterialIcon icon="mail_outline" color="#FAFAFA" />
                                 </span>
-                                <span className="text-white">
-                                <a href="mailto:Southeastsolarsolutions@gmail.com">Southeastsolarsolutions@gmail.com</a>
+                                <span className="text-white underline-offset-4">
+                                <a href="mailto:Southeastsolarsolutions@gmail.com"><u>Southeastsolarsolutions@gmail.com</u></a>
                                 </span>
                             </span>
                         </div>
