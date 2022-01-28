@@ -12,7 +12,7 @@ export default function Banner () {
                                     <MaterialIcon icon="support_agent" color="#FAFAFA" />
                                 </span>
                                 <span className="text-white">
-                                    OFFICE: (800) 240-4055
+                                    <a href="tel:800-240-4055">OFFICE: (800) 240-4055</a>
                                 </span>
                             </span>
                             {/* cell */}
@@ -22,7 +22,7 @@ export default function Banner () {
                                 </span>
                                 <span className="text-white">
 
-                                CELL: (727) 423-1716
+                                <a href="tel:727-423-1716">CELL: (727) 423-1716</a>
                                 </span>
                             </span>
                             {/* email */}
