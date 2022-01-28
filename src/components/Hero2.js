@@ -2,6 +2,7 @@ import washMe from "../assets/img/washMe.jpg";
 import stateFlorida from "../assets/video/stateFlorida.mp4"
 import { Link } from "react-router-dom"
 import 'animate.css';
+import EstimateButton from "./EstimateButton";
 
 export default function Hero2() {
     return (
@@ -71,8 +72,13 @@ export default function Hero2() {
                             </div>
                         </div>
                     </div>
+                    <div className="mt-6 mb-2">
+                        <EstimateButton />
+                    </div>
                 </div>
+                
             </div>
+            
         </section>
     )
 }

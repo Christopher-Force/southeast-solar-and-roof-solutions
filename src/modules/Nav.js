@@ -8,10 +8,21 @@ export default function Nav () {
       <div className="bg-green-900 pb-1 relative z-30 ">
         <div className="navbar shadow-lg bg-black text-neutral-content rounded-none drop-shadow-lg">
             <div className="flex-1">
-            <Link to="/">
-              <img src={logo} alt="solar logo" width="225px" height="96px" className="hover:motion-safe:animate-pulse" />
-            </Link>
+              <Link to="/">
+                <img src={logo} alt="solar logo" width="225px" height="96px" className="hover:motion-safe:animate-pulse" />
+              </Link>
+              <Link to="/">
+                <span className="hidden sm:inline-flex">
+                  <span className="absolute hover:animate-ping">
+                    <MaterialIcon icon="arrow_back" color="#FAFAFA" size="small"  />
+                  </span>
+                  <span className="relative -z-10">
+                    <MaterialIcon icon="arrow_back" color="#FAFAFA" size="small"  />
+                  </span>
+                </span>
+              </Link>
             </div>
+            
           <div className="flex-none hidden px-2 mx-2 lg:flex">
             <div className="flex items-stretch">
               {/* <Link> */}

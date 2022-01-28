@@ -45,17 +45,17 @@ export default function Footer() {
                             <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">Contact Us</div>
                         </li>
                     </Link>
-                    <li>
+                    {/* <li>
                         <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">FAQ</div>
-                    </li>
+                    </li> */}
                     <Link to="/privacypolicy">
                         <li>
                             <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">Privacy Policy</div>
                         </li>
                     </Link>
-                    <li>
+                    {/* <li>
                         <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">Help</div>
-                    </li>
+                    </li> */}
                     </nav>
                 </div>
 
