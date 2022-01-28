@@ -1,6 +1,7 @@
 import washMe from "../assets/img/washMe.jpg";
 import stateFlorida from "../assets/video/stateFlorida.mp4"
 import { Link } from "react-router-dom"
+import 'animate.css';
 
 export default function Hero2() {
     return (
@@ -15,7 +16,7 @@ export default function Hero2() {
                                 <div className="grid justify-items-center mt-2">
                                     <Link to="/cleaning">
                                         <div className="w-32 md:w-64 md:h-64 sm:mb-0 mb-7 md:mb-4 bg-black flex-shrink-0 justify-items-center grid ">
-                                            <img src={washMe} alt="Wash me" className="rounded-lg"/>
+                                            <img src={washMe} alt="Wash me" className="rounded-lg hover:motion-safe:animate-pulse"/>
                                         </div>
                                     </Link>
                                 </div>
@@ -28,8 +29,8 @@ export default function Hero2() {
                                 <div className="">
                                     {/* Learn More Button */}
                                     {/* <Link> */}
-                                        <Link to="/cleaning" className="mt-3 text-lime-400 inline-flex items-center">Learn More
-                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                        <Link to="/cleaning" className="mt-3 text-lime-400 inline-flex items-center hover:animate-pulse">Learn More
+                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
                                             </svg>
                                         </Link>
@@ -46,19 +47,21 @@ export default function Hero2() {
                             <div className="grid justify-items-center">
                                 <Link to="/statewide">
                                     <div className="w-32 md:ml-4 md:w-72 md:h-64 mb-10 mt-4 md:mb-2 md:mt-3 bg-black flex-shrink-0 justify-items-center grid mr-2">
-                                            <video loop className="max-w-6xl" style={{objectFit: "fill", width: "110%"}} autoPlay muted playsInline>
+                                            <video loop className="max-w-6xl hover:motion-safe:animate-pulse" style={{objectFit: "fill", width: "110%"}} autoPlay muted playsInline>
                                                 <source id="myvideo" src={stateFlorida} type="video/mp4" />
                                             </video>
                                     </div>
                                 </Link>
                                     <div className="relative flex-grow grid justify-items-center">
-                                        <h2 className="text-white text-lg title-font font-medium mb-3 text-center">We're Statewide</h2>
-                                        <p className="leading-relaxed text-white text-center">Cleaning the entire state of Florida!</p>
-                                        <br />
+                                        
+                                        <h2 className="text-white text-lg title-font font-medium mb-3 text-center">We're Located Statewide</h2>
+                                        
+                                        <p className="leading-relaxed text-white text-center">Strategically located to clean the entire state of Florida!</p>
+                                        
                                         {/* learn more bottom */}
                                         <Link to="/statewide">
-                                            <div className="mt-3 text-lime-400 inline-flex items-center self-end">Learn More
-                                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                            <div className="mt-3 text-lime-400 inline-flex items-center self-end hover:animate-pulse">Learn More
+                                            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                                             </svg>
                                             </div>
