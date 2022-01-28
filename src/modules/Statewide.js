@@ -1,6 +1,7 @@
 // import logoDark from "../assets/img/Logo dark.png"
 // import MaterialIcon from 'material-icons-react';
 import stateFlorida from "../assets/video/stateFlorida.mp4"
+import { Link } from "react-router-dom"
 
 
 export default function Statewide () {
@@ -37,7 +38,7 @@ export default function Statewide () {
               </div>
               <br />
               <div className="leading-relaxed text-lg mb-4 text-green-300">
-                <p>We have satellite offices strageically located throughout the state of Florida to ensure your needs are scheduled in a timely manner.</p>
+                <p>We have satellite offices strageically located throughout the state of Florida to ensure your needs are scheduled and met in a timely manner.</p>
                 <br />
                 {/* <p>Experts agree that dirty solar panels do not produce as much power as clean ones. According to the National Renewable Energy Lab, the loss may be as high as 25% annually. In industrial areas, locations of high traffic, high agricultural activities, close proximity to saltwater, and high pollen regions it may be even worse.</p>
                 <br />
@@ -65,11 +66,13 @@ export default function Statewide () {
                   </ol>
                 </div> */}
                 </div>
-                <div className="text-green-500 inline-flex items-center">Learn More
-                  <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                  </svg>
-                </div>
+                <Link to="/">
+                  <div className="text-green-500 inline-flex items-center">Go Home
+                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                      <path d="M5 12h14M12 5l7 7-7 7"></path>
+                    </svg>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
