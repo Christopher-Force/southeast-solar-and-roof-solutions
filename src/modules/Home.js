@@ -1,6 +1,6 @@
 import Hero from "../components/Hero";
 import Hero2 from "../components/Hero2";
-import Contact from "../components/Contact"
+// import Contact from "../components/Contact"
 import React from "react";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
     <div>
           <Hero />
           <Hero2 />
-          <Contact />
+          {/* <Contact /> */}
     </div>
   );
 }
