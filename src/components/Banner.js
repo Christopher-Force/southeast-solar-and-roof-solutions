@@ -31,7 +31,7 @@ export default function Banner () {
                                     <MaterialIcon icon="mail_outline" color="#FAFAFA" />
                                 </span>
                                 <span className="text-white">
-                                Southeastsolarsolutions@gmail.com
+                                <a href="mailto:Southeastsolarsolutions@gmail.com">Southeastsolarsolutions@gmail.com</a>
                                 </span>
                             </span>
                         </div>

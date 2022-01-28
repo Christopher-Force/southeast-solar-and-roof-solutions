@@ -11,7 +11,7 @@ export default function ContactUs () {
                     </div>
                     <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
                     <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
-                    <a class="text-indigo-500 leading-relaxed">Southeastsolarsolutions@gmail.com</a>
+                    <a href="mailto:Southeastsolarsolutions@gmail.com" class="text-indigo-500 leading-relaxed">Southeastsolarsolutions@gmail.com</a>
                     <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
                     <p class="leading-relaxed">OFFICE: (800) 240-4055</p>
                     <p class="leading-relaxed">CELL: (727) 423-1716</p>
