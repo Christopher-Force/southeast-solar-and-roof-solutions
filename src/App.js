@@ -11,6 +11,7 @@ import Statewide from "./modules/Statewide";
 import Banner from "./components/Banner"
 import ContactUs from "./modules/ContactUs";
 import PrivacyPolicy from "./modules/PrivacyPolicy";
+import Estimate from "./modules/Estimate";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path="/statewide" element={<Statewide />} />
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+          <Route path="/estimate" element={<Estimate  />} />
         </Routes>
         <div>
           <Footer />

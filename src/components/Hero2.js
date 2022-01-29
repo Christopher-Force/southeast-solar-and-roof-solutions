@@ -11,7 +11,7 @@ export default function Hero2() {
                 <div className="-m-4 mb-2 mx-auto">
                     <div className="container flex">
                         {/* BEGIN FLEX ITEM 1 */}
-                        <div className="flex relative sm:p-1 w-1/2 grid justify-items-center">
+                        <div className="flex relative sm:p-1 w-1/2 grid justify-items-center pl-1">
                             <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-2 flex-col bg-black h-full grid justify-items-center mr-1">
                                 {/* IMAGE 1 */}
                                 <div className="grid justify-items-center mt-2">
@@ -42,7 +42,7 @@ export default function Hero2() {
                     </div>
                         {/* BEGIN FLEX ITEM 2 */}
 
-                    <div className="flex relative sm:p-1 w-1/2">
+                    <div className="relative sm:p-1 w-1/2 pr-1">
                         <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-2 flex-col bg-black h-full ml-1">
                                 {/* IMAGE 2 */}
                             <div className="grid justify-items-center">

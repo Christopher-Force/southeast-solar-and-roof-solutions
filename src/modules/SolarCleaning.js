@@ -1,6 +1,7 @@
 // import logoDark from "../assets/img/Logo dark.png"
 // import MaterialIcon from 'material-icons-react';
 import { Link } from "react-router-dom"
+import CTA1 from "../components/CTA1"
 
 
 export default function SolarCleaning () {
@@ -17,10 +18,13 @@ export default function SolarCleaning () {
     return(
       <section className="text-green-600 body-font bg-black">
         <div className="container px-5 py-24 mx-auto flex flex-col">
-          <div className="lg:w-4/6 mx-auto">
-            <div className="rounded-lg h-64 overflow-hidden">
+          <div className="mx-auto">
+
+            <CTA1 />
+            {/* <div className="rounded-lg h-64 overflow-hidden">
+              
               <img alt="content" className="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500" />
-            </div>
+            </div> */}
             {/* Entire text content region */}
             <div className="flex flex-col sm:flex-row mt-10 md:ml-24 lg:ml-0">
               <div className="sm:w-5/6 lg:w-full sm:pl-8 sm:py-8 sm:border-l border-green-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">

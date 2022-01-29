@@ -17,7 +17,7 @@ export default function Banner () {
                             </span>
                             {/* cell */}
                             <span className="col-span-4 lg:col-span-1 md:col-span-2 inline-flex">
-                            <span className="mr-1">
+                            <span className="mr-1 -ml-3 lg:ml-0">
                                     <MaterialIcon icon="phone_iphone" color="#FAFAFA" />
                                 </span>
                                 <span className="text-white underline-offset-4">

@@ -3,6 +3,7 @@ import Hero2 from "../components/Hero2";
 // import Contact from "../components/Contact"
 import React from "react";
 import EstimateButton from "../components/EstimateButton";
+import FreeQuote from "../components/FreeQuote";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
             <EstimateButton />
           </div>
           <Hero2 />
+          <FreeQuote />
           {/* <Contact /> */}
     </div>
   );

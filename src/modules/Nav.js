@@ -57,40 +57,52 @@ export default function Nav () {
           </div>
           {/* dropdown  */}
           <div className="flex-none">
-          <div className="dropdown dropdown-end">
-            <div tabIndex="0" className="m-1 btn bg-green-700 hover:bg-green-500 hover:motion-safe:animate-pulse">All Services</div> 
+          <div className="dropdown dropdown-end max-h-96">
+            <div tabIndex="0" className="m-1 btn bg-green-700 hover:bg-green-500 hover:motion-safe:animate-pulse">
+              <span class="material-icons mt-2" style={{fontSize: "36px"}}>menu          
+              </span>
+            </div> 
               <ul tabIndex="0" className="p-2 shadow menu dropdown-content bg-black rounded-box w-72 md:w-96">
                 <li>
-                  <span>
-                    <MaterialIcon icon="roofing" color="#FAFAFA" />
-                    <span className="pl-2">
-                      <a href="https://www.roofshampoo.com/" target="_blank" rel="noreferrer noopener">Roof Shampoo</a>
-                    </span>
-                  </span>
-                </li>
-                <li>
-                  <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener">
-                    <MaterialIcon icon="wb_sunny" color="#FAFAFA" />
-                    <span className="pl-2">
-                      Tubular/Traditional Skylights
-                    </span>
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    <MaterialIcon icon="360" color="#FAFAFA" />
-                    <a href="https://fcskylights.net/solar-fans/" target="_blank" rel="noreferrer noopener" className="pl-2">
-                      Solar Attic Fans
-                    </a>
-                  </span>
-                </li>
-                <li>
-                  <span>
-                    <MaterialIcon icon="water_drop" color="#FAFAFA" />
-                    <span className="pl-2">
-                      Roof Leak Repair
-                    </span>
-                  </span>
+                  <ul>
+                    <li>
+
+                    </li>
+                  </ul>
+                  <ul> All Services
+                    <li>
+                      <span>
+                        <MaterialIcon icon="roofing" color="#FAFAFA" />
+                        <span className="pl-2">
+                          <a href="https://www.roofshampoo.com/" target="_blank" rel="noreferrer noopener">Roof Shampoo</a>
+                        </span>
+                      </span>
+                    </li>
+                    <li>
+                      <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener">
+                        <MaterialIcon icon="wb_sunny" color="#FAFAFA" />
+                        <span className="pl-2">
+                          Tubular/Traditional Skylights
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <span>
+                        <MaterialIcon icon="360" color="#FAFAFA" />
+                        <a href="https://fcskylights.net/solar-fans/" target="_blank" rel="noreferrer noopener" className="pl-2">
+                          Solar Attic Fans
+                        </a>
+                      </span>
+                    </li>
+                    <li>
+                      <span>
+                        <MaterialIcon icon="water_drop" color="#FAFAFA" />
+                        <span className="pl-2">
+                          Roof Leak Repair
+                        </span>
+                      </span>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </div>
