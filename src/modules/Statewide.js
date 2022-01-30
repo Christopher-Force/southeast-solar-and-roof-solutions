@@ -2,6 +2,7 @@
 // import MaterialIcon from 'material-icons-react';
 import stateFlorida from "../assets/video/stateFlorida.mp4"
 import { Link } from "react-router-dom"
+import FreeQuote from "../components/FreeQuote"
 
 
 export default function Statewide () {
@@ -77,6 +78,7 @@ export default function Statewide () {
             </div>
           </div>
         </div>
+        <FreeQuote />
       </section>
     )
 }

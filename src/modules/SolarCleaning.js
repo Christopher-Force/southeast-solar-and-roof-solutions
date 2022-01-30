@@ -2,6 +2,7 @@
 // import MaterialIcon from 'material-icons-react';
 import { Link } from "react-router-dom"
 import CTA1 from "../components/CTA1"
+import FreeQuote from "../components/FreeQuote"
 
 
 export default function SolarCleaning () {
@@ -17,7 +18,7 @@ export default function SolarCleaning () {
 
     return(
       <section className="text-green-600 body-font bg-black">
-        <div className="container px-5 py-24 mx-auto flex flex-col">
+        <div className="container px-5 py-12 mx-auto flex flex-col">
           <div className="mx-auto">
 
             <CTA1 />
@@ -77,6 +78,7 @@ export default function SolarCleaning () {
             </div>
           </div>
         </div>
+        <FreeQuote />
       </section>
     )
 }
