@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 export default function FreeQuote () {
     return(
@@ -8,11 +8,15 @@ export default function FreeQuote () {
           <h2 class="card-title text-white">Free estimate</h2> 
           <div className="grid lg:grid-cols-3">
             <p className="text-white lg:col-span-2">There are 4 factors that may affect your current solar maintenance needs. <br className="lg:hidden"/>Click <span className="lg:hidden">below</span> to get your free estimate on your system.</p>
-            <button class="btn btn-primary hidden lg:inline-flex">Get Free Quote</button>
+            <Link to="/estimate">
+              <button class="btn btn-primary hidden lg:inline-flex">Get Free Quote</button>
+            </Link>
           </div>
-          <div class="card-actions lg:hidden">
-            <button class="btn btn-primary">Get Free Quote</button> 
-          </div>
+          <Link to="/estimate">
+            <div class="card-actions lg:hidden">
+              <button class="btn btn-primary">Get Free Quote</button>
+            </div>
+          </Link>
         </div>
       </div>
       </div>
