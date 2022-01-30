@@ -6,9 +6,9 @@ import ContactBlocks from "../components/ContactBlocks"
 export default function Factors() {
     return(
       <section className="text-green-600 body-font mx-2">
-        <div className="border-2 lg:border-0 mt-6 lg:mt-0">
+        <div className="border-2 lg:border-2 my-6">
         
-          <div className="container px-5 py-12 lg:mt-12 mx-auto flex flex-wrap">
+          <div className="container px-5 pb-12 lg:mt-12 mx-auto flex flex-wrap">
             <div className="lg:w-1/2 w-full mb-10 lg:mb-40 grid lg:gap-4 xl:gap-10">
               <div className="rounded-lg overflow-hidden">
                 <img alt="feature" className="object-cover object-center h-64 w-full hidden lg:flex" src={iSolar} />
