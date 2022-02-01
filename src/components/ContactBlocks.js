@@ -1,7 +1,7 @@
 export default function ContactBlocks () {
     return (
         // Contact Blocks
-      <div className="pb-5 bg-black md:pb-7 lg:pb-14">
+      <div className="pb-5 bg-gradient-to-r from-gray-800 to-gray-900 md:pb-7 lg:pb-14">
         <div className="grid grid-cols-1">
             <h1 className="text-center title-font text-2xl text-orange-400">Click your preferred contact method below for your free estimate!</h1>
             <div className="w-36 md:w-96 h-1 bg-orange-500 rounded mt-2 mb-4 justify-self-center"></div>
@@ -9,7 +9,7 @@ export default function ContactBlocks () {
       <div className="container mx-auto px-5 xl:max-w-screen-xl">
         <div className="mt-5 md:mt-7 lg:mt-14">
           {/* container */}
-          <div className="w-full max-w-[800px] mx-auto space-y-5 mt-5 p- rounded-lg shadow-md border-0 bg-black md:mt-7">
+          <div className="w-full max-w-[800px] mx-auto space-y-5 mt-5 p- rounded-lg shadow-md border-0 md:mt-7">
             <div className="flex justify-center">
               {/* 3 item grid */}
               {/* <div className="space-y-5 sm:max-w-screen-sm sm:w-full sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-5 md:gap-7"> */}

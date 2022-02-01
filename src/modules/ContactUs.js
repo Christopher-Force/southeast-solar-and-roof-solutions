@@ -4,8 +4,8 @@ import ContactBlocks from "../components/ContactBlocks"
 
 export default function ContactUs () {
     return(
-      <div className="mt-20">
-        <ContactBlocks />
+      <div className="pt-20 bg-gradient-to-r from-gray-800 to-gray-900">
+        <ContactBlocks className="pt-20" />
         {/* <MailchimpForm /> */}
       </div>
     )
