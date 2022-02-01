@@ -45,10 +45,10 @@ export default function Hero2() {
                     <div className="flex relative sm:p-1 w-1/2 grid justify-items-center pl-1">
                         <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-2 flex-col bg-black h-full grid justify-items-center mr-1">
                                 {/* IMAGE 2 */}
-                            <div className="grid justify-items-center mt-2">
+                            <div className="grid justify-items-center -mb-2 md:mb-0">
                                 <Link to="/statewide">
-                                    <div className="w-32 md:w-64 md:h-64 sm:mb-0 mb-7 md:mb-4 bg-black flex-shrink-0 justify-items-center grid ">
-                                            <video loop className="max-w-6xl hover:motion-safe:animate-pulse" style={{objectFit: "fill", width: "100%"}} autoPlay muted playsInline>
+                                    <div className="w-32 md:w-64 md:h-64 sm:mb-0 mb-2 md:mb-6 bg-black flex-shrink-0 justify-items-center grid ">
+                                            <video loop className="max-w-6xl hover:motion-safe:animate-pulse" style={{objectFit: "fill", width: "105%"}} autoPlay muted playsInline>
                                                 <source id="myvideo" src={stateFlorida} type="video/mp4" />
                                             </video>
                                     </div>
