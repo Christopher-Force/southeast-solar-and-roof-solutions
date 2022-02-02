@@ -9,37 +9,85 @@ export default function Factors() {
         <div className="border-2 lg:border-2 my-6 pt-4 md:pt-8">
         
           <div className="container px-5 pb-12 lg:mt-12 mx-auto flex flex-wrap">
-            <div className="lg:w-1/2 w-full mb-10 lg:mb-40 grid lg:gap-4 xl:gap-10">
+            <div className="lg:w-1/2 w-full grid lg:gap-4 xl:gap-10 content-between">
+              {/* MEDIA1 */}
               <div className="rounded-lg overflow-hidden">
                 <img alt="feature" className="object-cover object-center h-64 w-full hidden lg:flex" src={iSolar} />
               </div>
-              {/* <div class="divider-white"></div>  */}
-              <div className="grid justify-items-center">
+              {/* MEDIA 2 */}
+              <div className="grid justify-items-center align-items-end">
                 <video className="max-w-xl lg:max-w-6xl" style={{objectFit: "fill", width: "100%"}} autoPlay muted playsInline loop>
                     <source id="myvideo" src={cleaningVideo} type="video/mp4" />
                 </video>
               </div>
             </div>
             <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
+            <h2 className="text-primary-focus text-lg title-font font-medium text-center mt-6 lg:-mt-6">
+                    {/* span is inline icon */}
+                    
+
+                    We Observe Four Factors That May Affect Your Pricing
+                    
+                  </h2>
+                  <div className="flex flex-col items-center text-center justify-center">
+                    <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-8 "></div>
+                  </div>
               <div className="flex flex-col mb-10 lg:items-start items-center">
                 
                 <div className="flex-grow">
                   
-                  <h2 className="text-primary-focus text-lg title-font font-medium mb-3">Size of Your System</h2>
-                  <p className="leading-relaxed text-secondary">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                  <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
+                    {/* span is inline icon */}
+                    <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-0 mr-2">
+                      <span class="material-icons ml-1.5 mt-1" style={{fontSize: '36px'}}>
+                        square_foot
+                      </span>
+                    </span>
+
+                    Size of Your System
+                    
+                  </h2>
+                  <div className="flex flex-col items-center lg:items-start text-center justify-center ">
+                    <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4 "></div>
+                  </div>
+
+                  <p className="leading-relaxed text-green-200">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
                 </div>
               </div>
               <div className="flex flex-col mb-10 lg:items-start items-center">
 
                 <div className="flex-grow">
-                  <h2 className="text-primary-focus text-lg title-font font-medium mb-3">Slope of The Roof</h2>
-                  <p className="leading-relaxed text-secondary">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                  <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
+                    {/* span is inline icon */}
+                    <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2">
+                      <span class="material-icons ml- mt-2" style={{fontSize: '36px'}}>
+                        stacked_line_chart
+                      </span>
+                    </span>
+
+                    Slope of The Roof
+                  </h2>
+                  <div className="flex flex-col items-center text-center lg:items-start justify-center">
+                    <div className="w-48 h-1 bg-primary-focus rounded mt-2 mb-4"></div>
+                  </div>
+
+                  <p className="leading-relaxed text-green-200">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
                 </div>
               </div>
               <div className="flex flex-col mb-10 lg:items-start items-center">
                 <div className="flex-grow">
-                  <h2 className="text-primary-focus text-lg title-font font-medium mb-3">Number of Stories in Your Building</h2>
-                  <p className="leading-relaxed text-secondary">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                  <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
+                    <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2">
+                      <span class="material-icons ml-0 mt-2" style={{fontSize: '36px'}}>
+                        house_siding
+                      </span>
+                    </span>                    
+                    Number of Stories
+                  </h2>
+                  <div className="flex flex-col items-center lg:items-start text-center justify-center">
+                    <div className="w-48 h-1 bg-primary-focus rounded mt-2 mb-4"></div>
+                  </div>
+                  <p className="leading-relaxed text-green-200">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
                   {/* <a className="mt-3 text-white inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecape="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -51,10 +99,18 @@ export default function Factors() {
                 <div className="flex-grow">
                   <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
                     {/* span is inline icon */}
-                    <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2"></span>
-                    Type of Roofing Material Used
+                    <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2">
+                      <span class="material-icons ml- mt-2" style={{fontSize: '36px'}}>
+                        carpenter
+                      </span>
+                    </span>
+                    Roofing Material Type
                   </h2>
-                  <p className="leading-relaxed text-secondary">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                  <div className="flex flex-col items-center lg:items-start text-center justify-center">
+                    <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4"></div>
+                  </div>
+
+                  <p className="leading-relaxed text-green-200">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
                   {/* <a className="mt-3 text-white inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecape="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
