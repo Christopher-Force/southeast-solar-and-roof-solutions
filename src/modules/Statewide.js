@@ -21,13 +21,13 @@ export default function Statewide () {
         <div className="container px-5 py-24 mx-auto flex flex-col">
           <div className="lg:w-4/6 mx-auto">
             {/* Video region */}
-            <div className="w-64 md:w-1/2 md:h-64 mb-10 bg-black flex-shrink-0 justify-center grid mx-auto">
-              <video loop className="max-w-6xl" style={{objectFit: "fill", width: "110%"}} autoPlay muted playsInline>
+            <div className="w-64 md:w-1/2 md:h-64 xl:h-96 mb-10 bg-black flex-shrink-0 justify-center grid mx-auto">
+              <video loop className="max-w-6xl" style={{objectFit: "fill", width: "100%"}} autoPlay muted playsInline>
                 <source id="myvideo" src={stateFlorida} type="video/mp4" />
               </video>
             </div>
             {/* Entire text content region */}
-            <div className="flex flex-col sm:flex-row mt-12 lg:mt-24 xl:mt-40 md:ml-24 lg:ml-0">
+            <div className="flex flex-col sm:flex-row mt-12 md:mt-24 lg:mt-24 xl:mt-24 md:ml-24 lg:ml-0">
               <div className="sm:w-5/6 lg:w-full sm:pl-8 sm:py-8 sm:border-l border-green-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
               <div className="flex flex-col items-center text-center justify-center">
                 <h2 className="font-medium title-font mt-0 text-green-400 text-2xl">CLEANING THE ENTIRE STATE OF FLORIDA                 
