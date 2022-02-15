@@ -12,6 +12,7 @@ import Banner from "./components/Banner"
 import ContactUs from "./modules/ContactUs";
 import PrivacyPolicy from "./modules/PrivacyPolicy";
 import Estimate from "./modules/Estimate";
+import RoofShampoo from "./components/RoofShampoo"
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
           <Route path="/contactus" element={<ContactUs />} />
           <Route path="/privacypolicy" element={<PrivacyPolicy />} />
           <Route path="/estimate" element={<Estimate  />} />
+          <Route path="/roofshampoo" element={<RoofShampoo />} />
         </Routes>
         <div>
           <Footer />

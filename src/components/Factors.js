@@ -51,7 +51,10 @@ export default function Factors() {
                     <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4 "></div>
                   </div>
 
-                  <p className="leading-relaxed text-green-200">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                  <p className="leading-relaxed text-green-200">
+                    This one is easy to understand. If you have 30 panels on your roof, then it should cost you less money than
+                    a roof with 60 panels.
+                  </p>
                 </div>
               </div>
               <div className="flex flex-col mb-10 lg:items-start items-center">
@@ -71,7 +74,10 @@ export default function Factors() {
                     <div className="w-48 h-1 bg-primary-focus rounded mt-2 mb-4"></div>
                   </div>
 
-                  <p className="leading-relaxed text-green-200">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                  <p className="leading-relaxed text-green-200">
+                    If your roof angle is such that it's difficult to stand on or we ned special equipment to access it then
+                    this will factor in the price.
+                  </p>
                 </div>
               </div>
               <div className="flex flex-col mb-10 lg:items-start items-center">
@@ -87,7 +93,9 @@ export default function Factors() {
                   <div className="flex flex-col items-center lg:items-start text-center justify-center">
                     <div className="w-48 h-1 bg-primary-focus rounded mt-2 mb-4"></div>
                   </div>
-                  <p className="leading-relaxed text-green-200">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                  <p className="leading-relaxed text-green-200">
+                    If your home is more than 2 stories or your roof is hard to access then this will be an upcharge.
+                  </p>
                   {/* <a className="mt-3 text-white inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecape="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -110,7 +118,9 @@ export default function Factors() {
                     <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4"></div>
                   </div>
 
-                  <p className="leading-relaxed text-green-200">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+                  <p className="leading-relaxed text-green-200">
+                    Some roof materials are easier to work on than other and some you can not stand on. Certain roof will require an upcharge.
+                  </p>
                   {/* <a className="mt-3 text-white inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecape="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                       <path d="M5 12h14M12 5l7 7-7 7"></path>
