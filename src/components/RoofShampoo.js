@@ -242,7 +242,7 @@ export default function RoofShampoo () {
                                 <p class="leading-relaxed text-green-200">"I just want to say again how happy and pleased both my wife and I were with the Roof Shampoo® service provided to us. Not only was the service prompt and professional, but the knowledge base was exceptional. Not many people know, in many instances, that they don't really need a new roof, they just need to have that roof cleaned with the right mixtures for exceptional results. The before and after photos initially sold us, but the results we have experienced have been nothing short of astounding and I would highly recommend you to any and all homeowners looking to give their homes a face lift. Again, thank you and best of luck in the future."</p>
                                 <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
                                 <h2 class="text-green-200 font-medium title-font tracking-wider text-sm">- The Vaughns</h2>
-                                <p class="text-green-200">East Stroudsburg, PA</p>
+                                <p class="text-green-200"></p>
                                 </div>
                             </div>
                             <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
@@ -250,8 +250,8 @@ export default function RoofShampoo () {
                                 
                                 <p class="leading-relaxed text-green-200">"For a couple of years now dark streaks have been staining the roof of my home and my detached garage. I was not happy at the prospect of replacing my roof, but the stains really made the roof look old and unsightly. Our local Roof Shampoo® contractor made an appointment to examine the roof and explained that what my roof needed was a "roof shampoo." Best of all, it does not damage the roof. The results were fantastic - it looks like a new roof! I appreciated the professionalism and courtesy that the contractor and his team provided. I know I can always turn to Roof Shampoo® to keep my roofs looking new."</p>
                                 <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
-                                <h2 class="text-green-200 font-medium title-font tracking-wider text-sm">Marian W.</h2>
-                                <p class="text-green-200">Blue Ridge Summit, PA</p>
+                                <h2 class="text-green-200 font-medium title-font tracking-wider text-sm">- Marian W.</h2>
+                                <p class="text-green-200"></p>
                                 </div>
                             </div>
                             <div class="lg:w-1/3 lg:mb-0 p-4">
@@ -259,8 +259,8 @@ export default function RoofShampoo () {
                                 
                                 <p class="leading-relaxed text-green-200">"I wanted to thank you for a job well done !!!! Your roof cleaning crew was at my home yesterday on schedule and did a very thorough and professional job.  In the five years since I've owned my home, the roof has never looked as good as it does now.  It looks like a new roof.   You made the magic happen just when I needed it, and I am a very satisfied customer. I will be sure to recommend your company to anyone I know that needs their roof cleaned. After you called me over the weekend to schedule me for yesterday, three other roof cleaning companies called me (ironically, two of them called yesterday afternoon just after your crew finished).  I'm glad that you were the first to call me... I could not imagine anyone doing a better job, and your price was right on budget.  Thank you again." </p>
                                 <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
-                                <h2 class="text-green-200 font-medium title-font tracking-wider text-sm">Rich H.</h2>
-                                <p class="text-green-200">Englishtown, NJ</p>
+                                <h2 class="text-green-200 font-medium title-font tracking-wider text-sm">- Rich H.</h2>
+                                <p class="text-green-200"></p>
                                 </div>
                             </div>
                         </div>
