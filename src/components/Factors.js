@@ -75,7 +75,7 @@ export default function Factors() {
                   </div>
 
                   <p className="leading-relaxed text-green-200">
-                    If your roof angle is such that it's difficult to stand on or we ned special equipment to access it then
+                    If your roof angle is such that it's difficult to stand on or we need special equipment to access it then
                     this will factor in the price.
                   </p>
                 </div>
@@ -94,7 +94,7 @@ export default function Factors() {
                     <div className="w-48 h-1 bg-primary-focus rounded mt-2 mb-4"></div>
                   </div>
                   <p className="leading-relaxed text-green-200">
-                    If your home is more than 2 stories or your roof is hard to access then this will be an upcharge.
+                    If your home is more than 2 stories or your roof is hard to access, then this will be an upcharge.
                   </p>
                   {/* <a className="mt-3 text-white inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecape="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
@@ -119,7 +119,7 @@ export default function Factors() {
                   </div>
 
                   <p className="leading-relaxed text-green-200">
-                    Some roof materials are easier to work on than other and some you can not stand on. Certain roof will require an upcharge.
+                    Some roofing materials are easier to work on than others and some you cannot stand on. Certain roofs will require an upcharge.
                   </p>
                   {/* <a className="mt-3 text-white inline-flex items-center">Learn More
                     <svg fill="none" stroke="currentColor" strokeLinecape="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">

@@ -20,15 +20,17 @@ export default function Footer() {
                     <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3 hover:motion-safe:animate-pulse">SERVICES</h2>
                     <nav className="list-none mb-10">
                     <li>
-                        <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">
-                            <a href="https://www.roofshampoo.com/" target="_blank" rel="noreferrer noopener" >Roof Shampoo</a>
-                        </div>
+                        <Link to="/RoofShampoo">
+                            <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">
+                                Roof Shampoo
+                            </div>
+                        </Link>
                     </li>
                     <li className="hover:animate-pulse">
                         <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener" className="text-lime-400 hover:text-gray-800">Skylights</a>
                     </li>
                     <li className="hover:animate-pulse">
-                        <a href="https://fcskylights.net/solar-fans/" target="_blank" rel="noreferrer noopener" className="text-lime-400 hover:text-gray-800">Solar Fans</a>
+                        <a href="https://fcskylights.net/solar-fans/solar-attic-fans/" target="_blank" rel="noreferrer noopener" className="text-lime-400 hover:text-gray-800">Solar Fans</a>
                     </li>
                     <li>
                         <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">Roof Leak Repair</div>
