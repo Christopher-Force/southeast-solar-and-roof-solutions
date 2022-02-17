@@ -39,7 +39,7 @@ export default function Statewide () {
               </div>
               <br />
               <div className="leading-relaxed text-lg mb-4 text-green-300">
-                <p>We have satellite offices strageically located throughout the state of Florida to ensure your needs are scheduled and met in a timely manner.</p>
+                <p>We have satellite offices strategically located throughout the state of Florida to ensure your needs are scheduled and met in a timely manner. From Tampa, Sarasota, Orlando, Jacksonville, Fort Lauderdale, Miami, Tallahassee, Daytona Beach or anywhere else in Florida, Southeast Solar and Roof Solutions can help clean your dirty roofs and solar panels. We are Florida's premier solar and roof cleaning company dedicated to providing the very best service in the state.</p>
                 <br />
                 {/* <p>Experts agree that dirty solar panels do not produce as much power as clean ones. According to the National Renewable Energy Lab, the loss may be as high as 25% annually. In industrial areas, locations of high traffic, high agricultural activities, close proximity to saltwater, and high pollen regions it may be even worse.</p>
                 <br />
