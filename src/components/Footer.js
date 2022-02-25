@@ -13,89 +13,45 @@ export default function Footer() {
                     </Link>
                 </div>
                 <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+                    {/* LINKS */}
+                    <div className="w-1/2 px-4">
+                        <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3 hover:motion-safe:animate-pulse">SERVICES</h2>
+                        <nav className="list-none mb-10">
+                        <li>
+                            <Link to="/RoofShampoo">
+                                <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">
+                                    Roof Shampoo
+                                </div>
+                            </Link>
+                        </li>
+                        <li className="hover:animate-pulse">
+                            <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener" className="text-lime-400 hover:text-gray-800">Skylights</a>
+                        </li>
+                        <li className="hover:animate-pulse">
+                            <a href="https://fcskylights.net/solar-fans/solar-attic-fans/" target="_blank" rel="noreferrer noopener" className="text-lime-400 hover:text-gray-800">Solar Fans</a>
+                        </li>
+                        <li>
+                            <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">Roof Leak Repair</div>
+                        </li>
+                        </nav>
+                    </div>
 
-{/* LINKS */}
-
-                <div className="w-1/2 px-4">
-                    <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3 hover:motion-safe:animate-pulse">SERVICES</h2>
-                    <nav className="list-none mb-10">
-                    <li>
-                        <Link to="/RoofShampoo">
-                            <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">
-                                Roof Shampoo
-                            </div>
+                    {/* SECOND LIST */}
+                    <div className="w-1/2 px-4">
+                        <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">SUPPORT</h2>
+                        <nav className="list-none mb-10">
+                        <Link to="/contactus">
+                            <li>
+                                <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">Contact Us</div>
+                            </li>
                         </Link>
-                    </li>
-                    <li className="hover:animate-pulse">
-                        <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener" className="text-lime-400 hover:text-gray-800">Skylights</a>
-                    </li>
-                    <li className="hover:animate-pulse">
-                        <a href="https://fcskylights.net/solar-fans/solar-attic-fans/" target="_blank" rel="noreferrer noopener" className="text-lime-400 hover:text-gray-800">Solar Fans</a>
-                    </li>
-                    <li>
-                        <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">Roof Leak Repair</div>
-                    </li>
-                    </nav>
-                </div>
-
-                {/* SECOND LIST */}
-                <div className="w-1/2 px-4">
-                    <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">SUPPORT</h2>
-                    <nav className="list-none mb-10">
-                    <Link to="/contactus">
-                        <li>
-                            <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">Contact Us</div>
-                        </li>
-                    </Link>
-                    {/* <li>
-                        <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">FAQ</div>
-                    </li> */}
-                    <Link to="/privacypolicy">
-                        <li>
-                            <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">Privacy Policy</div>
-                        </li>
-                    </Link>
-                    {/* <li>
-                        <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">Help</div>
-                    </li> */}
-                    </nav>
-                </div>
-
-
-                {/* <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                    <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
-                    <nav className="list-none mb-10">
-                    <li>
-                        <div className="text-lime-400 hover:text-gray-800">First Link</div>
-                    </li>
-                    <li>
-                        <div className="text-lime-400 hover:text-gray-800">Second Link</div>
-                    </li>
-                    <li>
-                        <div className="text-lime-400 hover:text-gray-800">Third Link</div>
-                    </li>
-                    <li>
-                        <div className="text-lime-400 hover:text-gray-800">Fourth Link</div>
-                    </li>
-                    </nav>
-                </div> */}
-                {/* <div className="lg:w-1/4 md:w-1/2 w-full px-4">
-                    <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3">CATEGORIES</h2>
-                    <nav className="list-none mb-10">
-                    <li>
-                        <div className="text-lime-400 hover:text-gray-800">First Link</div>
-                    </li>
-                    <li>
-                        <div className="text-lime-400 hover:text-gray-800">Second Link</div>
-                    </li>
-                    <li>
-                        <div className="text-lime-400 hover:text-gray-800">Third Link</div>
-                    </li>
-                    <li>
-                        <div className="text-lime-400 hover:text-gray-800">Fourth Link</div>
-                    </li>
-                    </nav>
-                </div> */}
+                        <Link to="/privacypolicy">
+                            <li>
+                                <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">Privacy Policy</div>
+                            </li>
+                        </Link>
+                        </nav>
+                    </div>
                 </div>
             </div>
             <div className="bg-black">

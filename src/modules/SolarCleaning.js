@@ -22,18 +22,11 @@ export default function SolarCleaning () {
           <div className="mx-auto">
 
             <CTA1 />
-            {/* <div className="rounded-lg h-64 overflow-hidden">
-              
-              <img alt="content" className="object-cover object-center h-full w-full" src="https://dummyimage.com/1200x500" />
-            </div> */}
             {/* Entire text content region */}
             <div className="flex flex-col sm:flex-row mt-10 md:ml-24 lg:ml-0">
               <div className="sm:w-5/6 lg:w-full sm:pl-8 sm:py-8 sm:border-l border-green-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
               <div className="flex flex-col items-center text-center justify-center">
                 <h2 className="font-medium title-font mt-0 text-green-400 text-2xl">Solar Panel Cleaning                 
-                  {/* <span className="pl-2">
-                    <MaterialIcon icon="invert_colors" color="#FAFAFA" />
-                  </span> */}
                 </h2>
                 <div className="w-24 h-1 bg-green-500 rounded mt-2 mb-4"></div>
               </div>
@@ -57,8 +50,9 @@ export default function SolarCleaning () {
                 <br />
                 <p>Our service also includes a six-point inspection of your system. This inspection consists of checking for:</p>
                 <br />
+                {/* Feature list mapping */}
                 <div>
-                  <ol className="list-decimal  list-inside">
+                  <ol className="list-decimal list-inside">
                     {featureList.map(feature => {
                       return (
                         <li key={feature.key}>{feature.description}</li>

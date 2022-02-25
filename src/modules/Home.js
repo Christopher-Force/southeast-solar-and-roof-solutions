@@ -8,13 +8,13 @@ import FreeQuote from "../components/FreeQuote";
 export default function Home() {
   return (
     <div>
-          <Hero />
-          <div className="-mt-4 md:-mt-10 lg:-mt-20 xl:-mt-32 pb-6 md:pb-10 lg:pb-20">
-            <EstimateButton />
-          </div>
-          <Hero2 />
-          <FreeQuote />
-          {/* <Contact /> */}
+      <Hero />
+      <div className="-mt-4 md:-mt-10 lg:-mt-20 xl:-mt-32 pb-6 md:pb-10 lg:pb-20">
+        <EstimateButton />
+      </div>
+      <Hero2 />
+      <FreeQuote />
+      {/* <Contact /> */}
     </div>
   );
 }
