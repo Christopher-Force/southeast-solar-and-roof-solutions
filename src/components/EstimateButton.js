@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom"
-import React, {useEffect} from "react"
-import ScrollReveal from "scrollreveal"
-
+import React from "react";
 
 export default function EstimateButton () {
 

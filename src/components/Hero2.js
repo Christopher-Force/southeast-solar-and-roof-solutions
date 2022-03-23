@@ -3,8 +3,7 @@ import stateFlorida from "../assets/video/stateFlorida.mp4"
 import { Link } from "react-router-dom"
 import 'animate.css';
 import EstimateButton from "./EstimateButton";
-import ScrollReveal from "scrollreveal";
-import React, { useEffect } from "react";
+import React from "react";
 
 export default function Hero2() {
     return (         
