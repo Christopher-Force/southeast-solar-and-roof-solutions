@@ -27,7 +27,6 @@ function CTA1() {
                 </div>
             </div>
         </div>
-
     );
 }
 

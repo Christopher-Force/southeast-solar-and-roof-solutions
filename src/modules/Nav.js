@@ -20,8 +20,7 @@ export default function Nav () {
                   </span>
                 </span>
               </Link>
-            </div>
-            
+            </div> 
           <div className="flex-none hidden px-2 mx-2 lg:flex">
             <div className="flex items-stretch">
               {/* <Link> */}
@@ -46,12 +45,7 @@ export default function Nav () {
                       Solar Attic Fans
                 </span>
               </a>
-              <div className="btn btn-ghost btn-sm rounded-btn">
-              <MaterialIcon icon="water_drop" color="#FAFAFA" />
-                <span className="pl-2">
-                      Roof Leak Repair
-                </span>
-              </div>
+              
             </div>
           </div>
           {/* dropdown  */}
@@ -94,12 +88,7 @@ export default function Nav () {
                       </span>
                     </li>
                     <li>
-                      <span>
-                        <MaterialIcon icon="water_drop" color="#FAFAFA" />
-                        <span className="pl-2">
-                          Roof Leak Repair
-                        </span>
-                      </span>
+                      
                     </li>
                   </ul>
                 </li>

@@ -30,9 +30,7 @@ export default function Footer() {
                         <li className="hover:animate-pulse">
                             <a href="https://fcskylights.net/solar-fans/solar-attic-fans/" target="_blank" rel="noreferrer noopener" className="text-lime-400 hover:text-gray-800">Solar Fans</a>
                         </li>
-                        <li>
-                            <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">Roof Leak Repair</div>
-                        </li>
+                        
                         </nav>
                     </div>
 
