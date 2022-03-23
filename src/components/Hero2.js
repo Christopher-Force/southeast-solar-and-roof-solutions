@@ -7,7 +7,7 @@ import React from "react";
 
 export default function Hero2() {
     return (         
-        <div className="flex relative text-gray-600 body-font bg-black z-10 -mt-0 lg:-mt-12 ">
+        <div className="flex relative text-gray-600 body-font bg-black z-5 -mt-0 lg:-mt-12 ">
             <div className="flex sm:px-5 py-2 justify-center mx-auto">
                 <div className="-m-4 mb-2 mx-auto">
                     <div className="container flex">
@@ -79,7 +79,7 @@ export default function Hero2() {
                                 <div className="grid justify-items-center -mb-2 md:mb-0">
                                     <Link to="/statewide">
                                         <div className="w-32 md:w-64 md:h-64 sm:mb-0 mb-2 md:mb-6 bg-black flex-shrink-0 justify-items-center grid ">
-                                            <video loop className="max-w-6xl hover:motion-safe:animate-pulse" style={{objectFit: "fill", width: "105%"}} autoPlay muted playsInline>
+                                            <video loop className="max-w-6xl hover:motion-safe:animate-pulse" style={{objectFit: "fill", width: "125%"}} autoPlay muted playsInline>
                                                 <source id="myvideo" src={stateFlorida} type="video/mp4" />
                                             </video>
                                         </div>

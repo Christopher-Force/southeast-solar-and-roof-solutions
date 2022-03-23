@@ -20,10 +20,6 @@ export default function RoofShampoo () {
             #card2,
             #card3,
             #card4,
-            #cleaningtitle,
-            #clean1,
-            #clean2,
-            #clean3,
             #ecotitle,
             #eco1,
             #eco2,
@@ -50,7 +46,15 @@ export default function RoofShampoo () {
         // cleaning methods
         sr.reveal(
             `
+            #cleaningtitle,
+            #clean1,
+            #clean2,
+            #clean3
             `,
+            {
+                origin: "left",
+                interval: 600
+            }
         )
     }, []);
         
@@ -72,7 +76,7 @@ export default function RoofShampoo () {
                     <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:pl-12 lg:text-left text-center">
                         
                         {/* eco-friendly */}
-                        <div className="flex flex-col mb-10 lg:items-start items-center border-2 rounded-md p-2 shadow-2xl shadow-slate-500" id='card1'>
+                        <div className="flex flex-col mb-10 lg:items-start items-center border-2 rounded-md p-2 shadow-2xl shadow-slate-500 px-1" id='card1'>
                             <div className="flex-grow">
                             <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
                             {/* span is inline icon */}
@@ -93,7 +97,7 @@ export default function RoofShampoo () {
                             </div>
                         </div>
                         {/* stain free */}
-                        <div className="flex flex-col mb-10 lg:items-start items-center border-2 rounded-md p-2 shadow-xl shadow-slate-500 " id='card2'>
+                        <div className="flex flex-col mb-10 lg:items-start items-center border-2 rounded-md p-2 shadow-xl shadow-slate-500 px-1" id='card2'>
                             <div className="flex-grow">
                                 <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
                                     {/* span is inline icon */}
@@ -115,7 +119,7 @@ export default function RoofShampoo () {
                             </div>
                         </div>
                         {/* non damaging */}
-                        <div className="flex flex-col mb-10 lg:items-start items-center border-2 rounded-md p-2 shadow-2xl shadow-slate-500" id="card3">
+                        <div className="flex flex-col mb-10 lg:items-start items-center border-2 rounded-md p-2 shadow-2xl shadow-slate-500 px-1" id="card3">
                             <div className="flex-grow">
                             <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
                                 <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2 ">
@@ -134,7 +138,7 @@ export default function RoofShampoo () {
                             </div>
                         </div>
                         {/* Gentle */}
-                        <div className=" mb-10 lg:items-start items-center border-2 rounded-md p-2 shadow-xl shadow-slate-500" id='card4'>
+                        <div className=" mb-10 lg:items-start items-center border-2 rounded-md p-2 shadow-xl shadow-slate-500 px-1" id='card4'>
                             <div className="flex-grow">
                                 <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
                                     {/* span is inline icon */}
@@ -154,6 +158,7 @@ export default function RoofShampoo () {
                                 <br />
                             </div>
                         </div>
+                        {/* cleaning methods */}
                         <div className=" mb-10 lg:items-start items-center">
                             <div className="flex-grow" >
                                 <div className="flex flex-col items-center text-center justify-center" id="cleaningtitle">
