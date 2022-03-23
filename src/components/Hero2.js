@@ -7,7 +7,7 @@ import React from "react";
 
 export default function Hero2() {
     return (         
-        <div className="flex relative text-gray-600 body-font bg-black z-5 -mt-0 lg:-mt-12 ">
+        <div className="flex relative text-gray-600 body-font bg-black z-10 -mt-0 lg:-mt-12 ">
             <div className="flex sm:px-5 py-2 justify-center mx-auto">
                 <div className="-m-4 mb-2 mx-auto">
                     <div className="container flex">
