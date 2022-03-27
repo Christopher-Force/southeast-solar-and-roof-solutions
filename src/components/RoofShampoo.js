@@ -133,7 +133,7 @@ export default function RoofShampoo () {
                                 <div className="w-48 h-1 bg-primary-focus rounded mt-2 mb-4" />
                             </div>
                             <p className="leading-relaxed text-green-200">
-                                The cleaner your roof, the healthier your roof!  Roof Shampoo® professionals use state-of-the-art equipment that delivers a soft, gentle low pressure water wash. NEVER damaging high pressure and absolutely NO scrubbing or brushing. There is no need to prematurely re-roof. Contact the Roof Shampoo® Contractor near you and make your dirty roof look new again.  Go with the true GREEN, roof cleaning method for cleaning roof stains, Roof Shampoo®.
+                                The cleaner your roof, the healthier your roof!  Roof Shampoo® professionals use state-of-the-art equipment that delivers a soft, gentle low pressure water wash. NEVER damaging high pressure and absolutely NO scrubbing or brushing. There is no need to prematurely re-roof. Your Roof Shampoo contractor will make your dirty roof look new again.  Go with the true GREEN, roof cleaning method for cleaning roof stains, Roof Shampoo®.
                             </p>
                             </div>
                         </div>
@@ -207,7 +207,9 @@ export default function RoofShampoo () {
                                     The NON-bleach, green, ECO-FRIENDLY, low pressure Roof Shampoo® roof cleaning method uses a proprietary soap that is specially formulated and buffered to be safe on all asphalt and fiberglass shingles. It will not harm any landscaping around the home, yet is 100% effective at removing roof stains from algae. No damaging high pressure is ever used and absolutely NO scrubbing or brushing. The results are immediate and complete. 
                                 </p>
                                 <br />
-                                <span>img</span>
+
+{/* img */}
+                                <span></span>
                                 <br />
                                 <p className="leading-relaxed text-green-200 border-l-2 pl-1" id='eco2'>
                                     FACT: Shingle Manufacturers are using Roof Shampoo® Contractors to provide warranty roof cleanings for their customers.
@@ -218,7 +220,11 @@ export default function RoofShampoo () {
                                     Authorized Roof Shampoo® contractors use eco-friendly stain removing products and equipment that ensure ALL stains from algae are removed from your roof.  A spray-on leave-on product, or a system that claims to use no pressure simply does not use an efficient cleaning system and cannot COMPLETELY remove those ugly roof stains.  With the Roof Shampoo® roof cleaning system, there is no waiting, no wondering, and no worrying if the stains will really go away.  You will see for yourself that the algae stains are completely gone before your Roof Shampoo® contractor leaves your house.
                                 </p>
                                 <br />
-                                <span>img</span>
+
+{/* img */}
+                                <span></span>
+
+
                                 <p className="leading-relaxed text-green-200" id='eco4'>
                                     If our process costs more than just splashing bleach on the roof costs, it is because skilled technicians using the NON-bleach Roof Shampoo® roof cleaning method take the time to actually get on your roof, inspect it, and do the job right using top quality, eco-safe products and state-of-the-art equipment which really clean your roof.  Roof Shampoo® contractors are professionals who make sure they clean every square inch of your roof without damaging your shingles or your landscaping.
                                 </p>
