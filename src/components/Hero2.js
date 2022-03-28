@@ -1,5 +1,5 @@
 import washMe from "../assets/img/washMe.jpg";
-import stateFlorida from "../assets/video/Stateflorida.mp4"
+import stateFlorida from "../assets/video/stateflorida.mp4"
 import { Link } from "react-router-dom"
 import 'animate.css';
 import EstimateButton from "./EstimateButton";

@@ -1,6 +1,6 @@
 // import logoDark from "../assets/img/Logo dark.png"
 // import MaterialIcon from 'material-icons-react';
-import stateFlorida from "../assets/video/Stateflorida.mp4"
+import stateFlorida from "../assets/video/stateflorida.mp4"
 import { Link } from "react-router-dom"
 import FreeQuote from "../components/FreeQuote"
 
