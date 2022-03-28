@@ -1,5 +1,5 @@
 import washMe from "../assets/img/washMe.jpg";
-import stateFlorida from "../assets/video/stateflorida.mp4"
+import roofCard from "../assets/img/roofcard.png"
 import { Link } from "react-router-dom"
 import 'animate.css';
 import EstimateButton from "./EstimateButton";
@@ -48,10 +48,8 @@ export default function Hero2() {
                                 {/* IMAGE 2 */}
                                 <div className="grid justify-items-center -mb-2 md:mb-0">
                                     <Link to="/RoofShampoo">
-                                        <div className="w-32 md:w-64 md:h-64 sm:mb-0 mb-0 md:-mb-4   bg-black flex-shrink-0 justify-items-center grid mt-6">
-                                            <video loop className="max-w-6xl hover:motion-safe:animate-pulse" style={{objectFit: "fill", width: "100%"}} autoPlay muted playsInline>
-                                                <source id="myvideo" src={stateFlorida} type="video/mp4" />
-                                            </video>
+                                        <div className="w-32 md:w-64 md:h-64 sm:mb-0 mb-7 md:mb-4 bg-black flex-shrink-0 justify-items-center grid mt-2">
+                                            <img src={roofCard} alt="Wash me" className="rounded-lg hover:motion-safe:animate-pulse"/>
                                         </div>
                                     </Link>
                                         <div className="relative flex-grow grid justify-items-center mb-1 ">
