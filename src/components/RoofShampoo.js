@@ -1,7 +1,10 @@
 import ContactBlocks from "./ContactBlocks";
+import RoofShampooVid1 from "./RoofShampooVid1";
+import RoofShampooVid2 from "./RoofShampooVid2";
 import "../styles/roofshampoo.css";
 import React, {useEffect} from "react";
 import ScrollReveal from 'scrollreveal'
+
 
 
 export default function RoofShampoo () {
@@ -35,7 +38,8 @@ export default function RoofShampoo () {
             #splashtitle,
             #splash1,
             #pressuretitle,
-            #pressure1
+            #pressure1,
+            #testtitle
 
             `,
             {
@@ -49,7 +53,11 @@ export default function RoofShampoo () {
             #cleaningtitle,
             #clean1,
             #clean2,
-            #clean3
+            #clean3,
+            #video2,
+            #test3,
+            #test2,
+            #test1
             `,
             {
                 origin: "left",
@@ -62,6 +70,7 @@ export default function RoofShampoo () {
     return (
         <section className="text-green-600 body-font mx-2">
             <div className=" pt-4 md:pt-8">
+                <RoofShampooVid1 />
                 <div className="container px-2 pb-12 lg:mt-12 mx-auto">
                     {/* title */}
                     <div className=""  id="topreveal">
@@ -157,6 +166,9 @@ export default function RoofShampoo () {
                                 </p>
                                 <br />
                             </div>
+                        </div>
+                        <div>
+                            <RoofShampooVid2 />
                         </div>
                         {/* cleaning methods */}
                         <div className=" mb-10 lg:items-start items-center">
@@ -307,7 +319,7 @@ export default function RoofShampoo () {
                 {/* Testimonials */}
                 <div class="text-gray-600 body-font">
                     <div class="container px-5 py-24 mx-auto">
-                        <div>
+                        <div id="testtitle">
                             <h2 className="text-primary-focus text-lg title-font font-medium text-center mt-6 lg:-mt-6">
                             Roof Shampoo® Customer Reviews
                             </h2>
@@ -318,16 +330,16 @@ export default function RoofShampoo () {
                         <div class="flex flex-wrap -m-4">
                             
                             <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
-                                <div class="h-full text-center">
+                                <div class="h-full text-center" id="test1">
                                 
-                                <p class="leading-relaxed text-green-200">"I just want to say again how happy and pleased both my wife and I were with the Roof Shampoo® service provided to us. Not only was the service prompt and professional, but the knowledge base was exceptional. Not many people know, in many instances, that they don't really need a new roof, they just need to have that roof cleaned with the right mixtures for exceptional results. The before and after photos initially sold us, but the results we have experienced have been nothing short of astounding and I would highly recommend you to any and all homeowners looking to give their homes a face lift. Again, thank you and best of luck in the future."</p>
+                                <p class="leading-relaxed text-green-200" >"I just want to say again how happy and pleased both my wife and I were with the Roof Shampoo® service provided to us. Not only was the service prompt and professional, but the knowledge base was exceptional. Not many people know, in many instances, that they don't really need a new roof, they just need to have that roof cleaned with the right mixtures for exceptional results. The before and after photos initially sold us, but the results we have experienced have been nothing short of astounding and I would highly recommend you to any and all homeowners looking to give their homes a face lift. Again, thank you and best of luck in the future."</p>
                                 <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
                                 <h2 class="text-green-200 font-medium title-font tracking-wider text-sm">- The Vaughns</h2>
                                 <p class="text-green-200"></p>
                                 </div>
                             </div>
                             <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
-                                <div class="h-full text-center">
+                                <div class="h-full text-center" id="test2">
                                 
                                 <p class="leading-relaxed text-green-200">"For a couple of years now dark streaks have been staining the roof of my home and my detached garage. I was not happy at the prospect of replacing my roof, but the stains really made the roof look old and unsightly. Our local Roof Shampoo® contractor made an appointment to examine the roof and explained that what my roof needed was a "roof shampoo." Best of all, it does not damage the roof. The results were fantastic - it looks like a new roof! I appreciated the professionalism and courtesy that the contractor and his team provided. I know I can always turn to Roof Shampoo® to keep my roofs looking new."</p>
                                 <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
@@ -335,10 +347,10 @@ export default function RoofShampoo () {
                                 <p class="text-green-200"></p>
                                 </div>
                             </div>
-                            <div class="lg:w-1/3 lg:mb-0 p-4">
+                            <div class="lg:w-1/3 lg:mb-0 p-4" id="test3">
                                 <div class="h-full text-center">
                                 
-                                <p class="leading-relaxed text-green-200">"I wanted to thank you for a job well done !!!! Your roof cleaning crew was at my home yesterday on schedule and did a very thorough and professional job.  In the five years since I've owned my home, the roof has never looked as good as it does now.  It looks like a new roof.   You made the magic happen just when I needed it, and I am a very satisfied customer. I will be sure to recommend your company to anyone I know that needs their roof cleaned. After you called me over the weekend to schedule me for yesterday, three other roof cleaning companies called me (ironically, two of them called yesterday afternoon just after your crew finished).  I'm glad that you were the first to call me... I could not imagine anyone doing a better job, and your price was right on budget.  Thank you again." </p>
+                                <p class="leading-relaxed text-green-200" >"I wanted to thank you for a job well done !!!! Your roof cleaning crew was at my home yesterday on schedule and did a very thorough and professional job.  In the five years since I've owned my home, the roof has never looked as good as it does now.  It looks like a new roof.   You made the magic happen just when I needed it, and I am a very satisfied customer. I will be sure to recommend your company to anyone I know that needs their roof cleaned. After you called me over the weekend to schedule me for yesterday, three other roof cleaning companies called me (ironically, two of them called yesterday afternoon just after your crew finished).  I'm glad that you were the first to call me... I could not imagine anyone doing a better job, and your price was right on budget.  Thank you again." </p>
                                 <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
                                 <h2 class="text-green-200 font-medium title-font tracking-wider text-sm">- Rich H.</h2>
                                 <p class="text-green-200"></p>
