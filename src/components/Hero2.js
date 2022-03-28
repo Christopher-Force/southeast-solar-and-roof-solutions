@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 import 'animate.css';
 import EstimateButton from "./EstimateButton";
 import React from "react";
+import Card3 from "./Card3";
 
 export default function Hero2() {
     return (         
@@ -46,7 +47,7 @@ export default function Hero2() {
                             <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-2 flex-col bg-black h-full grid justify-items-center mr-1">
                                 {/* IMAGE 2 */}
                                 <div className="grid justify-items-center -mb-2 md:mb-0">
-                                    <Link to="/statewide">
+                                    <Link to="/RoofShampoo">
                                         <div className="w-32 md:w-64 md:h-64 sm:mb-0 mb-0 md:-mb-4   bg-black flex-shrink-0 justify-items-center grid mt-6">
                                             <video loop className="max-w-6xl hover:motion-safe:animate-pulse" style={{objectFit: "fill", width: "100%"}} autoPlay muted playsInline>
                                                 <source id="myvideo" src={stateFlorida} type="video/mp4" />
@@ -54,10 +55,10 @@ export default function Hero2() {
                                         </div>
                                     </Link>
                                         <div className="relative flex-grow grid justify-items-center mb-1 ">
-                                            <h2 className="sm:mx-2 mx-3 md:mx-0 text-white text-lg title-font font-medium mb-2 text-center">We're Located Statewide</h2>
-                                            <p className="leading-relaxed text-white text-center">Strategically located to clean the entire state of Florida!</p>
+                                            <h2 className="sm:mx-2 mx-3 md:mx-0 text-white text-lg title-font font-medium mb-2 text-center">Get a Roof Shampoo</h2>
+                                            <p className="leading-relaxed text-white text-center">Eco-friendly and efficient gentle cleaning with insant results!</p>
                                             {/* learn more bottom */}
-                                            <Link to="/statewide">
+                                            <Link to="/RoofShampoo">
                                                 <div className="mt-3 text-lime-400 inline-flex items-center self-end hover:animate-pulse">Learn More
                                                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -73,7 +74,7 @@ export default function Hero2() {
                         <EstimateButton />
                     </div>
                     {/* BEGIN FLEX ITEM 3 */}
-                    
+                    <Card3 />
                 </div>
             </div>
         </div>
