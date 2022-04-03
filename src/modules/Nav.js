@@ -11,11 +11,11 @@ export default function Nav () {
                 <img src={logo} alt="solar logo" width="225px" height="96px" className="hover:motion-safe:animate-pulse" />
               </Link>
               <Link to="/">
-                <span className="hidden sm:inline-flex">
+                <span className="hidden sm:inline-flex mt-2">
                   <span className="absolute hover:animate-ping">
                     <MaterialIcon icon="arrow_back" color="#FAFAFA" size="small"  />
                   </span>
-                  <span className="relative -z-10">
+                  <span className="relative -z-10 ">
                     <MaterialIcon icon="arrow_back" color="#FAFAFA" size="small"  />
                   </span>
                 </span>
@@ -23,6 +23,15 @@ export default function Nav () {
             </div> 
           <div className="flex-none hidden px-2 mx-2 lg:flex">
             <div className="flex items-stretch">
+              {/* <Link> */}
+              <div className="btn btn-ghost btn-sm rounded-btn">
+                  <span class="material-icons ml-0.5 " style={{fontSize: '24px'}}>
+                    apps
+                  </span>
+                  <span className="pl-2">
+                    <Link to="/cleaning">Solar Panel Cleaning</Link>
+                  </span>
+                </div>
               {/* <Link> */}
                 <div className="btn btn-ghost btn-sm rounded-btn">
                 <span className="">
@@ -50,49 +59,57 @@ export default function Nav () {
           </div>
           {/* dropdown  */}
           <div className="flex-none">
-          <div className="dropdown dropdown-end max-h-96">
-            <div tabIndex="0" className="m-1 btn bg-green-700 hover:bg-green-500 hover:motion-safe:animate-pulse">
-              <span class="material-icons mt-2" style={{fontSize: "36px"}}>menu          
-              </span>
-            </div> 
-              <ul tabIndex="0" className="p-2 shadow menu dropdown-content bg-black rounded-box w-72 md:w-96">
-                <li>
-                  <ul>
-                    <li>
-
-                    </li>
-                  </ul>
-                  <ul> All Services
-                    <li>
-                      <span>
-                        <MaterialIcon icon="roofing" color="#FAFAFA" />
-                        <span className="pl-2">
-                          <Link to="/RoofShampoo">Roof Shampoo</Link>
-                        </span>
+            <div className="dropdown dropdown-end max-h-96">
+              <div tabIndex="0" className="m-1 btn bg-green-700 hover:bg-green-500 hover:motion-safe:animate-pulse">
+                <span class="material-icons mt-2" style={{fontSize: "36px"}}>menu          
+                </span>
+              </div> 
+              <ul tabIndex="0" className="p-2 shadow menu dropdown-content bg-black rounded-box w-72 md:w-96 pl-4">All Services
+                  {/* Link 1 */}
+                  <li>
+                    <div className="btn btn-ghost btn-xs rounded-btn justify-start my-1">
+                      <span class="material-icons ml-0.5 " style={{fontSize: '24px'}}>
+                        apps
                       </span>
-                    </li>
-                    <li>
-                      <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener">
-                        <MaterialIcon icon="wb_sunny" color="#FAFAFA" />
-                        <span className="pl-2">
-                          Tubular/Traditional Skylights
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <span>
-                        <MaterialIcon icon="360" color="#FAFAFA" />
-                        <a href="https://fcskylights.net/solar-fans/solar-attic-fans/" target="_blank" rel="noreferrer noopener" className="pl-2">
-                          Solar Attic Fans
-                        </a>
+                      <span className="pl-2">
+                        <Link to="/cleaning">Solar Panel Cleaning</Link>
                       </span>
-                    </li>
-                    <li>
-                      
-                    </li>
-                  </ul>
-                </li>
-              </ul>
+                    </div>
+                  </li>
+                  {/* Link 2 */}
+                  <li>
+                    <div className="btn btn-ghost btn-xs rounded-btn justify-start my-1">
+                      <span class="material-icons ml-0.5 " style={{fontSize: '24px'}}>
+                        roofing
+                      </span>
+                      <span className="pl-2">
+                        <Link to="/RoofShampoo">Roof Shampoo</Link>
+                      </span>
+                    </div>
+                  </li>
+                  {/* Link 3 */}
+                  <li>
+                    <div className="btn btn-ghost btn-xs rounded-btn justify-start my-1">
+                      <span class="material-icons ml-0.5 " style={{fontSize: '24px'}}>
+                        wb_sunny
+                      </span>
+                      <span className="pl-2">
+                        <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener" >Tubular/Traditional Skylights</a>
+                      </span>
+                    </div>
+                  </li>
+                  {/* Link 4 */}
+                  <li>
+                    <div className="btn btn-ghost btn-xs rounded-btn justify-start my-1">
+                      <span class="material-icons ml-0.5 " style={{fontSize: '24px'}}>
+                        360
+                      </span>
+                      <span className="pl-2">
+                        <a href="https://fcskylights.net/solar-fans/solar-attic-fans/" target="_blank" rel="noreferrer noopener">Solar Attic Fans</a>
+                      </span>
+                    </div>
+                  </li>
+                </ul>
             </div>
           </div>
         </div>

@@ -24,12 +24,20 @@ export default function Footer() {
                                 </div>
                             </Link>
                         </li>
+                        <li>
+                            <Link to="/cleaning">
+                                <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">
+                                    Solar Panel Cleaning
+                                </div>
+                            </Link>
+                        </li>
                         <li className="hover:animate-pulse">
                             <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener" className="text-lime-400 hover:text-gray-800">Skylights</a>
                         </li>
                         <li className="hover:animate-pulse">
                             <a href="https://fcskylights.net/solar-fans/solar-attic-fans/" target="_blank" rel="noreferrer noopener" className="text-lime-400 hover:text-gray-800">Solar Fans</a>
                         </li>
+                        
                         
                         </nav>
                     </div>
