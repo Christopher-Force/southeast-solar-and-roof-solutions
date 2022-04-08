@@ -48,6 +48,7 @@ export default function Nav () {
                       Skylights
                 </span>
               </a>
+              
               <a href="https://fcskylights.net/solar-fans/solar-attic-fans/" target="_blank" rel="noreferrer noopener" className="btn btn-ghost btn-sm rounded-btn">
               <MaterialIcon icon="360" color="#FAFAFA" />
                 <span className="pl-2">
@@ -94,7 +95,7 @@ export default function Nav () {
                         wb_sunny
                       </span>
                       <span className="pl-2">
-                        <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener" >Tubular/Traditional Skylights</a>
+                        <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener" >Skylights</a>
                       </span>
                     </div>
                   </li>
