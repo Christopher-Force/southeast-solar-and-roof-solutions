@@ -52,7 +52,7 @@ export default function Hero2() {
                                             <img src={roofCard} alt="Wash me" className="rounded-lg hover:motion-safe:animate-pulse"/>
                                         </div>
                                     </Link>
-                                        <div className="relative flex-grow grid justify-items-center mb-1 ">
+                                        <div className="relative flex-grow grid justify-items-center mb-1">
                                             <h2 className="sm:mx-2 mx-3 md:mx-0 text-white text-lg title-font font-medium mb-2 text-center">Get a Roof Shampoo</h2>
                                             <p className="leading-relaxed text-white text-center">Eco-friendly and efficient gentle cleaning with instant results!</p>
                                             {/* learn more bottom */}

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 export default function Card3 () {
     return(
             <div className="flex relative sm:p-1 w-full grid justify-items-center pl-1 mt-8" id="card3">
-                <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-2 flex-col bg-black h-full grid justify-items-center mr-1">
+                <div className="flex border-2 rounded-lg border-gray-200 border-opacity-50 p-2 flex-col bg-black h-full grid justify-items-center mr-1 w-full ">
                     {/* IMAGE 2 */}
                     <div className="grid justify-items-center -mb-2 md:mb-0">
                         <Link to="/statewide">
