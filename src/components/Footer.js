@@ -35,7 +35,7 @@ export default function Footer() {
                             <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener" className="text-lime-400 hover:text-gray-800">Skylights</a>
                         </li>
                         <li className="hover:animate-pulse">
-                            <a href="https://fcskylights.net/solar-fans/solar-attic-fans/" target="_blank" rel="noreferrer noopener" className="text-lime-400 hover:text-gray-800">Solar Fans</a>
+                            <a href="https://fcskylights.net/solar-fans/solar-attic-fans/" target="_blank" rel="noreferrer noopener" className="text-lime-400 hover:text-gray-800">Solar Attic Fans</a>
                         </li>
                         
                         

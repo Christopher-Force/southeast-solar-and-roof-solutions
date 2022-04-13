@@ -168,160 +168,182 @@ export default function RoofShampoo () {
                         </div>
                     </div>
                     <div>
-                        <RoofShampooVid2 />
+                        
+                        
+
+
                         {/* cleaning methods */}
-                        <div className=" mb-10 lg:items-start items-center">
+                        <div className=" mb-10 lg:items-start items-center rounded-md p- shadow-md shadow-white border-gray-900 border-2 border-white">
+                            <RoofShampooVid2 />
                             <div className="flex-grow" >
-                                <div className="flex flex-col items-center text-center justify-center" id="cleaningtitle">
-                                    <h2 className="text-primary-focus text-lg title-font font-medium mb-3 ">
-                                        {/* span is inline icon */}
-                                        <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2">
-                                            <span class="material-icons ml- mt-2" style={{fontSize: '36px'}}>
-                                            water_damage
+                                <div >
+                                    <div className="flex flex-col items-center text-center justify-center" id="cleaningtitle">
+                                        <h2 className="text-primary-focus text-lg title-font font-medium mb-3 ">
+                                            {/* span is inline icon */}
+                                            <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2">
+                                                <span class="material-icons ml- mt-2" style={{fontSize: '36px'}}>
+                                                water_damage
+                                                </span>
                                             </span>
-                                        </span>
-                                        Cleaning Methods
-                                    </h2>
-                                    <div className="flex flex-col items-center text-center justify-center">
-                                    <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-8 " />
-                                </div>
-                                </div>
-                                
-                                <div className="border-l-2 pl-1">
-                                    <p className="leading-relaxed text-green-200" id='clean1'>
-                                        If you research roof cleaning on the Internet you will encounter claims, counter-claims and outright confusing and conflicting information among the different roof cleaning camps.
-                                    </p>
-                                    <br />
-                                    <p className="leading-relaxed text-green-200" id="clean2">
-                                        We have attempted to provide some clarification here regarding the four main roof cleaning methods most widely available to consumers.
-                                    </p>
-                                    <br />
-                                    <p className="leading-relaxed text-green-200" id='clean3'>
-                                        We think that after reading this you will have a greater understanding of roof cleaning methods in general which will assist you in determining the best roof cleaning method for you.
-                                    </p>
+                                            Cleaning Methods
+                                        </h2>
+                                        <div className="flex flex-col items-center text-center justify-center">
+                                        <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-8 " />
+                                    </div>
+                                    </div>
+                                    
+                                    <div className="pl-2">
+                                        <div className="border-l-2 pl-2 border-blue-400" id='clean1'>
+                                            <p className="leading-relaxed text-green-200" >
+                                                If you research roof cleaning on the Internet you will encounter claims, counter-claims and outright confusing and conflicting information among the different roof cleaning camps.
+                                            </p>
+                                            <br />
+                                            <p className="leading-relaxed text-green-200" >
+                                                We have attempted to provide some clarification here regarding the four main roof cleaning methods most widely available to consumers.
+                                            </p>
+                                            <br />
+                                            <p className="leading-relaxed text-green-200" >
+                                                We think that after reading this you will have a greater understanding of roof cleaning methods in general which will assist you in determining the best roof cleaning method for you.
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                                 <br />
-                                <div className="flex flex-col items-center text-center justify-center">
-                                    <h2 className="text-primary-focus text-lg title-font font-medium mb-3" id='ecotitle'>
-                                        {/* span is inline icon */}
-                                        <span className=" w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2">
-                                            <span class="material-icons ml- mt-2" style={{fontSize: '36px'}}>
-                                            thumb_up_alt
+
+                                {/* Eco-Friendly Cleaning Method */}
+                                <div className="border-2 m-1 border-primary-focus rounded-md p-4 shadow-primary-focus shadow-lg">
+                                    <div className="flex flex-col items-center text-center justify-center " id='ecotitle'>
+                                        <h2 className="text-primary-focus text-lg title-font font-medium mb-3" >
+                                            {/* span is inline icon */}
+                                            <span className=" w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2">
+                                                <span class="material-icons ml- mt-2" style={{fontSize: '36px'}}>
+                                                thumb_up_alt
+                                                </span>
                                             </span>
-                                        </span>
-                                        1) Eco-Friendly, Low Pressure Roof Shampoo Roof Cleaning Method
-                                        
-                                    </h2>
-                                    <div className="flex flex-col items-center lg:items-start text-center justify-center">
+                                            1) Eco-Friendly, Low Pressure Roof Shampoo Roof Cleaning Method
+                                    
+                                        </h2>
+                                        <div className="flex flex-col items-center lg:items-start text-center justify-center">
                                             <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4" />
                                         </div>
-                                </div>
-                                
-                                <p className="leading-relaxed text-green-200" id="eco1">
-                                    The NON-bleach, green, ECO-FRIENDLY, low pressure Roof Shampoo® roof cleaning method uses a proprietary soap that is specially formulated and buffered to be safe on all asphalt and fiberglass shingles. It will not harm any landscaping around the home, yet is 100% effective at removing roof stains from algae. No damaging high pressure is ever used and absolutely NO scrubbing or brushing. The results are immediate and complete. 
-                                </p>
-                                <br />
-
-{/* img */}
-                                <span></span>
-                                <br />
-                                <p className="leading-relaxed text-green-200 border-l-2 pl-1" id='eco2'>
-                                    FACT: Shingle Manufacturers are using Roof Shampoo® Contractors to provide warranty roof cleanings for their customers.
-                                </p>
-                                
-                                <br />
-                                <p className="leading-relaxed text-green-200" id='eco3'>
-                                    Authorized Roof Shampoo® contractors use eco-friendly stain removing products and equipment that ensure ALL stains from algae are removed from your roof.  A spray-on leave-on product, or a system that claims to use no pressure simply does not use an efficient cleaning system and cannot COMPLETELY remove those ugly roof stains.  With the Roof Shampoo® roof cleaning system, there is no waiting, no wondering, and no worrying if the stains will really go away.  You will see for yourself that the algae stains are completely gone before your Roof Shampoo® contractor leaves your house.
-                                </p>
-                                <br />
-
-{/* img */}
-                                <span></span>
-
-
-                                <p className="leading-relaxed text-green-200" id='eco4'>
-                                    If our process costs more than just splashing bleach on the roof costs, it is because skilled technicians using the NON-bleach Roof Shampoo® roof cleaning method take the time to actually get on your roof, inspect it, and do the job right using top quality, eco-safe products and state-of-the-art equipment which really clean your roof.  Roof Shampoo® contractors are professionals who make sure they clean every square inch of your roof without damaging your shingles or your landscaping.
-                                </p>
-                                <br />
-                                <div className="flex flex-col items-center text-center justify-center" id='bleachtitle'>
-                                    <h2 className="text-red-500 text-lg title-font font-medium mb-3" >
-                                        {/* span is inline icon */}
-                                        <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2">
-                                            <span class="material-icons ml- mt-2" style={{fontSize: '36px'}}>
-                                            priority_high
-                                            </span>
-                                        </span>
-                                        2) Bleach Roof Cleaning Method
-                                    
-                                    </h2>
-                                    <div className="flex flex-col items-center lg:items-start text-center justify-center">
-                                        <div className="w-52 h-1 bg-red-500 rounded mt-2 mb-4" />
                                     </div>
-                                </div>
-                                
-                                <p className="leading-relaxed text-green-200" id='bleach1'>
-                                    Consumer Reports® warns NOT to use the chlorine-bleach solution described by the Asphalt Roofing Manufacturers Association due to its damaging effects.  Consumer Reports® Senior Editor praised the Roof Shampoo® method after he had his own roof cleaned with Roof Shampoo®.
-                                </p>
-                                <br />
-                                <p className="leading-relaxed text-green-200" id='bleach2'>
-                                    If the Contractor DOES NOT tell you up front that they are NOT using bleach, then they are very likely using bleach. Roof cleaning contractors who use bleach often don't advertise or tell you that they use bleach because they know homeowners don't want bleach used around their homes. Even when asked directly, some may still deny that they use bleach. Be insistent about your need to know. Here are some clues: If they tell you that they use no pressure and that they follow the shingle manufacturers (ARMA) recommendations, then they are using bleach.  
-                                </p>
-                                <br />
-                                <p className="leading-relaxed text-green-200" id="bleach3">
-                                    Many contractors who use bleach will use the term "Soft Wash". Or, if they tell you they are using sodium hypochlorite -- you should know that sodium hypochlorite is the chemical name for bleach. They may even tell you they use SH, which is short for sodium hypochlorite - bleach. Some even mix fragrance in with the bleach to mask the smell so you won't know it's bleach.
-                                </p>
-                                <br />
-                                <p className="leading-relaxed text-green-200" id='bleach4'>
-                                    If you're still not sure, ask the following question just this way: "How will you protect my plants while cleaning my roof?" Any answer other than "We don't need to protect your plants because our product does not harm plants," indicates harmful chemicals are being used. If the answer is something like "We wet down your plants before, during, and after our treatment to protect them," you should suspect that bleach is being used. Other indicators that bleach is being used is the use of a runoff recovery system which attempts to suck up all the toxic runoff during the treatment into a containment vessel. Also, if you are told that your plants will be covered during the roof cleaning process or sprayed with a plant protectant, that is a clear sign that your plants are in danger!
-                                </p>
-                                <br />
-                                <p className="leading-relaxed text-green-200" id='bleach5'>
-                                    Many roof cleaning contractors who use bleach will mix up their own homemade formulas. They mix high-strength chlorine bleach with an array of varied chemicals such as phosphates, dish and laundry detergents, assorted surfactants, and odor-masking scents to hide the smell of the main ingredient - BLEACH! These haphazard chemical concoctions call into question product reliability, stability, safety and consistency across the board. 
-                                </p>
-                                <br />
-                                <p className="leading-relaxed text-green-200 border-l-2 pl-1" id='bleach6'>
-                                    Chlorine bleach has an intense chemical odor.  The toxic fumes can drift a block away, exposing your neighbors as well.
-                                </p>
-                                <br />
-                                <div className="flex flex-col items-center text-center justify-center" id='splashtitle'>
-                                    <h2 className="text-red-500 text-lg title-font font-medium mb-3" >
-                                        {/* span is inline icon */}
-                                        <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2">
-                                            <span class="material-icons ml- mt-2" style={{fontSize: '36px'}}>
-                                            priority_high
-                                            </span>
-                                        </span>
-                                        3) 'Splash and Dash' Method
                                     
-                                    </h2>
-                                    <div className="flex flex-col items-center lg:items-start text-center justify-center">
-                                        <div className="w-52 h-1 bg-red-500 rounded mt-2 mb-4" />
-                                    </div>
-                                </div>
-                                
-                                <p className="leading-relaxed text-green-200" id="splash1">
-                                    Some roof cleaning contractors will spray a chemical on your roof and tell you to wait for weeks or months to see the results. Products which do not require rinsing, but depend on the rain to wash away roof stains often take repeated applications to achieve even marginal results. Some roof cleaning companies actually use this consumer grade product and charge you professional rates for it. We call them 'Splash and Dash' operators.
-                                </p>
-                                <br />
-                                <div className="flex flex-col items-center text-center justify-center" id='pressuretitle'>
-                                    <h2 className="text-red-500 text-lg title-font font-medium mb-3" >
-                                        {/* span is inline icon */}
-                                        <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2">
-                                            <span class="material-icons ml- mt-2" style={{fontSize: '36px'}}>
-                                            priority_high
-                                            </span>
-                                        </span>
-                                        4) High Pressure Power Washing Method
+                                    <p className="leading-relaxed text-green-200" id="eco1">
+                                        The NON-bleach, green, ECO-FRIENDLY, low pressure Roof Shampoo® roof cleaning method uses a proprietary soap that is specially formulated and buffered to be safe on all asphalt and fiberglass shingles. It will not harm any landscaping around the home, yet is 100% effective at removing roof stains from algae. No damaging high pressure is ever used and absolutely NO scrubbing or brushing. The results are immediate and complete.
+                                    </p>
+                                    <br />
                                     
-                                    </h2>
-                                    <div className="flex flex-col items-center lg:items-start text-center justify-center">
-                                        <div className="w-52 h-1 bg-red-500 rounded mt-2 mb-4" />
-                                    </div>
+                                    {/* img */}
+                                    <span></span>
+                                    <br />
+                                    <p className="leading-relaxed text-green-200 border-l-2 pl-1" id='eco2'>
+                                        FACT: Shingle Manufacturers are using Roof Shampoo® Contractors to provide warranty roof cleanings for their customers.
+                                    </p>
+                                    
+                                    <br />
+                                    <p className="leading-relaxed text-green-200" id='eco3'>
+                                        Authorized Roof Shampoo® contractors use eco-friendly stain removing products and equipment that ensure ALL stains from algae are removed from your roof.  A spray-on leave-on product, or a system that claims to use no pressure simply does not use an efficient cleaning system and cannot COMPLETELY remove those ugly roof stains.  With the Roof Shampoo® roof cleaning system, there is no waiting, no wondering, and no worrying if the stains will really go away.  You will see for yourself that the algae stains are completely gone before your Roof Shampoo® contractor leaves your house.
+                                    </p>
+                                    <br />
+                                    
+                                    {/* img */}
+                                    <span></span>
+                                    <p className="leading-relaxed text-green-200" id='eco4'>
+                                        If our process costs more than just splashing bleach on the roof costs, it is because skilled technicians using the NON-bleach Roof Shampoo® roof cleaning method take the time to actually get on your roof, inspect it, and do the job right using top quality, eco-safe products and state-of-the-art equipment which really clean your roof.  Roof Shampoo® contractors are professionals who make sure they clean every square inch of your roof without damaging your shingles or your landscaping.
+                                    </p>
                                 </div>
-                                
-                                <p className="leading-relaxed text-green-200" id='pressure1'>
-                                    Some roof cleaning contractors use high pressure power washing methods to attempt to remove roofs stains. They blast away on your roof blowing the protective granules off as they go. Not only is this method damaging to your shingles, it's also not an effective way to remove roof stains from algae. 
-                                </p>
+                                <br />
+
+                                {/* BLEACH CLEANING METHOD */}
+                                <div className="border-2 m-1 border-red-600 rounded-md p-4 shadow-red-600 shadow-md">
+                                    <div className="flex flex-col items-center text-center justify-center" id='bleachtitle'>
+                                        <h2 className="text-red-500 text-lg title-font font-medium mb-3" >
+                                            {/* span is inline icon */}
+                                            <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2">
+                                                <span class="material-icons ml- mt-2" style={{fontSize: '36px'}}>
+                                                priority_high
+                                                </span>
+                                            </span>
+                                            2) Bleach Roof Cleaning Method
+                                    
+                                        </h2>
+                                        <div className="flex flex-col items-center lg:items-start text-center justify-center">
+                                            <div className="w-52 h-1 bg-red-500 rounded mt-2 mb-4" />
+                                        </div>
+                                    </div>
+                                    
+                                    <p className="leading-relaxed text-green-200" id='bleach1'>
+                                        Consumer Reports® warns NOT to use the chlorine-bleach solution described by the Asphalt Roofing Manufacturers Association due to its damaging effects.  Consumer Reports® Senior Editor praised the Roof Shampoo® method after he had his own roof cleaned with Roof Shampoo®.
+                                    </p>
+                                    <br />
+                                    <p className="leading-relaxed text-green-200" id='bleach2'>
+                                        If the Contractor DOES NOT tell you up front that they are NOT using bleach, then they are very likely using bleach. Roof cleaning contractors who use bleach often don't advertise or tell you that they use bleach because they know homeowners don't want bleach used around their homes. Even when asked directly, some may still deny that they use bleach. Be insistent about your need to know. Here are some clues: If they tell you that they use no pressure and that they follow the shingle manufacturers (ARMA) recommendations, then they are using bleach.
+                                    </p>
+                                    <br />
+                                    <p className="leading-relaxed text-green-200" id="bleach3">
+                                        Many contractors who use bleach will use the term "Soft Wash". Or, if they tell you they are using sodium hypochlorite -- you should know that sodium hypochlorite is the chemical name for bleach. They may even tell you they use SH, which is short for sodium hypochlorite - bleach. Some even mix fragrance in with the bleach to mask the smell so you won't know it's bleach.
+                                    </p>
+                                    <br />
+                                    <p className="leading-relaxed text-green-200" id='bleach4'>
+                                        If you're still not sure, ask the following question just this way: "How will you protect my plants while cleaning my roof?" Any answer other than "We don't need to protect your plants because our product does not harm plants," indicates harmful chemicals are being used. If the answer is something like "We wet down your plants before, during, and after our treatment to protect them," you should suspect that bleach is being used. Other indicators that bleach is being used is the use of a runoff recovery system which attempts to suck up all the toxic runoff during the treatment into a containment vessel. Also, if you are told that your plants will be covered during the roof cleaning process or sprayed with a plant protectant, that is a clear sign that your plants are in danger!
+                                    </p>
+                                    <br />
+                                    <p className="leading-relaxed text-green-200" id='bleach5'>
+                                        Many roof cleaning contractors who use bleach will mix up their own homemade formulas. They mix high-strength chlorine bleach with an array of varied chemicals such as phosphates, dish and laundry detergents, assorted surfactants, and odor-masking scents to hide the smell of the main ingredient - BLEACH! These haphazard chemical concoctions call into question product reliability, stability, safety and consistency across the board.
+                                    </p>
+                                    <br />
+                                    <p className="leading-relaxed text-green-200 border-l-2 pl-1" id='bleach6'>
+                                        Chlorine bleach has an intense chemical odor.  The toxic fumes can drift a block away, exposing your neighbors as well.
+                                    </p>
+                                </div>
+                                <br />
+
+                                {/* SPLASH AND DASH METHOD */}
+                                <div className="border-2 m-1 border-red-600 rounded-md p-4 shadow-red-600 shadow-md">
+                                    <div className="flex flex-col items-center text-center justify-center" id='splashtitle'>
+                                        <h2 className="text-red-500 text-lg title-font font-medium mb-3" >
+                                            {/* span is inline icon */}
+                                            <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2">
+                                                <span class="material-icons ml- mt-2" style={{fontSize: '36px'}}>
+                                                priority_high
+                                                </span>
+                                            </span>
+                                            3) 'Splash and Dash' Method
+                                    
+                                        </h2>
+                                        <div className="flex flex-col items-center lg:items-start text-center justify-center">
+                                            <div className="w-52 h-1 bg-red-500 rounded mt-2 mb-4" />
+                                        </div>
+                                    </div>
+                                    
+                                    <p className="leading-relaxed text-green-200" id="splash1">
+                                        Some roof cleaning contractors will spray a chemical on your roof and tell you to wait for weeks or months to see the results. Products which do not require rinsing, but depend on the rain to wash away roof stains often take repeated applications to achieve even marginal results. Some roof cleaning companies actually use this consumer grade product and charge you professional rates for it. We call them 'Splash and Dash' operators.
+                                    </p>
+                                </div>
+                                <br />
+
+                                {/* HIGH PRESSURE METHOD */}
+                                <div className="border-2 m-1 border-red-600 rounded-md p-4 shadow-red-600 shadow-sm">
+                                    <div className="flex flex-col items-center text-center justify-center" id='pressuretitle'>
+                                        <h2 className="text-red-500 text-lg title-font font-medium mb-3" >
+                                            {/* span is inline icon */}
+                                            <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2">
+                                                <span class="material-icons ml- mt-2" style={{fontSize: '36px'}}>
+                                                priority_high
+                                                </span>
+                                            </span>
+                                            4) High Pressure Power Washing Method
+                                    
+                                        </h2>
+                                        <div className="flex flex-col items-center lg:items-start text-center justify-center">
+                                            <div className="w-52 h-1 bg-red-500 rounded mt-2 mb-4" />
+                                        </div>
+                                    </div>
+                                    
+                                    <p className="leading-relaxed text-green-200" id='pressure1'>
+                                        Some roof cleaning contractors use high pressure power washing methods to attempt to remove roofs stains. They blast away on your roof blowing the protective granules off as they go. Not only is this method damaging to your shingles, it's also not an effective way to remove roof stains from algae.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
