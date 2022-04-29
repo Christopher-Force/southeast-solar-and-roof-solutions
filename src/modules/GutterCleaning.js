@@ -1,6 +1,5 @@
 import ContactBlocks from "../components/ContactBlocks";
 import RoofShampooVid1 from "../components/RoofShampooVid1";
-import RoofShampooVid2 from "../components/RoofShampooVid2";
 import React, {useEffect} from "react";
 import ScrollReveal from 'scrollreveal'
 
