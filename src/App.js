@@ -14,6 +14,7 @@ import ContactUs from "./modules/ContactUs";
 import PrivacyPolicy from "./modules/PrivacyPolicy";
 import Estimate from "./modules/Estimate";
 import RoofShampoo from "./components/RoofShampoo"
+import GutterCleaning from "./modules/GutterCleaning";
 import { useLayoutEffect } from 'react'
 
 const Wrapper = ({children}) => {
@@ -41,6 +42,7 @@ function App() {
             <Route path="/privacypolicy" element={<PrivacyPolicy />} />
             <Route path="/estimate" element={<Estimate  />} />
             <Route path="/roofshampoo" element={<RoofShampoo />} />
+            <Route path="/gutters" element={<GutterCleaning />} />
           </Routes>
           <div>
             <Footer />

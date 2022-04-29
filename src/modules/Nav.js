@@ -6,21 +6,21 @@ export default function Nav () {
     return(
       <div className="bg-green-900 pb-1 relative z-30 ">
         <div className="navbar shadow-lg bg-black text-neutral-content rounded-none drop-shadow-lg">
-            <div className="flex-1">
-              <Link to="/">
-                <img src={logo} alt="solar logo" width="225px" height="96px" className="hover:motion-safe:animate-pulse" />
-              </Link>
-              <Link to="/">
-                <span className="hidden sm:inline-flex mt-2">
-                  <span className="absolute hover:animate-ping">
-                    <MaterialIcon icon="arrow_back" color="#FAFAFA" size="small"  />
-                  </span>
-                  <span className="relative -z-10 ">
-                    <MaterialIcon icon="arrow_back" color="#FAFAFA" size="small"  />
-                  </span>
+          <div className="flex-1">
+            <Link to="/">
+              <img src={logo} alt="solar logo" width="225px" height="96px" className="hover:motion-safe:animate-pulse" />
+            </Link>
+            <Link to="/">
+              <span className="hidden sm:inline-flex mt-2">
+                <span className="absolute hover:animate-ping">
+                  <MaterialIcon icon="arrow_back" color="#FAFAFA" size="small"  />
                 </span>
-              </Link>
-            </div> 
+                <span className="relative -z-10 ">
+                  <MaterialIcon icon="arrow_back" color="#FAFAFA" size="small"  />
+                </span>
+              </span>
+            </Link>
+          </div> 
           <div className="flex-none hidden px-2 mx-2 lg:flex">
             <div className="flex items-stretch">
               {/* <Link> */}
@@ -41,18 +41,20 @@ export default function Nav () {
                     <Link to="/RoofShampoo">Roof Shampoo</Link>
                   </span>
                 </div>
+              {/* <Link> */}
+              <div className="btn btn-ghost btn-sm rounded-btn">
+                <span className="">
+                  <MaterialIcon icon="calendar_view_day" color="#FAFAFA" />
+                </span>
+                  <span className="pl-2">
+                    <Link to="/gutters">Gutter Cleaning</Link>
+                  </span>
+                </div>
               {/* </Link> */}
               <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener" className="btn btn-ghost btn-sm rounded-btn">
               <MaterialIcon icon="wb_sunny" color="#FAFAFA" />
                 <span className="pl-2">
                       Skylights
-                </span>
-              </a>
-              
-              <a href="https://fcskylights.net/solar-fans/solar-attic-fans/" target="_blank" rel="noreferrer noopener" className="btn btn-ghost btn-sm rounded-btn">
-              <MaterialIcon icon="360" color="#FAFAFA" />
-                <span className="pl-2">
-                      Solar Attic Fans
                 </span>
               </a>
               
@@ -92,6 +94,17 @@ export default function Nav () {
                   <li>
                     <div className="btn btn-ghost btn-xs rounded-btn justify-start my-1">
                       <span class="material-icons ml-0.5 " style={{fontSize: '24px'}}>
+                        calendar_view_day
+                      </span>
+                      <span className="pl-2">
+                        <Link to="/gutters">Gutter Cleaning</Link>
+                      </span>
+                    </div>
+                  </li>
+                  {/* Link 4 */}
+                  <li>
+                    <div className="btn btn-ghost btn-xs rounded-btn justify-start my-1">
+                      <span class="material-icons ml-0.5 " style={{fontSize: '24px'}}>
                         wb_sunny
                       </span>
                       <span className="pl-2">
@@ -99,7 +112,7 @@ export default function Nav () {
                       </span>
                     </div>
                   </li>
-                  {/* Link 4 */}
+                  {/* Link 5 */}
                   <li>
                     <div className="btn btn-ghost btn-xs rounded-btn justify-start my-1">
                       <span class="material-icons ml-0.5 " style={{fontSize: '24px'}}>
