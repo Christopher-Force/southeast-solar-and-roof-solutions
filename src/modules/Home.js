@@ -38,7 +38,8 @@ export default function Home() {
     );
     sr.reveal(
       `
-      #bottombutton`,
+      #bottombutton,
+      #card4`,
       {
         origin: "right",
         duration: 2000,
