@@ -16,7 +16,7 @@ export default function Card3 () {
                         </Link>
                         <div className="relative flex-grow grid justify-items-center mb-1 ">
                             <h2 className="sm:mx-2 mx-3 md:mx-0 text-white text-lg title-font font-medium mb-2 text-center">We're Located Statewide</h2>
-                            <p className="leading-relaxed text-white text-center">Strategically located to clean the entire state of Florida!</p>
+                            <p className="leading-relaxed text-white text-center">Strategically l00ocated to clean the entire state of Florida!</p>
                             {/* learn more bottom */}
                             <Link to="/statewide">
                                 <div className="mt-3 text-lime-400 inline-flex items-center self-end hover:animate-pulse">Learn More
