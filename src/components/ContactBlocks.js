@@ -1,7 +1,7 @@
 export default function ContactBlocks () {
     return (
         // Contact Blocks
-      <div className="pb-5 bg-gradient-to-r from-gray-800 to-gray-900 md:pb-7 lg:pb-14">
+      <div className="pb-5 bg-gradient-to-r from-gray-800 to-gray-900 md:pb-7 lg:pb-14 pt-16">
         <div className="grid grid-cols-1">
             <h1 className="text-center title-font text-2xl text-orange-400">Click your preferred contact method below for your free estimate!</h1>
             <div className="w-36 md:w-96 h-1 bg-orange-500 rounded mt-2 mb-4 justify-self-center"></div>

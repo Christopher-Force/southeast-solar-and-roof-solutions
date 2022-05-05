@@ -402,7 +402,7 @@ export default function RoofShampoo () {
                         </div>
                     </div>
                 </div>
-                <div className="pt-20 bg-gradient-to-r from-gray-800 to-gray-900">
+                <div className="pt-8">
                     <ContactBlocks />
                 </div>
             </div>
