@@ -1,8 +1,8 @@
 import ContactBlocks from "../components/ContactBlocks";
-import RoofShampooVid1 from "../components/RoofShampooVid1";
 import React, {useEffect} from "react";
 import ScrollReveal from 'scrollreveal'
 import AnnualGutters from "../components/AnnualGutters";
+import GutterVid1 from "../components/GutterVid1";
 
 
 
@@ -49,7 +49,7 @@ export default function GutterCleaning () {
     return (
         <section className="text-green-600 body-font mx-2">
             <div className=" pt-4 md:pt-8">
-                <RoofShampooVid1 />
+                <GutterVid1 />
                 <div className="container lg:mt-12 mx-auto">
                     {/* title */}
                     <div className=""  id="topreveal">
