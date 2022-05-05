@@ -2,6 +2,7 @@ import ContactBlocks from "../components/ContactBlocks";
 import RoofShampooVid1 from "../components/RoofShampooVid1";
 import React, {useEffect} from "react";
 import ScrollReveal from 'scrollreveal'
+import AnnualGutters from "../components/AnnualGutters";
 
 
 
@@ -49,11 +50,11 @@ export default function GutterCleaning () {
         <section className="text-green-600 body-font mx-2">
             <div className=" pt-4 md:pt-8">
                 <RoofShampooVid1 />
-                <div className="container px- pb-12 lg:mt-12 mx-auto">
+                <div className="container lg:mt-12 mx-auto">
                     {/* title */}
                     <div className=""  id="topreveal">
                         <h2 className="text-primary-focus text-lg title-font font-medium text-center mt-6 lg:-mt-6 ">
-                            Gutter Cleaning
+                            Professional Gutter Cleaning
                         </h2>
                         <div className="flex flex-col items-center text-center justify-center">
                             <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-8 " />
@@ -73,13 +74,13 @@ export default function GutterCleaning () {
                                     recycling
                                     </span>
                                 </span>
-                                Selling Point 1
+                                Live Camera
                                 </h2>
                                 <div className="flex flex-col items-center lg:items-start text-center justify-center ">
                                     <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4 " />
                                 </div>
                                 <p className="leading-relaxed text-green-200 box1">
-                                    Roof Shampoo® is the green, eco-friendly roof cleaning solution for asphalt and fiberglass shingles. Roof Shampoo® does NOT contain dangerous chlorine bleach or phosphates. The Roof Shampoo® roof cleaning method uses safe, effective, eco-friendly roof cleaning products to clean those ugly roof stains and will not harm any landscaping around your home.
+                                    At Southeast Solar Solutions, we utilize state-of-the-art technology that allows the operator to view close-up live camera feed to tactically remove the nasty debris.
                                 </p>
                                 </div>
                             </div>
@@ -93,13 +94,13 @@ export default function GutterCleaning () {
                                             flare
                                             </span>
                                         </span>
-                                        Selling Point 2
+                                        No Liability
                                     </h2>
                                     <div className="flex flex-col items-center text-center lg:items-start justify-center">
                                         <div className="w-48 h-1 bg-primary-focus rounded mt-2 mb-4" />
                                     </div>
                                     <p className="leading-relaxed text-green-200">
-                                        When Roof Shampoo® roof cleaning technicians leave your house, your algae stained roof will be STAIN FREE. No waiting for rain, no wondering, and no worrying if the stains will really go away as with other roof cleaning methods. With Roof Shampoo® you will able to see for yourself - instantly. Results are IMMEDIATE and Complete!
+                                        When carrying out our gutter cleaning, we perform every operation from the ground. This removes the liability typically involved with traditional gutter cleaning methods.
                                     </p>
                                 </div>
                             </div>
@@ -112,13 +113,13 @@ export default function GutterCleaning () {
                                         sentiment_very_satisfied
                                         </span>
                                     </span>
-                                    Selling Point 3
+                                    Quick Work, No Mess.
                                 </h2>
                                 <div className="flex flex-col items-center lg:items-start text-center justify-center">
                                     <div className="w-48 h-1 bg-primary-focus rounded mt-2 mb-4" />
                                 </div>
                                 <p className="leading-relaxed text-green-200">
-                                    The cleaner your roof, the healthier your roof!  Roof Shampoo® professionals use state-of-the-art equipment that delivers a soft, gentle low pressure water wash. NEVER damaging high pressure and absolutely NO scrubbing or brushing. There is no need to prematurely re-roof. Your Roof Shampoo contractor will make your dirty roof look new again.  Go with the true GREEN, roof cleaning method for cleaning roof stains, Roof Shampoo®.
+                                    Our powerful gear makes setting-up, performing cleaning, and break-down quick, easy, and simple for everyone. Additionally, our equipment provides us with internal storage for debris while cleaning, so there is no mess. 
                                 </p>
                                 </div>
                             </div>
@@ -132,13 +133,13 @@ export default function GutterCleaning () {
                                             health_and_safety
                                             </span>
                                         </span>
-                                        Selling Point 4
+                                        Three Stories Of Reach, Powered By Us.
                                     </h2>
                                     <div className="flex flex-col items-center lg:items-start text-center justify-center">
                                         <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4" />
                                     </div>
                                     <p className="leading-relaxed text-green-200">
-                                        The proprietary Roof Shampoo® ultra-light low pressure aluminum sprinkler-disc rinse system was engineered specifically for use on asphalt and fiberglass shingles. The sprinkler-disc rinser delivers a gentle, soft water rinse completely safe for all roof surfaces. NEVER damaging high pressure and absolutely NO scrubbing or brushing!
+                                    Cleaning up to three stories high without ever leaving the ground! Your house will be free of ladders and we provide our own power source, so you wouldn't have to provide any hook-ups whatsoever.
                                     </p>
                                     <br />
                                 </div>
@@ -146,7 +147,9 @@ export default function GutterCleaning () {
                         </div>
                     </div>
                 </div>
-                
+                <div>
+                    <AnnualGutters />
+                </div>
                 
                 <div className="pt-20 bg-gradient-to-r from-gray-800 to-gray-900">
                     <ContactBlocks />
