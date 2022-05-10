@@ -16,6 +16,10 @@ import Estimate from "./modules/Estimate";
 import RoofShampoo from "./components/RoofShampoo"
 import GutterCleaning from "./modules/GutterCleaning";
 import { useLayoutEffect } from 'react'
+// import ReactGA from 'react-ga';
+
+// const TRACKING_ID = "G-WHY9CP368R"; // OUR_TRACKING_ID
+// ReactGA.initialize(TRACKING_ID);
 
 const Wrapper = ({children}) => {
   const location = useLocation();

@@ -52,7 +52,7 @@ export default function GutterCleaning () {
                 <RoofShampooVid1 />
                 <div className="container lg:mt-12 mx-auto">
                     {/* title */}
-                    <div className=""  id="topreveal">
+                    <div id="topreveal">
                         <h2 className="text-primary-focus text-lg title-font font-medium text-center mt-6 lg:-mt-6 ">
                             Professional Gutter Cleaning
                         </h2>
