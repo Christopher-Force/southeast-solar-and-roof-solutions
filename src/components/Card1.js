@@ -1,4 +1,4 @@
-import washMe from "../assets/img/washMe.jpg";
+import solarSquare from "../assets/img/solarSquare.png";
 import { Link } from "react-router-dom"
 
 export default function Card4 () {
@@ -9,7 +9,7 @@ export default function Card4 () {
                 <div className="grid justify-items-center mt-2">
                     <Link to="/cleaning">
                         <div className="w-32 md:w-64 md:h-64 sm:mb-0 mb-7 md:mb-4 bg-black flex-shrink-0 justify-items-center grid ">
-                            <img src={washMe} alt="Wash me" className="rounded-lg hover:motion-safe:animate-pulse"/>
+                            <img src={solarSquare} alt="solar panel cleaning" className="rounded-lg hover:motion-safe:animate-pulse"/>
                         </div>
                     </Link>
                 </div>
