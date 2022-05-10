@@ -3,7 +3,10 @@ import React, {useEffect} from "react";
 import ScrollReveal from 'scrollreveal'
 import AnnualGutters from "../components/AnnualGutters";
 import GutterVid1 from "../components/GutterVid1";
-
+import cameraBubble from "../assets/img/cameraBubble.png";
+import liabilityBubble from "../assets/img/liabilityBubble.png";
+import quickBubble from "../assets/img/quickBubble.png";
+import tallBubble from "../assets/img/tallBubble.png";
 
 
 export default function GutterCleaning () {
@@ -27,22 +30,49 @@ export default function GutterCleaning () {
         // cleaning methods
         sr.reveal(
             `
-            #cleaningtitle
+            #livecamera
             `,
             {
                 origin: "left",
-                interval: 200
+                interval: 200,
+                duration: 2000,
             }
         );
         sr.reveal(
             `
-            #video2
+            
+            #quickwork,
+            #contracts
+            `,
+            {
+                origin: "left",
+                delay: 600,
+                interval: 200,
+                duration: 2000,
+            }
+        );
+        sr.reveal(
+            `
+            #liability
             `,
             {
                 origin: "bottom",
-                interval: 100
+                delay: 200,
+                interval: 200,
+                duration: 2000
             }
-        )
+        );
+        sr.reveal(
+            `
+            #threestories
+            `,
+            {
+                origin: "right",
+                delay: 400,
+                interval: 200,
+                duration: 2300
+            }
+        );
     }, []);
         
             
@@ -64,39 +94,37 @@ export default function GutterCleaning () {
                         {/* 4 container */}
                         <div className="grid lg:grid-cols-2 justify-center lg:py-6 lg:text-left text-center">
                         
-                            {/* eco-friendly */}
-                            <div className="mb-10 lg:mr-1 lg:items-start items-center border-2 rounded-md p-2 shadow-2xl shadow-slate-500 px-4" id='card1'>
+                            {/* live-camera */}
+                            <div className="mb-10 lg:mr-1 lg:items-start items-center border-2 rounded-md p-2 shadow-2xl shadow-slate-500 px-4" id='livecamera'>
                                 <div className="flex-grow">
-                                <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
-                                {/* span is inline icon */}
-                                <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-0 mr-2">
-                                    <span class="material-icons ml-0.5 mt-2" style={{fontSize: '36px'}}>
-                                    recycling
-                                    </span>
-                                </span>
-                                Live Camera
-                                </h2>
-                                <div className="flex flex-col items-center lg:items-start text-center justify-center ">
-                                    <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4 " />
-                                </div>
-                                <p className="leading-relaxed text-green-200 box1">
-                                    At Southeast Solar Solutions, we utilize state-of-the-art technology that allows the operator to view close-up live camera feed to tactically remove the nasty debris.
-                                </p>
+                                    <div className="flex flex-row justify-center lg:justify-start h-12">
+                                        <img src={cameraBubble} alt="live camera" className="w-12 h-12" />
+                                        <span className="align-center">
+                                            <h2 className="pl-2 text-primary-focus text-lg title-font font-medium mb-3 py-3">
+                                                Live Camera
+                                            </h2>
+                                        </span>
+                                    </div>
+                                    <div className="flex flex-col items-center lg:items-start text-center justify-center ">
+                                        <div className="w-52 h-1 bg-primary-focus rounded mt-4 mb-4 " />
+                                    </div>
+                                    <p className="leading-relaxed text-green-200 box1">
+                                        At Southeast Solar Solutions, we utilize state-of-the-art technology that allows the operator to view close-up live camera feed to tactically remove the nasty debris.
+                                    </p>
                                 </div>
                             </div>
-                            {/* stain free */}
-                            <div className="mb-10 lg:ml-1 lg:items-start items-center border-2 rounded-md p-2 shadow-xl shadow-slate-500 px-4" id='card2'>
+                            {/* liability */}
+                            <div className="mb-10 lg:ml-1 lg:items-start items-center border-2 rounded-md p-2 shadow-xl shadow-slate-500 px-4" id='liability'>
                                 <div className="flex-grow">
-                                    <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
-                                        {/* span is inline icon */}
-                                        <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2">
-                                            <span class="material-icons ml- mt-2" style={{fontSize: '36px'}}>
-                                            flare
-                                            </span>
+                                    <div className="flex flex-row justify-center lg:justify-start h-12">
+                                        <img src={liabilityBubble} alt="live camera" className="w-12 h-12" />
+                                        <span className="align-center">
+                                            <h2 className="pl-2 text-primary-focus text-lg title-font font-medium mb-3 py-3">
+                                                Minimized Liability
+                                            </h2>
                                         </span>
-                                        Minimized Liability
-                                    </h2>
-                                    <div className="flex flex-col items-center text-center lg:items-start justify-center">
+                                    </div>
+                                    <div className="flex flex-col items-center text-center lg:items-start justify-center pt-1">
                                         <div className="w-48 h-1 bg-primary-focus rounded mt-2 mb-4" />
                                     </div>
                                     <p className="leading-relaxed text-green-200">
@@ -104,38 +132,37 @@ export default function GutterCleaning () {
                                     </p>
                                 </div>
                             </div>
-                            {/* non damaging */}
-                            <div className="mb-10 lg:mr-1 lg:items-start items-center border-2 rounded-md p-2 shadow-2xl shadow-slate-500 px-4" id="card3">
+                            {/* quick */}
+                            <div className="mb-10 lg:mr-1 lg:items-start items-center border-2 rounded-md p-2 shadow-2xl shadow-slate-500 px-4" id="quickwork">
                                 <div className="flex-grow">
-                                <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
-                                    <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2 ">
-                                        <span class="material-icons ml-0 mt-2" style={{fontSize: '36px'}}>
-                                        sentiment_very_satisfied
+                                    <div className="flex flex-row justify-center lg:justify-start h-12">
+                                        <img src={quickBubble} alt="live camera" className="w-12 h-12" />
+                                        <span className="align-center">
+                                            <h2 className="pl-2 text-primary-focus text-lg title-font font-medium mb-3 py-3">
+                                                Quick Work, No Mess.
+                                            </h2>
                                         </span>
-                                    </span>
-                                    Quick Work, No Mess.
-                                </h2>
-                                <div className="flex flex-col items-center lg:items-start text-center justify-center">
-                                    <div className="w-48 h-1 bg-primary-focus rounded mt-2 mb-4" />
-                                </div>
+                                    </div>
+                                    <div className="flex flex-col items-center lg:items-start text-center justify-center pt-1">
+                                        <div className="w-48 h-1 bg-primary-focus rounded mt-2 mb-4" />
+                                    </div>
                                 <p className="leading-relaxed text-green-200">
                                     Our powerful gear makes setting-up, cleaning, and breaking-down quick, easy, and simple for everyone. Additionally, our equipment provides us with internal storage for debris while cleaning, so there is no mess. 
                                 </p>
                                 </div>
                             </div>
-                            {/* Gentle */}
-                            <div className="mb-10 lg:ml-1 lg:items-start items-center border-2 rounded-md p-2 shadow-xl shadow-slate-500 px-4" id='card4'>
+                            {/* three stories */}
+                            <div className="mb-10 lg:ml-1 lg:items-start items-center border-2 rounded-md p-2 shadow-xl shadow-slate-500 px-4" id='threestories'>
                                 <div className="flex-grow">
-                                    <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
-                                        {/* span is inline icon */}
-                                        <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2">
-                                            <span class="material-icons ml-0.5 mt-2" style={{fontSize: '36px'}}>
-                                            health_and_safety
-                                            </span>
+                                    <div className="flex flex-row justify-center lg:justify-start h-12">
+                                        <img src={tallBubble} alt="live camera" className="w-12 h-12" />
+                                        <span className="align-center">
+                                            <h2 className="pl-2 text-primary-focus text-lg title-font font-medium mb-3 py-3">
+                                                Three Stories Of Reach - Powered By Us.
+                                            </h2>
                                         </span>
-                                        Three Stories Of Reach - Powered By Us
-                                    </h2>
-                                    <div className="flex flex-col items-center lg:items-start text-center justify-center">
+                                    </div>
+                                    <div className="flex flex-col items-center lg:items-start text-center justify-center pt-1">
                                         <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4" />
                                     </div>
                                     <p className="leading-relaxed text-green-200">
@@ -147,7 +174,7 @@ export default function GutterCleaning () {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div id="contracts">
                     <AnnualGutters />
                 </div>
                 
