@@ -19,7 +19,7 @@ import { useLayoutEffect } from 'react'
 // import ReactGA from 'react-ga';
 
 // const TRACKING_ID = "G-WHY9CP368R"; // OUR_TRACKING_ID
-// ReactGA.initialize(TRACKING_ID);
+// ReactGA.initialize(TRACKING_ID);git pull
 
 const Wrapper = ({children}) => {
   const location = useLocation();
