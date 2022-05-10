@@ -1,8 +1,8 @@
 import ContactBlocks from "../components/ContactBlocks";
-import RoofShampooVid1 from "../components/RoofShampooVid1";
 import React, {useEffect} from "react";
 import ScrollReveal from 'scrollreveal'
 import AnnualGutters from "../components/AnnualGutters";
+import GutterVid1 from "../components/GutterVid1";
 
 
 
@@ -49,7 +49,7 @@ export default function GutterCleaning () {
     return (
         <section className="text-green-600 body-font mx-2">
             <div className=" pt-4 md:pt-8">
-                <RoofShampooVid1 />
+                <GutterVid1 />
                 <div className="container lg:mt-12 mx-auto">
                     {/* title */}
                     <div id="topreveal">
@@ -94,13 +94,13 @@ export default function GutterCleaning () {
                                             flare
                                             </span>
                                         </span>
-                                        No Liability
+                                        Minimized Liability
                                     </h2>
                                     <div className="flex flex-col items-center text-center lg:items-start justify-center">
                                         <div className="w-48 h-1 bg-primary-focus rounded mt-2 mb-4" />
                                     </div>
                                     <p className="leading-relaxed text-green-200">
-                                        When carrying out our gutter cleaning, we perform every operation from the ground. This removes the liability typically involved with traditional gutter cleaning methods.
+                                        When carrying out our gutter cleaning, we perform almost every operation from the ground. This removes the liability typically involved with traditional gutter cleaning methods.
                                     </p>
                                 </div>
                             </div>
@@ -119,7 +119,7 @@ export default function GutterCleaning () {
                                     <div className="w-48 h-1 bg-primary-focus rounded mt-2 mb-4" />
                                 </div>
                                 <p className="leading-relaxed text-green-200">
-                                    Our powerful gear makes setting-up, performing cleaning, and break-down quick, easy, and simple for everyone. Additionally, our equipment provides us with internal storage for debris while cleaning, so there is no mess. 
+                                    Our powerful gear makes setting-up, cleaning, and breaking-down quick, easy, and simple for everyone. Additionally, our equipment provides us with internal storage for debris while cleaning, so there is no mess. 
                                 </p>
                                 </div>
                             </div>
@@ -133,13 +133,13 @@ export default function GutterCleaning () {
                                             health_and_safety
                                             </span>
                                         </span>
-                                        Three Stories Of Reach, Powered By Us.
+                                        Three Stories Of Reach - Powered By Us
                                     </h2>
                                     <div className="flex flex-col items-center lg:items-start text-center justify-center">
                                         <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4" />
                                     </div>
                                     <p className="leading-relaxed text-green-200">
-                                    Cleaning up to three stories high without ever leaving the ground! Your house will be free of ladders and we provide our own power source, so you wouldn't have to provide any hook-ups whatsoever.
+                                    Cleaning up to three stories high typically without ever leaving the ground! Your house will be free of ladders. We provide our own power source, so you wouldn't have to provide any hook-ups whatsoever.
                                     </p>
                                     <br />
                                 </div>
@@ -151,7 +151,7 @@ export default function GutterCleaning () {
                     <AnnualGutters />
                 </div>
                 
-                <div className="pt-20 bg-gradient-to-r from-gray-800 to-gray-900">
+                <div>
                     <ContactBlocks />
                 </div>
             </div>

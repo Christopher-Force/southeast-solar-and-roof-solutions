@@ -13,7 +13,7 @@ export default function Card4 () {
                         </div>
                     </Link>
                     <div className="relative flex-grow grid justify-items-center mb-1 ">
-                        <h2 className="sm:mx-2 mx-3 md:mx-0 text-white text-lg title-font font-medium mb-2 text-center">Gutter Cleaning</h2>
+                        <h2 className="sm:mx-2 mx-3 md:mx-0 text-white text-lg title-font font-medium mb-2 text-center">Professional Gutter Cleaning</h2>
                         <p className="leading-relaxed text-white text-center">Safely cleaning gutters from the ground up to 3 stories high!</p>
                         {/* learn more bottom */}
                         <Link to="/gutters">

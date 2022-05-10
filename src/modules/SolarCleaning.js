@@ -1,8 +1,9 @@
-// import logoDark from "../assets/img/Logo dark.png"
-// import MaterialIcon from 'material-icons-react';
-import { Link } from "react-router-dom"
+
+import AnnualSolar from "../components/AnnualSolar";
+import ContactBlocks from "../components/ContactBlocks";
 import CTA1 from "../components/CTA1"
 import FreeQuote from "../components/FreeQuote"
+import cleaningVideo from "../assets/video/cleaningVideo.mp4"
 
 
 export default function SolarCleaning () {
@@ -17,62 +18,100 @@ export default function SolarCleaning () {
   ];
 
     return(
-      <section className="text-green-600 body-font bg-black">
-        <div className="container px-5 py-12 mx-auto flex flex-col">
-          <div className="mx-auto">
-
-            <CTA1 />
+      <section className="text-green-200 body-font bg-black">
+        <div className="container px-1 pt-12 mx-auto flex flex-col">
+          <CTA1 />
+          <div className="mx-auto flex justify-center w-full">
             {/* Entire text content region */}
-            <div className="flex flex-col sm:flex-row mt-10 md:ml-24 lg:ml-0">
+            <div className="flex flex-col sm:flex-row mt-10 md:ml-24 lg:ml-0 lg:w-2/3 justify-center">
               <div className="sm:w-5/6 lg:w-full sm:pl-8 sm:py-8 sm:border-l border-green-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-              <div className="flex flex-col items-center text-center justify-center">
-                <h2 className="font-medium title-font mt-0 text-green-400 text-2xl">Solar Panel Cleaning                 
-                </h2>
-                <div className="w-24 h-1 bg-green-500 rounded mt-2 mb-4"></div>
-              </div>
-              <br />
-              <div className="leading-relaxed text-lg mb-4 text-green-300">
-                <p>Like an oil change for your car, solar panels also need maintenance to keep performing at their highest potential. Dirty solar panels cost you money by compromising their ability to produce power.</p>
-                <br />
-                <p>Experts agree that dirty solar panels do not produce as much power as clean ones. According to the National Renewable Energy Lab, the loss may be as high as 25% annually. In industrial areas, locations of high traffic, high agricultural activities, close proximity to saltwater, and high pollen regions it may be even worse.</p>
-                <br />
-                <h2 className="font-medium text-center text-xl text-green-400">LET US DO THE DIRTY WORK!!</h2>
-                <div className="grid justify-center">
-                  <div className="w-44 h-0.5 bg-green-500 rounded mt-2 mb-4"></div>
-                </div>
-                <br />
-                <p>Not only do we return your solar panels to the cleanest and highest production standards, we also use equipment and solution that was exclusively designed for, and approved by all solar panel manufacturers. </p>
-                <br />
-                <h2 className="font-medium text-center text-xl text-green-400">SIX POINT INSPECTION</h2>
-                <div className="grid justify-center">
-                  <div className="w-36 h-0.5 bg-green-500 rounded mt-2 mb-4"></div>
-                </div>
-                <br />
-                <p>Our service also includes a six-point inspection of your system. This inspection consists of checking for:</p>
-                <br />
-                {/* Feature list mapping */}
-                <div>
-                  <ol className="list-decimal list-inside">
-                    {featureList.map(feature => {
-                      return (
-                        <li key={feature.key}>{feature.description}</li>
-                      );
-                    })}
-                  </ol>
-                </div>
-                </div>
-                <Link to="/">
-                  <div className="text-green-500 inline-flex items-center">Go Home
-                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                      <path d="M5 12h14M12 5l7 7-7 7"></path>
-                    </svg>
+                  <div className="flex flex-col items-center text-center justify-center">
+                    <h2 className="font-medium title-font mt-0 text-primary-focus text-2xl">Solar Panel Cleaning                 
+                    </h2>
+                    <div className="w-24 h-1 bg-primary-focus rounded mt-2 mb-4"></div>
                   </div>
-                </Link>
+                  <br />
+                  <div className="leading-relaxed text-lg mb-4 text-green-200">
+                    <p>Like an oil change for your car, solar panels also need maintenance to keep performing at their highest potential. Dirty solar panels cost you money by compromising their ability to produce power.</p>
+                    <br />
+                    <p>Experts agree that dirty solar panels do not produce as much power as clean ones. According to the National Renewable Energy Lab, the loss may be as high as 25% annually. In industrial areas, locations of high traffic, high agricultural activities, close proximity to saltwater, and high pollen regions it may be even worse.</p>
+                    <br />
+                    {/* MEDIA 2 */}
+                    <div className="grid justify-items-center align-items-end">
+                      <video className="max-w-xl lg:max-w-6xl" style={{objectFit: "fill", width: "100%"}} autoPlay muted playsInline loop>
+                          <source id="myvideo" src={cleaningVideo} type="video/mp4" />
+                      </video>
+                    </div>
+                    <br />
+                    {/* Dirty Work */}
+                    <div className="grid justify-center lg:py-6 lg:text-left text-center">
+                      <div className="mb-10 lg:mr-1 lg:items-start items-center border-2 rounded-md p-2 shadow-2xl shadow-slate-500 px-4" id='card1'>
+                          <div className="flex-grow">
+                            <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
+                            {/* span is inline icon */}
+                            <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-0 mr-2">
+                                <span class="material-icons ml-0.5 mt-2" style={{fontSize: '36px'}}>
+                                recycling
+                                </span>
+                            </span>
+                            LET US DO THE DIRTY WORK!!
+                            </h2>
+                            <div className="flex flex-col items-center lg:items-start text-center justify-center ">
+                                <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4 " />
+                            </div>
+                            <p className="leading-relaxed text-green-200 box1">
+                                Not only do we return your solar panels to the cleanest and highest production standards, we also use equipment and solution that was exclusively designed for, and approved by all solar panel manufacturers.
+                            </p>
+                          </div>
+                      </div>
+                    </div>
+                    {/* Six point inspect */}
+                    <div className="grid justify-center lg:py-6 lg:text-left text-center">
+                      <div className="mb-10 lg:mr-1 lg:items-start items-center border-2 rounded-md p-2 shadow-2xl shadow-slate-500 px-4 w-full" id='card2'>
+                          <div className="flex-grow">
+                          <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
+                          {/* span is inline icon */}
+                          <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-0 mr-2">
+                              <span class="material-icons ml-0.5 mt-2" style={{fontSize: '36px'}}>
+                              recycling
+                              </span>
+                          </span>
+                            SIX POINT INSPECTION
+                          </h2>
+                          <div className="flex flex-col items-center lg:items-start text-center justify-center ">
+                              <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4 " />
+                          </div>
+                          <p className="leading-relaxed text-green-200 box1">
+                            Our service also includes a six-point inspection of your system. This inspection consists of checking for all items below: 
+                          </p>
+                          <br />
+                          {/* Feature list mapping */}
+                          <div>
+                            <ol className="list-decimal list-inside text-left text-green-200">
+                              {featureList.map(feature => {
+                                return (
+                                  <li key={feature.key}>{feature.description}</li>
+                                );
+                              })}
+                            </ol>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <FreeQuote />
+        <div>
+          <AnnualSolar />
+          <FreeQuote />
+        </div>
+        <div>
+          <ContactBlocks />
+        </div>
       </section>
     )
 }

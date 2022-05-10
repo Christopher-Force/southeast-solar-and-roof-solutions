@@ -7,7 +7,7 @@ export default function FreeQuote () {
           <div class="card-body">
             <h2 class="card-title text-white pb-2 lg:text-left text-center">No Cost Inquiry!</h2> 
             <div className="grid lg:grid-cols-3">
-              <p className="text-white lg:col-span-2 pr-8 text-cent">We assess four elements that might influence the cost of your present solar maintenance requirements.<br className=""/><br />Click <span className="lg:hidden">below</span> to get your free estimate for your system!</p>
+              <p className="text-white lg:col-span-2 pr-8 text-cent">We assess four elements that might influence the cost of your present solar panel maintenance requirements.<br className=""/><br />Click <span className="lg:hidden">below</span> to get your free estimate for your system!</p>
               <Link to="/estimate">
                 <div className="grid">
                   <button class="btn btn-primary hidden lg:inline-flex">Get Free Quote</button>
