@@ -50,13 +50,23 @@ export default function Home() {
     sr.reveal(
       `
       #bottombutton,
-      #card3,
+      #card3
+      `,
+      {
+        origin: "bottom",
+        duration: 2000,
+        distance: "200px",
+        delay: 200
+      }
+    );
+    sr.reveal(
+      `
       #ctahome`,
       {
         origin: "bottom",
         duration: 2000,
         distance: "200px",
-        delay: 500
+        delay: 100
       }
     );
   }, []);
