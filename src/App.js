@@ -13,7 +13,7 @@ import Banner from "./components/Banner"
 import ContactUs from "./modules/ContactUs";
 import PrivacyPolicy from "./modules/PrivacyPolicy";
 import Estimate from "./modules/Estimate";
-import RoofShampoo from "./components/RoofShampoo"
+import RoofShampoo from "./modules/RoofShampoo"
 import GutterCleaning from "./modules/GutterCleaning";
 import { useLayoutEffect } from 'react'
 // import ReactGA from 'react-ga';

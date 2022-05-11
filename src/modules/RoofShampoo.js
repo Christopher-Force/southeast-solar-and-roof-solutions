@@ -1,6 +1,10 @@
-import ContactBlocks from "./ContactBlocks";
-import RoofShampooVid1 from "./RoofShampooVid1";
-import RoofShampooVid2 from "./RoofShampooVid2";
+import ContactBlocks from "../components/ContactBlocks";
+import RoofShampooVid1 from "../components/RoofShampooVid1";
+import RoofShampooVid2 from "../components/RoofShampooVid2";
+import ecoBubble from "../assets/img/ecoBubble.png";
+import stainBubble from "../assets/img/stainBubble.png";
+import nondamagingBubble from "../assets/img/nondamagingBubble.png";
+import gentleBubble from "../assets/img/gentleBubble.png";
 import "../styles/roofshampoo.css";
 import React, {useEffect} from "react";
 import ScrollReveal from 'scrollreveal'
@@ -96,15 +100,15 @@ export default function RoofShampoo () {
                             {/* eco-friendly */}
                             <div className="mb-10 lg:mr-1 lg:items-start items-center border-2 rounded-md p-2 shadow-2xl shadow-slate-500 px-4" id='card1'>
                                 <div className="flex-grow">
-                                <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
-                                {/* span is inline icon */}
-                                <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-0 mr-2">
-                                    <span class="material-icons ml-0.5 mt-2" style={{fontSize: '36px'}}>
-                                    recycling
+                                
+                                <div className="flex flex-row justify-center lg:justify-start h-12">
+                                    <img src={ecoBubble} alt="eco friendly" className="w-12 h-12" />
+                                    <span className="align-center">
+                                        <h2 className="pl-2 text-primary-focus text-lg title-font font-medium mb-3 py-3">
+                                            Eco-Friendly
+                                        </h2>
                                     </span>
-                                </span>
-                                Eco-Friendly
-                                </h2>
+                                </div>
                                 <div className="flex flex-col items-center lg:items-start text-center justify-center ">
                                     <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4 " />
                                 </div>
@@ -116,15 +120,15 @@ export default function RoofShampoo () {
                             {/* stain free */}
                             <div className="mb-10 lg:ml-1 lg:items-start items-center border-2 rounded-md p-2 shadow-xl shadow-slate-500 px-4" id='card2'>
                                 <div className="flex-grow">
-                                    <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
-                                        {/* span is inline icon */}
-                                        <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2">
-                                            <span class="material-icons ml- mt-2" style={{fontSize: '36px'}}>
-                                            flare
-                                            </span>
+                                    
+                                    <div className="flex flex-row justify-center lg:justify-start h-12">
+                                        <img src={stainBubble} alt="eco friendly" className="w-12 h-12" />
+                                        <span className="align-center">
+                                            <h2 className="pl-2 text-primary-focus text-lg title-font font-medium mb-3 py-3">
+                                                Stain Free
+                                            </h2>
                                         </span>
-                                        Stain Free
-                                    </h2>
+                                    </div>
                                     <div className="flex flex-col items-center text-center lg:items-start justify-center">
                                         <div className="w-48 h-1 bg-primary-focus rounded mt-2 mb-4" />
                                     </div>
@@ -136,14 +140,15 @@ export default function RoofShampoo () {
                             {/* non damaging */}
                             <div className="mb-10 lg:mr-1 lg:items-start items-center border-2 rounded-md p-2 shadow-2xl shadow-slate-500 px-4" id="card3">
                                 <div className="flex-grow">
-                                <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
-                                    <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2 ">
-                                        <span class="material-icons ml-0 mt-2" style={{fontSize: '36px'}}>
-                                        sentiment_very_satisfied
-                                        </span>
+                                
+                                <div className="flex flex-row justify-center lg:justify-start h-12">
+                                    <img src={nondamagingBubble} alt="eco friendly" className="w-12 h-12" />
+                                    <span className="align-center">
+                                        <h2 className="pl-2 text-primary-focus text-lg title-font font-medium mb-3 py-3">
+                                            Non-Damaging
+                                        </h2>
                                     </span>
-                                    Non-Damaging
-                                </h2>
+                                </div>
                                 <div className="flex flex-col items-center lg:items-start text-center justify-center">
                                     <div className="w-48 h-1 bg-primary-focus rounded mt-2 mb-4" />
                                 </div>
@@ -155,15 +160,15 @@ export default function RoofShampoo () {
                             {/* Gentle */}
                             <div className="mb-10 lg:ml-1 lg:items-start items-center border-2 rounded-md p-2 shadow-xl shadow-slate-500 px-4" id='card4'>
                                 <div className="flex-grow">
-                                    <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
-                                        {/* span is inline icon */}
-                                        <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-4 mr-2">
-                                            <span class="material-icons ml-0.5 mt-2" style={{fontSize: '36px'}}>
-                                            health_and_safety
-                                            </span>
+                                    
+                                    <div className="flex flex-row justify-center lg:justify-start h-12">
+                                        <img src={gentleBubble} alt="eco friendly" className="w-12 h-12" />
+                                        <span className="align-center">
+                                            <h2 className="pl-2 text-primary-focus text-lg title-font font-medium mb-3 py-3">
+                                                Gentle Wash
+                                            </h2>
                                         </span>
-                                        Gentle By Design
-                                    </h2>
+                                    </div>
                                     <div className="flex flex-col items-center lg:items-start text-center justify-center">
                                         <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4" />
                                     </div>

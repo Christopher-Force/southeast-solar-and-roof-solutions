@@ -4,6 +4,8 @@ import ContactBlocks from "../components/ContactBlocks";
 import CTA1 from "../components/CTA1"
 import FreeQuote from "../components/FreeQuote"
 import cleaningVideo from "../assets/video/cleaningVideo.mp4"
+import sixBubble from "../assets/img/sixBubble.png";
+import dirtyBubble from "../assets/img/dirtyBubble.png";
 
 
 export default function SolarCleaning () {
@@ -37,7 +39,7 @@ export default function SolarCleaning () {
                   <div className="leading-relaxed text-lg mb-4 text-green-200">
                     <div className="">
                       <div className="flex justify-center">
-                        <div className="sm:ml-2 lg:w-4/5">
+                        <div className="sm:mx-2 sm:mr-4 lg:w-4/5">
                           <p className="text-center text-2xl">Like an oil change for your car, solar panels also need maintenance to keep performing at their highest potential. Dirty solar panels cost you money by compromising their ability to produce power.
                           </p>
                           <br />
@@ -61,15 +63,15 @@ export default function SolarCleaning () {
                       <div className="flex justify-center lg:py-6 lg:text-left text-center">
                         <div className="mb-10 lg:mr-1 lg:items-start items-center border-2 rounded-md p-2 shadow-2xl shadow-slate-500 px-4" id='card1'>
                             <div className="flex-grow">
-                              <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
-                              {/* span is inline icon */}
-                              <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-0 mr-2">
-                                  <span class="material-icons ml-0.5 mt-2" style={{fontSize: '36px'}}>
-                                  recycling
+                              <div className="flex flex-row justify-center lg:justify-start h-12">
+                                  <img src={dirtyBubble} alt="eco friendly" className="w-12 h-12" />
+                                  <span className="align-center">
+                                      <h2 className="pl-2 text-primary-focus text-lg title-font font-medium mb-3 py-3">
+                                          LET US DO THE DIRTY WORK!!
+                                      </h2>
                                   </span>
-                              </span>
-                              LET US DO THE DIRTY WORK!!
-                              </h2>
+                              </div>
+                              
                               <div className="flex flex-col items-center lg:items-start text-center justify-center">
                                   <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4 " />
                               </div>
@@ -83,15 +85,15 @@ export default function SolarCleaning () {
                       <div className="flex justify-center lg:py-6 lg:text-left text-center">
                         <div className="mb-10 lg:mr-1 lg:items-start items-center border-2 rounded-md p-2 shadow-2xl shadow-slate-500 px-4 w-full" id='card2'>
                           <div className="flex-grow">
-                            <h2 className="text-primary-focus text-lg title-font font-medium mb-3">
-                            {/* span is inline icon */}
-                            <span className="w-12 h-12 inline-flex items-center justify-center rounded-full bg-indigo-100 text-black -mb-0 mr-2">
-                                <span class="material-icons ml-0.5 mt-2" style={{fontSize: '36px'}}>
-                                recycling
+                            <div className="flex flex-row justify-center lg:justify-start h-12">
+                                <img src={sixBubble} alt="eco friendly" className="w-12 h-12" />
+                                <span className="align-center">
+                                    <h2 className="pl-2 text-primary-focus text-lg title-font font-medium mb-3 py-3">
+                                        SIX POINT INSPECTION
+                                    </h2>
                                 </span>
-                            </span>
-                              SIX POINT INSPECTION
-                            </h2>
+                            </div>
+                            
                             <div className="flex flex-col items-center lg:items-start text-center justify-center ">
                                 <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4 " />
                             </div>
