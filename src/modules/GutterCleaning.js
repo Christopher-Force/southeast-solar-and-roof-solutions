@@ -158,7 +158,7 @@ export default function GutterCleaning () {
                                         <img src={tallBubble} alt="live camera" className="w-12 h-12" />
                                         <span className="align-center">
                                             <h2 className="pl-2 text-primary-focus text-lg title-font font-medium mb-3 py-3">
-                                                Three Stories Of Reach - Powered By Us.
+                                                3 Stories Of Reach - Powered By Us.
                                             </h2>
                                         </span>
                                     </div>
