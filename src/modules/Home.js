@@ -3,8 +3,9 @@ import Hero2 from "../components/Hero2";
 // import Contact from "../components/Contact"
 import React, {useEffect} from "react";
 import EstimateButton from "../components/EstimateButton";
-import FreeQuote from "../components/FreeQuote";
 import ScrollReveal from "scrollreveal";
+import ContactBlocks from "../components/ContactBlocks";
+import CTAHome from "../components/CTAHome";
 
 export default function Home() {
 
@@ -38,7 +39,7 @@ export default function Home() {
     );
     sr.reveal(
       `
-      #bottombutton`,
+      #card4`,
       {
         origin: "right",
         duration: 2000,
@@ -48,12 +49,24 @@ export default function Home() {
     );
     sr.reveal(
       `
-      #card3`,
+      #bottombutton,
+      #card3
+      `,
       {
         origin: "bottom",
         duration: 2000,
         distance: "200px",
-        delay: 500
+        delay: 200
+      }
+    );
+    sr.reveal(
+      `
+      #ctahome`,
+      {
+        origin: "bottom",
+        duration: 2000,
+        distance: "200px",
+        delay: 100
       }
     );
   }, []);
@@ -65,8 +78,10 @@ export default function Home() {
         <EstimateButton />
       </div>
       <Hero2 />
-      <FreeQuote />
-      {/* <Contact /> */}
+      <div id="ctahome">
+        <CTAHome />
+      </div>
+      <ContactBlocks />
     </div>
   );
 }

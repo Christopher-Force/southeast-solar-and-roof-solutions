@@ -1,8 +1,11 @@
-// import logoDark from "../assets/img/Logo dark.png"
-// import MaterialIcon from 'material-icons-react';
-import { Link } from "react-router-dom"
+
+import AnnualSolar from "../components/AnnualSolar";
+import ContactBlocks from "../components/ContactBlocks";
 import CTA1 from "../components/CTA1"
 import FreeQuote from "../components/FreeQuote"
+import cleaningVideo from "../assets/video/cleaningVideo.mp4"
+import sixBubble from "../assets/img/sixBubble.png";
+import dirtyBubble from "../assets/img/dirtyBubble.png";
 
 
 export default function SolarCleaning () {
@@ -17,62 +20,115 @@ export default function SolarCleaning () {
   ];
 
     return(
-      <section className="text-green-600 body-font bg-black">
-        <div className="container px-5 py-12 mx-auto flex flex-col">
-          <div className="mx-auto">
-
+      <section className="text-green-200 body-font bg-black">
+        <div className="px-1 pt-12 flex flex-col">
+          <div className="flex justify-center">
             <CTA1 />
+          </div>
+          <div className="mx-auto flex justify-center w-full">
             {/* Entire text content region */}
-            <div className="flex flex-col sm:flex-row mt-10 md:ml-24 lg:ml-0">
-              <div className="sm:w-5/6 lg:w-full sm:pl-8 sm:py-8 sm:border-l border-green-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-              <div className="flex flex-col items-center text-center justify-center">
-                <h2 className="font-medium title-font mt-0 text-green-400 text-2xl">Solar Panel Cleaning                 
-                </h2>
-                <div className="w-24 h-1 bg-green-500 rounded mt-2 mb-4"></div>
-              </div>
-              <br />
-              <div className="leading-relaxed text-lg mb-4 text-green-300">
-                <p>Like an oil change for your car, solar panels also need maintenance to keep performing at their highest potential. Dirty solar panels cost you money by compromising their ability to produce power.</p>
-                <br />
-                <p>Experts agree that dirty solar panels do not produce as much power as clean ones. According to the National Renewable Energy Lab, the loss may be as high as 25% annually. In industrial areas, locations of high traffic, high agricultural activities, close proximity to saltwater, and high pollen regions it may be even worse.</p>
-                <br />
-                <h2 className="font-medium text-center text-xl text-green-400">LET US DO THE DIRTY WORK!!</h2>
-                <div className="grid justify-center">
-                  <div className="w-44 h-0.5 bg-green-500 rounded mt-2 mb-4"></div>
-                </div>
-                <br />
-                <p>Not only do we return your solar panels to the cleanest and highest production standards, we also use equipment and solution that was exclusively designed for, and approved by all solar panel manufacturers. </p>
-                <br />
-                <h2 className="font-medium text-center text-xl text-green-400">SIX POINT INSPECTION</h2>
-                <div className="grid justify-center">
-                  <div className="w-36 h-0.5 bg-green-500 rounded mt-2 mb-4"></div>
-                </div>
-                <br />
-                <p>Our service also includes a six-point inspection of your system. This inspection consists of checking for:</p>
-                <br />
-                {/* Feature list mapping */}
-                <div>
-                  <ol className="list-decimal list-inside">
-                    {featureList.map(feature => {
-                      return (
-                        <li key={feature.key}>{feature.description}</li>
-                      );
-                    })}
-                  </ol>
-                </div>
-                </div>
-                <Link to="/">
-                  <div className="text-green-500 inline-flex items-center">Go Home
-                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                      <path d="M5 12h14M12 5l7 7-7 7"></path>
-                    </svg>
+            <div className="flex flex-col sm:flex-row mt-10 justify-center">
+              <div className="w-full sm:pl-2 sm:py-8 border-l border-green-200 border-t-0 mt-4 pt-4 text-left md:ml-8 pl-2">
+                  <div className="flex flex-col items-center text-center justify-center">
+                    <h2 className="font-medium title-font mt-0 text-primary-focus text-2xl">Solar Panel Cleaning                 
+                    </h2>
+                    <div className="w-24 h-1 bg-primary-focus rounded mt-2 mb-4">
+                    </div>
                   </div>
-                </Link>
+                  <br />
+                  <div className="leading-relaxed text-lg mb-4 text-green-200">
+                    <div className="">
+                      <div className="flex justify-center">
+                        <div className="sm:mx-2 sm:mr-4 lg:w-4/5">
+                          <p className="text-center text-2xl">Like an oil change for your car, solar panels also need maintenance to keep performing at their highest potential. Dirty solar panels cost you money by compromising their ability to produce power.
+                          </p>
+                          <br />
+                          <div className="rounded-md border-2 flex justify-center sm:p-2">
+                            <video className="max-w-3xl" style={{objectFit: "fill", width: "100%"}} autoPlay muted playsInline loop>
+                                <source id="myvideo" src={cleaningVideo} type="video/mp4" />
+                            </video>
+                          </div>
+                          <br />
+                          <p className="text-left text-xl">Experts agree that dirty solar panels do not produce as much power as clean ones. According to the National Renewable Energy Lab, the loss may be as high as 25% annually. In industrial areas, locations of high traffic, high agricultural activities, close proximity to saltwater, and high pollen regions it may be even worse.
+                          </p>
+                          <br />
+                        </div>
+                      </div>
+                      {/* MEDIA 2 */}
+                      
+                      <br />
+                    </div>
+                    <div className="lg:w-4/5 grid grid-cols-1 justify-center mx-auto">
+                      {/* Dirty Work */}
+                      <div className="flex justify-center lg:py-6 lg:text-left text-center">
+                        <div className="mb-10 lg:mr-1 lg:items-start items-center border-2 rounded-md p-2 shadow-2xl shadow-slate-500 px-4" id='card1'>
+                            <div className="flex-grow">
+                              <div className="flex flex-row justify-center lg:justify-start h-12">
+                                  <img src={dirtyBubble} alt="eco friendly" className="w-12 h-12" />
+                                  <span className="align-center">
+                                      <h2 className="pl-2 text-primary-focus text-lg title-font font-medium mb-3 py-3">
+                                          LET US DO THE DIRTY WORK!!
+                                      </h2>
+                                  </span>
+                              </div>
+                              
+                              <div className="flex flex-col items-center lg:items-start text-center justify-center">
+                                  <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4 " />
+                              </div>
+                              <p className="leading-relaxed text-green-200 box1">
+                                  Not only do we return your solar panels to the cleanest and highest production standards, we also use equipment and solution that was exclusively designed for, and approved by all solar panel manufacturers.
+                              </p>
+                            </div>
+                        </div>
+                      </div>
+                      {/* Six point inspect */}
+                      <div className="flex justify-center lg:py-6 lg:text-left text-center">
+                        <div className="mb-10 lg:mr-1 lg:items-start items-center border-2 rounded-md p-2 shadow-2xl shadow-slate-500 px-4 w-full" id='card2'>
+                          <div className="flex-grow">
+                            <div className="flex flex-row justify-center lg:justify-start h-12">
+                                <img src={sixBubble} alt="eco friendly" className="w-12 h-12" />
+                                <span className="align-center">
+                                    <h2 className="pl-2 text-primary-focus text-lg title-font font-medium mb-3 py-3">
+                                        SIX POINT INSPECTION
+                                    </h2>
+                                </span>
+                            </div>
+                            
+                            <div className="flex flex-col items-center lg:items-start text-center justify-center ">
+                                <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4 " />
+                            </div>
+                            <p className="leading-relaxed text-green-200 box1">
+                              Our service also includes a six-point inspection of your system. This inspection consists of checking for all items below:
+                            </p>
+                            <br />
+                            {/* Feature list mapping */}
+                            <div>
+                              <ol className="list-decimal list-inside text-left text-green-200">
+                                {featureList.map(feature => {
+                                  return (
+                                    <li key={feature.key}>{feature.description}</li>
+                                  );
+                                })}
+                              </ol>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <FreeQuote />
+        <div>
+          <AnnualSolar />
+          <FreeQuote />
+        </div>
+        <div>
+          <ContactBlocks />
+        </div>
       </section>
     )
 }

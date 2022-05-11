@@ -7,7 +7,7 @@ function CTA1() {
         <div className="bg-black overflow-y-hidden">
             <div className="container">
                 <div className="w-full flex justify-center">
-                    <div className="w-full md:w-11/12 xl:w-10/12 bg-gradient-to-r from-gray-700 to-gray-900 md:py-8 md:px-8 px-5 py-4 xl:p-12 xl:py-16">
+                    <div className="w-full md:w-11/12 xl:w-10/12 bg-gradient-to-r from-gray-700 to-gray-900 md:py-8 md:px-8 px-5 py-4 xl:p-12 xl:py-16 ">
                         <div>
                             <div className="flex flex-wrap items-center md:flex-row flex-col-reverse">
                                 <div className="md:w-2/3 w-full pb-6 md:pb-0 md:pr-6 flex-col md:block flex items-center justify-center md:pt-0 pt-4">

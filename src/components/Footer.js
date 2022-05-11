@@ -31,6 +31,13 @@ export default function Footer() {
                                 </div>
                             </Link>
                         </li>
+                        <li>
+                            <Link to="/gutters">
+                                <div className="text-lime-400 hover:text-gray-800 hover:motion-safe:animate-pulse">
+                                    Gutter Cleaning
+                                </div>
+                            </Link>
+                        </li>
                         <li className="hover:animate-pulse">
                             <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener" className="text-lime-400 hover:text-gray-800">Skylights</a>
                         </li>

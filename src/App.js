@@ -13,8 +13,13 @@ import Banner from "./components/Banner"
 import ContactUs from "./modules/ContactUs";
 import PrivacyPolicy from "./modules/PrivacyPolicy";
 import Estimate from "./modules/Estimate";
-import RoofShampoo from "./components/RoofShampoo"
+import RoofShampoo from "./modules/RoofShampoo"
+import GutterCleaning from "./modules/GutterCleaning";
 import { useLayoutEffect } from 'react'
+// import ReactGA from 'react-ga';
+
+// const TRACKING_ID = "G-WHY9CP368R"; // OUR_TRACKING_ID
+// ReactGA.initialize(TRACKING_ID);git pull
 
 const Wrapper = ({children}) => {
   const location = useLocation();
@@ -41,6 +46,7 @@ function App() {
             <Route path="/privacypolicy" element={<PrivacyPolicy />} />
             <Route path="/estimate" element={<Estimate  />} />
             <Route path="/roofshampoo" element={<RoofShampoo />} />
+            <Route path="/gutters" element={<GutterCleaning />} />
           </Routes>
           <div>
             <Footer />
