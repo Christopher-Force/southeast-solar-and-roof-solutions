@@ -30,6 +30,24 @@ const Wrapper = ({children}) => {
 } 
 
 function App() {
+  if (window.location.host.split(".")[0] === "learn") {
+    return (
+      <Router>
+        <div className="bg-black">
+          <Wrapper>
+            <div>
+              <Banner />
+            </div>
+            <Routes>
+              {/* <Route path="/" element={<Home />} /> */}
+            </Routes>
+            <div>
+            </div>
+          </Wrapper>
+        </div>
+      </Router>
+    );
+    }
   return (
     <Router>
       <div className="bg-black">
