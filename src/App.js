@@ -16,6 +16,8 @@ import Estimate from "./modules/Estimate";
 import RoofShampoo from "./modules/RoofShampoo"
 import GutterCleaning from "./modules/GutterCleaning";
 import { useLayoutEffect } from 'react'
+import RoofLanding from "./modules/Learn Subdomain/RoofLanding";
+import LandingNav from "./modules/Learn Subdomain/LandingNav";
 // import ReactGA from 'react-ga';
 
 // const TRACKING_ID = "G-WHY9CP368R"; // OUR_TRACKING_ID
@@ -36,10 +38,11 @@ function App() {
         <div className="bg-black">
           <Wrapper>
             <div>
+              <LandingNav />
               <Banner />
             </div>
             <Routes>
-              {/* <Route path="/" element={<Home />} /> */}
+              <Route path="/" element={<RoofLanding />} />
             </Routes>
             <div>
             </div>
