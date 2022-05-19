@@ -147,28 +147,32 @@ export default function RoofLanding () {
                                 ></button>
                             </div>
                             <div class="carousel-inner relative w-full overflow-hidden">
-                                <div class="carousel-item active float-left w-full">
+                                <div class="carousel-item active float-left w-full"
+                                style={{"transition":"opacity 1s ease-in-out","MozTransition":"opacity 1s ease-in-out","OTransition":"opacity 1s ease-in-out"}}>
                                 <img
                                     src={roof1}
                                     class="block w-full"
                                     alt="roof 1"
                                 />
                                 </div>
-                                <div class="carousel-item float-left w-full">
+                                <div class="carousel-item float-left w-full"
+                                style={{"transition":"opacity 1s ease-in-out","MozTransition":"opacity 1s ease-in-out","OTransition":"opacity 1s ease-in-out"}}>
                                 <img
                                     src={roof2}
                                     class="block w-full"
                                     alt="roof 2"
                                 />
                                 </div>
-                                <div class="carousel-item float-left w-full">
+                                <div class="carousel-item float-left w-full"
+                                style={{"transition":"opacity 1s ease-in-out","MozTransition":"opacity 1s ease-in-out","OTransition":"opacity 1s ease-in-out"}}>
                                 <img
                                     src={roof3}
                                     class="block w-full"
                                     alt="roof 3"
                                 />
                                 </div>
-                                <div class="carousel-item float-left w-full">
+                                <div class="carousel-item float-left w-full"
+                                style={{"transition":"opacity 1s ease-in-out","MozTransition":"opacity 1s ease-in-out","OTransition":"opacity 1s ease-in-out"}}>
                                 <img
                                     src={roof4}
                                     class="block w-full"
