@@ -1,4 +1,3 @@
-import ContactBlocks from "../../components/ContactBlocks";
 import ecoBubble from "../../assets/img/ecoBubble.png";
 import stainBubble from "../../assets/img/stainBubble.png";
 import nondamagingBubble from "../../assets/img/nondamagingBubble.png";
@@ -10,14 +9,11 @@ import roof1 from "../../assets/img/roof1.png"
 import roof2 from "../../assets/img/roof2.png"
 import roof3 from "../../assets/img/roof3.png"
 import roof4 from "../../assets/img/roof4.png"
-
 import "../../styles/roofshampoo.css";
 import React, {useEffect} from "react";
 import ScrollReveal from 'scrollreveal';
 import PopupContact from "../../components/PopupContact";
 import 'tw-elements';
-
-
 
 export default function RoofLanding () {
     useEffect(() => {
