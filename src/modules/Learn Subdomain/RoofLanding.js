@@ -148,7 +148,7 @@ export default function RoofLanding () {
                             </div>
                             <div class="carousel-inner relative w-full overflow-hidden">
                                 <div class="carousel-item active float-left w-full"
-                                style={{"transition":"opacity 1s ease-in-out","MozTransition":"opacity 1s ease-in-out","OTransition":"opacity 1s ease-in-out"}}>
+                                style={{"transition":"opacity 1s ease-in-out","WebkitTransition":"opacity 1s ease-in-out","MozTransition":"opacity 1s ease-in-out","OTransition":"opacity 1s ease-in-out"}}>
                                 <img
                                     src={roof1}
                                     class="block w-full"
@@ -156,7 +156,7 @@ export default function RoofLanding () {
                                 />
                                 </div>
                                 <div class="carousel-item float-left w-full"
-                                style={{"transition":"opacity 1s ease-in-out","MozTransition":"opacity 1s ease-in-out","OTransition":"opacity 1s ease-in-out"}}>
+                                style={{"transition":"opacity 1s ease-in-out","WebkitTransition":"opacity 1s ease-in-out","MozTransition":"opacity 1s ease-in-out","OTransition":"opacity 1s ease-in-out"}}>
                                 <img
                                     src={roof2}
                                     class="block w-full"
@@ -164,7 +164,7 @@ export default function RoofLanding () {
                                 />
                                 </div>
                                 <div class="carousel-item float-left w-full"
-                                style={{"transition":"opacity 1s ease-in-out","MozTransition":"opacity 1s ease-in-out","OTransition":"opacity 1s ease-in-out"}}>
+                                style={{"transition":"opacity 1s ease-in-out","WebkitTransition":"opacity 1s ease-in-out","MozTransition":"opacity 1s ease-in-out","OTransition":"opacity 1s ease-in-out"}}>
                                 <img
                                     src={roof3}
                                     class="block w-full"
@@ -172,7 +172,7 @@ export default function RoofLanding () {
                                 />
                                 </div>
                                 <div class="carousel-item float-left w-full"
-                                style={{"transition":"opacity 1s ease-in-out","MozTransition":"opacity 1s ease-in-out","OTransition":"opacity 1s ease-in-out"}}>
+                                style={{"transition":"opacity 1s ease-in-out","WebkitTransition":"opacity 1s ease-in-out","MozTransition":"opacity 1s ease-in-out","OTransition":"opacity 1s ease-in-out"}}>
                                 <img
                                     src={roof4}
                                     class="block w-full"
