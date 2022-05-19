@@ -39,7 +39,6 @@ function App() {
           <Wrapper>
             <div>
               <LandingNav />
-              <Banner />
             </div>
             <Routes>
               <Route path="/" element={<RoofLanding />} />
