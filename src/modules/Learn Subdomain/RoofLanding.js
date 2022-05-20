@@ -27,7 +27,6 @@ export default function RoofLanding () {
         sr.reveal(
             `
             #topreveal,
-            
             #ecotitle,
             #eco1,
             #eco2,
