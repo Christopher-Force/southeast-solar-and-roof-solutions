@@ -455,7 +455,7 @@ export default function RoofLanding () {
                         </div>
                     </div>
                     <div>
-                        <div className="flex justify-center md:my-4"><label for="roof-popup" className="w-2/3 btn modal-button hover:bg-[#8fe1ff] bg-orange-400 btn-active-secondary text-lg hover:text-black text-slate-800 bg white" id="quote-now">Get Your Free Quote Now</label></div>
+                        <div className="flex justify-center md:my-4"><label for="roof-popup" className="w-2/3 btn modal-button hover:bg-[#8fe1ff] bg-orange-400 btn-active-secondary text-lg hover:text-black text-slate-800 bg white" id="quote-now">Get Your Free Quote</label></div>
                         {/* Testimonials */}
                         <div class="text-gray-600 body-font pt-8">
                             <div class="container px-4 mb-6 mx-auto lg:items-start items-center rounded-md">
