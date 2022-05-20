@@ -89,7 +89,7 @@ export default function RoofLanding () {
             #card8
             `,
             {
-                origin: "left",
+                origin: "right",
                 interval: 100
             }
         );
@@ -97,7 +97,7 @@ export default function RoofLanding () {
         
     
     return (
-        <section className="text-green-600 body-font mx-auto w-full ">
+        <section className="text-green-600 body-font mx-auto w-full overflow-x-hidden">
             <div className="">
                 <div className=""  id="topreveal">
                     <h2 className="text-orange-400 lg:text-3xl title-font font-bold text-center mt-6 px-2">
