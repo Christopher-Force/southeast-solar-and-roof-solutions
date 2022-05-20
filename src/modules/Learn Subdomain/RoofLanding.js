@@ -90,7 +90,7 @@ export default function RoofLanding () {
             #card8
             `,
             {
-                origin: "right",
+                origin: "left",
                 interval: 100
             }
         );
@@ -98,10 +98,10 @@ export default function RoofLanding () {
         
     
     return (
-        <section className="text-green-600 body-font mx-2 w-full">
+        <section className="text-green-600 body-font mx-auto w-full ">
             <div className="">
                 <div className=""  id="topreveal">
-                    <h2 className="text-orange-400 lg:text-3xl title-font font-bold text-center mt-6 ">
+                    <h2 className="text-orange-400 lg:text-3xl title-font font-bold text-center mt-6 px-2">
                         Increase Your Home's Curb Appeal With A Roof Shampoo!
                     </h2>
                     <div className="flex flex-col items-center text-center justify-center ">
@@ -213,14 +213,14 @@ export default function RoofLanding () {
                     </div>
                 </div>
                 {/* Confusion section */}
-                <div className="flex justify-center bg-slate-800 py-8 lg:py-4 " style={{"background":"radial-gradient(circle at 50% 20%, #1e4600, #252c49)"}}>
+                <div className="flex justify-center bg-slate-800 py-8 lg:py-4 px-2" style={{"background":"radial-gradient(circle at 50% 20%, #1e4600, #252c49)"}}>
                     <div className="container border-2 py-4 bg-slate-900">
                         {/* Confusion title */}
                         <div className="flex flex-col items-center text-center justify-center" id="cleaningtitle">
                             <div className="flex flex-row justify-center lg:justify-start h-12">
                                 <img src={confusionBubble} alt="eco friendly" className="w-12 h-12" />
                                 <span className="align-center">
-                                    <h2 className="pl-2 text-orange-400 text-lg title-font font-bold mb-3 py-3">
+                                    <h2 className="pl-2 text-orange-400 text-md md:text-lg title-font font-bold mb-3 py-3">
                                         Let's Clear Up The Confusion
                                     </h2>
                                 </span>
@@ -230,17 +230,17 @@ export default function RoofLanding () {
                             </div>
                         </div>
                         
-                        <div className="flex justify-center pl-2">
+                        <div className="flex justify-center pl-2 pr-2">
                             <div className="border-l-2 pl-8 border-blue-400" id='clean1'>
-                                <ul className="text-lg leading-relaxed text-[#8fe1ff] list-disc" >
+                                <ul className="text-md md:text-lg leading-relaxed text-[#8fe1ff] list-disc" >
                                     <li>If you research roof cleaning on the Internet you will encounter claims, counter-claims and outright confusing and conflicting information among the different roof cleaning camps.</li>
                                 </ul>
                                 <br />
-                                <ul className="text-lg leading-relaxed text-[#8fe1ff] list-disc" >
+                                <ul className="text-md md:text-lg leading-relaxed text-[#8fe1ff] list-disc" >
                                     <li>We have attempted to provide some clarification here regarding the four main roof cleaning methods most widely available to consumers.</li>
                                 </ul>
                                 <br />
-                                <ul className="text-lg leading-relaxed text-[#8fe1ff] list-disc" >
+                                <ul className="text-md md:text-lg leading-relaxed text-[#8fe1ff] list-disc" >
                                     <li>We think that after reading this you will have a greater understanding of roof cleaning methods in general which will assist you in determining the best roof cleaning method for you.</li>
                                 </ul>
                             </div>
@@ -455,7 +455,7 @@ export default function RoofLanding () {
                         </div>
                     </div>
                     <div>
-                        <div className="flex justify-center md:my-4"><label for="roof-popup" className="w-2/3 btn modal-button hover:bg-[#8fe1ff] bg-orange-400 btn-active-secondary text-lg hover:text-black text-slate-800 bg white" id="quote-now">Get Your Free Quote</label></div>
+                        <div className="flex justify-center md:my-4"><label for="roof-popup" className="w-2/3 btn modal-button hover:bg-[#8fe1ff] bg-orange-400 btn-active-secondary text-lg hover:text-black text-slate-800 bg white" id="quote-now">Get Free Quote</label></div>
                         {/* Testimonials */}
                         <div class="text-gray-600 body-font pt-8">
                             <div class="container px-4 mb-6 mx-auto lg:items-start items-center rounded-md">
