@@ -1,7 +1,7 @@
 export default function PopupContact () {
     return (
         // Contact Blocks
-      <div className="lg:pb-8 lg:pt-8">
+      <div className="lg:pb-8 lg:pt-8 min-h-max">
         <div className="grid grid-cols-1">
             <h1 className="text-center title-font font-bold text-md lg:text-2xl text-orange-400">Contact Us Below For 15% Off Your Free Estimate!</h1>
             <div className="w-36 md:w-96 h-1 bg-orange-500 rounded mt-2 mb-4 justify-self-center"></div>

@@ -504,7 +504,7 @@ export default function RoofLanding () {
             </div>
 
             <div className=" pb-8 pt-8 px-4" style={{"background":"radial-gradient(circle at 50% 20%, #1e4600, #252c49)"}}>
-                <div className="container mx-auto bg-black md:mb-10 p-4">
+                <div className="container md:mx-auto bg-black md:mb-10 p-4">
                     <PopupContact />
                 </div>
             </div>
