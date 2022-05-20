@@ -98,7 +98,7 @@ export default function RoofLanding () {
         
     
     return (
-        <section className="text-green-600 body-font mx-2 ">
+        <section className="text-green-600 body-font mx-2 w-full">
             <div className="">
                 <div className=""  id="topreveal">
                     <h2 className="text-orange-400 lg:text-3xl title-font font-bold text-center mt-6 ">
@@ -504,7 +504,7 @@ export default function RoofLanding () {
             </div>
 
             <div className=" pb-8 pt-8 px-4" style={{"background":"radial-gradient(circle at 50% 20%, #1e4600, #252c49)"}}>
-                <div className="container md:mx-auto bg-black p-4  rounded-xl">
+                <div className="container mx-auto bg-black p-4 rounded-xl">
                     <PopupContact />
                 </div>
             </div>
@@ -512,7 +512,7 @@ export default function RoofLanding () {
         
             <input type="checkbox" id="roof-popup" className="modal-toggle" />
             <label className="modal items-start lg:items-center pt-4 md:pt-8 " for="roof-popup">
-                <label className="modal-box w-11/12 max-w-5xl pt-4 max-h-screen" for="">                  
+                <label className="modal-box w-11/12 md:max-w-5xl pt-4 max-h-screen" for="">                  
                     <PopupContact />
                 </label>
             </label>

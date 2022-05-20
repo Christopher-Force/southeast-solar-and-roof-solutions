@@ -1,7 +1,7 @@
 export default function PopupContact () {
     return (
         // Contact Blocks
-      <div className="lg:pb-4 lg:pt-8 h-full">
+      <div className="lg:pb-4 lg:pt-8 h-full w-full">
         <div className="grid grid-cols-1">
             <h1 className="text-center title-font font-bold text-md lg:text-2xl text-orange-400">Contact Us Below For 15% Off Your Free Estimate!</h1>
             <div className="w-36 md:w-96 h-1 bg-orange-500 rounded mt-2 mb-4 justify-self-center"></div>
@@ -77,11 +77,11 @@ export default function PopupContact () {
         </div>
         {/* second half */}
         <div className="flex flex-col lg:flex-row justify-center lg:pt-0 h-full">
-            <div className="basis-1 lg:basis-3/5 flex flex-col justify-center lg:justify-start lg:pt-4">
+            <div className="lg:basis-3/5 flex flex-col justify-center lg:justify-start lg:pt-4">
                     <h3 class="text-center lg:text-left font-bold text-md lg:text-2xl text-orange-400 lg:px-12">Not ready yet?</h3>
                     <p class="text-center lg:text-left py-1 text-[#8fe1ff] lg:px-12 text-sm lg:text-xl">Fill out the form to have an associate contact you within 48 hours!</p>
             </div>
-            <div className="basis-1 lg:basis-2/3 flex flex-col justify-center md:ml-2 lg:justify-self-start pt-2">
+            <div className="lg:basis-2/3 flex flex-col justify-center md:ml-2 lg:justify-self-start pt-2">
                 <div class="flex flex-col text-green-400 lg:mr-24">
                   <label for="email" class="leading-7 text-xs md:text-sm">Name</label>
                   <input type="email" id="email" name="email" class="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
