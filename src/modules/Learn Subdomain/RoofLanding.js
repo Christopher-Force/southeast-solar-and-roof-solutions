@@ -208,7 +208,7 @@ export default function RoofLanding () {
                         <br />
                         <br />
                         For a limited time, we are offering a <label htmlFor="roof-popup" className="underline cursor-pointer text-blue-500 hover:text-orange-400">15% discount</label> for new customers who are looking to increase their home curb appeal. <label htmlFor="roof-popup" className="underline cursor-pointer text-blue-500 hover:text-orange-400">Click below</label> for your free estimate!</p>
-                        <label for="roof-popup" className="btn modal-button hover:bg-[#8fe1ff] bg-slate-900 btn-active-secondary text-lg hover:text-black text-primary-focus bg white">Get Free Quote</label>
+                        <label htmlFor="roof-popup" className="btn modal-button hover:bg-[#8fe1ff] bg-slate-900 btn-active-secondary text-lg hover:text-black text-primary-focus bg white">Get Free Quote</label>
                     </div>
                 </div>
                 {/* Confusion section */}
@@ -308,7 +308,7 @@ export default function RoofLanding () {
                                             <div className="w-48 h-1 bg-primary-focus rounded mt-2 mb-4" />
                                         </div>
                                         <p className="leading-relaxed text-green-200">
-                                            When Roof Shampoo roof cleaning technicians leave your house, your algae stained roof will be STAIN FREE. No waiting for rain, no wondering, and no worrying if the stains will really go away as with other roof cleaning methods. With Roof Shampoo you will able to see for yourself - instantly. Results are IMMEDIATE and Complete!
+                                            When our Southeast Solar Technicians leave your house, your algae stained roof will be STAIN FREE. No waiting for rain, no wondering, and no worrying if the stains will really go away as with other roof cleaning methods. With Roof Shampoo you will able to see for yourself - instantly. Results are IMMEDIATE and Complete!
                                         </p>
                                     </div>
                                 </div>
@@ -454,7 +454,7 @@ export default function RoofLanding () {
                         </div>
                     </div>
                     <div>
-                        <div className="flex justify-center md:my-4"><label for="roof-popup" className="w-2/3 btn modal-button hover:bg-[#8fe1ff] bg-orange-400 btn-active-secondary text-lg hover:text-black text-slate-800 bg white" id="quote-now">Get Free Quote</label></div>
+                        <div className="flex justify-center md:my-4"><label htmlFor="roof-popup" className="w-2/3 btn modal-button hover:bg-[#8fe1ff] bg-orange-400 btn-active-secondary text-lg hover:text-black text-slate-800 bg white" id="quote-now">Get Free Quote</label></div>
                         {/* Testimonials */}
                         <div class="text-gray-600 body-font pt-8">
                             <div class="container px-4 mb-6 mx-auto lg:items-start items-center rounded-md">
@@ -509,12 +509,7 @@ export default function RoofLanding () {
             </div>
 
         
-            <input type="checkbox" id="roof-popup" className="modal-toggle" />
-            <label className="modal items-start lg:items-center pt-4 md:pt-8 " for="roof-popup">
-                <label className="modal-box w-11/12 md:max-w-5xl pt-4 max-h-screen" for="">                  
-                    <PopupContact />
-                </label>
-            </label>
+            
             
         </section>
     )

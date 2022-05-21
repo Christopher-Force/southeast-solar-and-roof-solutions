@@ -18,7 +18,9 @@ import GutterCleaning from "./modules/GutterCleaning";
 import { useLayoutEffect } from 'react'
 import RoofLanding from "./modules/Learn Subdomain/RoofLanding";
 import LandingNav from "./modules/Learn Subdomain/LandingNav";
-// import ReactGA from 'react-ga';
+import ThankYou from "./modules/ThankYou";
+import PopupContact from "./components/PopupContact";
+// import ReactGA from 'react-ga'; 
 
 // const TRACKING_ID = "G-WHY9CP368R"; // OUR_TRACKING_ID
 // ReactGA.initialize(TRACKING_ID);git pull
@@ -42,8 +44,16 @@ function App() {
             </div>
             <Routes>
               <Route path="/" element={<RoofLanding />} />
+              <Route path="thankyou" element={ <ThankYou /> } />
             </Routes>
+            {/* HIDDEN POPUP */}
             <div>
+              <input type="checkbox" id="roof-popup" className="modal-toggle" />
+              <label className="modal items-start lg:items-center pt-4 md:pt-8 " for="roof-popup">
+                  <label className="modal-box w-11/12 md:max-w-5xl pt-4 max-h-screen" for="">                  
+                      <PopupContact />
+                  </label>
+              </label>
             </div>
           </Wrapper>
         </div>
