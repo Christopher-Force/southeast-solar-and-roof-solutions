@@ -9,6 +9,7 @@ import roof1 from "../../assets/img/roof1.png"
 import roof2 from "../../assets/img/roof2.png"
 import roof3 from "../../assets/img/roof3.png"
 import roof4 from "../../assets/img/roof4.png"
+import thankYou from "../../assets/img/thankyou.png"
 import "../../styles/roofshampoo.css";
 import React, {useEffect} from "react";
 import ScrollReveal from 'scrollreveal';
@@ -501,6 +502,8 @@ export default function RoofLanding () {
                 </div> 
                  
             </div>
+
+            <div className="flex justify-center m-4"><a href="https://www.southeastsolarsolutions.com"><img src={thankYou} alt="thank you" className="max-h-[40rem] xl:max-h-[48rem] flex justify-center" /></a></div>
 
             <div className=" pb-8 pt-8 px-4" style={{"background":"radial-gradient(circle at 50% 20%, #1e4600, #252c49)"}}>
                 <div className="container mx-auto bg-black p-4 rounded-xl">
