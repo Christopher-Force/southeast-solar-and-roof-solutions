@@ -25,7 +25,7 @@ export default function PopupContact() {
       // make axios post request
       const response = await axios({
         method: "post",
-        url: "https://script.google.com/macros/s/AKfycbysOen8stIGov1Rfrp9bZJNxho3BC_6S4f5DSqULETjcgrutLreyEDVQNEyOEJY35cn4A/exec",
+        url: "https://script.google.com/macros/s/AKfycbysOen8stIGov1Rfrp9bZJNxho3BC_6S4f5DSqULETjcgrutLreyEDVQNEyOEJY35cn4A/exec/",
         data: loginFormData,
         headers: { "Content-Type": "multipart/form-data" }
       }).finally(navigate('/thankyou'))
