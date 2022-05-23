@@ -7,7 +7,7 @@ export default function LandingNav () {
           <div className="flex-1">
               <img src={logo} alt="solar logo" width="225px" height="96px" className="w-3/5 md:w-1/5" />
           </div>
-          <label htmlFor="roof-popup" className="btn modal-button hover:bg-[#8fe1ff] bg-slate-900 btn-active-secondary text-lg xl:text-2xl hover:text-black text-primary-focus bg white">Get Free Quote</label> 
+          <label htmlFor="roof-popup" className="btn modal-button hover:bg-[#8fe1ff] bg-slate-900 btn-active-secondary text-lg xl:text-2xl hover:text-black text-primary-focus bg white" id="quote-button">Get Free Quote</label> 
         </div>
       </div>
     )

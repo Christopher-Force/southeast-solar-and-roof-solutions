@@ -15,8 +15,8 @@ export default function PopupContact() {
     PHONE: ''
   });
 
-
-
+  const quoteButton = document.getElementById('quote-button');
+  
   const handleChange = (event) => {
     setformValue({
       ...formValue,
@@ -26,12 +26,11 @@ export default function PopupContact() {
 
   const subscribeToNewsLetter = (e) => {
     e.preventDefault();
-    navigate('/thankyou');
+    quoteButton.click()
     jsonp(`https://outlook.us5.list-manage.com/subscribe/post-json?u=3cc1f7b3975d56a5edd4b76f8&amp;id=176b82970e&${queryString.stringify(formValue)}`, { param: 'c' }, (err, data) => {
       console.log('err:', err);
       console.log('data:', data);
-    }).then(window.location.reload(false))
-    
+    }).then(navigate('/thankyou'));
   }
   
   return (
