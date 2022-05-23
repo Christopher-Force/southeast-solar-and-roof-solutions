@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 
@@ -9,30 +8,43 @@ export default function PopupContact() {
   const navigate = useNavigate();
 
   const [formValue, setformValue] = useState({
-    name: '',
-    email: '',
-    phone: ''
+    Name: '',
+    Email: '',
+    Phone: ''
   });
 
-  const handleSubmit = async() => {
-    // store the states in the form data
-    const loginFormData = new FormData();
-    loginFormData.append("Name", formValue.Name)
-    loginFormData.append("Email", formValue.Email)
-    loginFormData.append("Phone", formValue.Phone)
+  const handleSubmit = (e)  =>  {
+      e.preventDefault();
+      console.log(e.target)
+      const data = new FormData(e.target);
+      const action = e.target.action
+      fetch(action, {
+        method: 'POST',
+        body: data,
+      })
+      .then(navigate('/thankyou'))
+      .then(window.location.reload(false))
+  }
+
+
+  // const handleSubmit = async() => {
+  //   store the states in the form data
+    // const loginFormData = new FormData();
+    // loginFormData.append("Name", formValue.Name)
+    // loginFormData.append("Email", formValue.Email)
+    // loginFormData.append("Phone", formValue.Phone)
   
-    try {
-      // make axios post request
-      const response = await axios({
-        method: "post",
-        url: "https://script.google.com/macros/s/AKfycbysOen8stIGov1Rfrp9bZJNxho3BC_6S4f5DSqULETjcgrutLreyEDVQNEyOEJY35cn4A/exec/",
-        data: loginFormData,
-        headers: { "Content-Type": "multipart/form-data" }
-      }).finally(navigate('/thankyou'))
-    } catch(error) {
-      console.log(error)
-    }
-  };
+  //   try {
+  //     make axios post request
+  //     const response = await axios({
+  //       method: "post",
+  //       url: "https://script.google.com/macros/s/AKfycbysOen8stIGov1Rfrp9bZJNxho3BC_6S4f5DSqULETjcgrutLreyEDVQNEyOEJY35cn4A/exec/",
+  //       data: loginFormData
+  //     }).finally(navigate('/thankyou'))
+  //   } catch(error) {
+  //     console.log(error)
+  //   }
+  // };
   
 
   const handleChange = (event) => {
@@ -41,6 +53,7 @@ export default function PopupContact() {
       [event.target.name]: event.target.value
     });
   }
+  
   return (
     // Contact Blocks
     <div className="lg:pb-4 lg:pt-8 h-full w-full">
@@ -121,10 +134,12 @@ export default function PopupContact() {
       <div className="flex flex-col lg:flex-row justify-center lg:pt-0 h-full">
           <div className="lg:basis-3/5 flex flex-col justify-center lg:justify-start lg:pt-4">
                   <h3 className="text-center lg:text-left font-bold text-md lg:text-2xl text-orange-400 lg:px-12">Not ready yet?</h3>
-                  <p className="text-center lg:text-left py-1 text-[#8fe1ff] lg:px-12 text-sm lg:text-xl">Fill out the form to have an associate contact you within 48 hours!</p>
+                  <p className="text-center lg:text-left py-1 text-[#8fe1ff] lg:px-12 text-sm lg:text-xl">Fill out the form to have an associate contact you within 24 hours!</p>
           </div>
           <div className="lg:basis-2/3 flex flex-col justify-center md:ml-2 lg:justify-self-start pt-2">
-            <form 
+            <form
+            method="POST"
+            action = "https://script.google.com/macros/s/AKfycbysOen8stIGov1Rfrp9bZJNxho3BC_6S4f5DSqULETjcgrutLreyEDVQNEyOEJY35cn4A/exec"
             onSubmit={handleSubmit}
             className="flex flex-col text-green-400 lg:mr-24"
             id="sub-form">
@@ -144,7 +159,7 @@ export default function PopupContact() {
               type="number" id="number" name="Phone" className="w-full bg-white bg-opacity-90 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
               <button type="submit" className="btn hover:bg-[#8fe1ff] bg-slate-900 btn-active-secondary text-lg hover:text-black text-primary-focus bg white mt-2 mb-2">Submit</button>
             </form>
-            <p className="text-center lg:text-left py-1 text-primary lg:px-12 text-xs lg:text-xl leading-none">By submitting this information, you consent to receiving marketing  communcations regarding home and solar solutions from us. We will never share your information without your explicit permission.</p>
+            <p className="lg:w-4/5 text-center lg:text-left py-1 text-primary text-xs lg:text-sm leading-none">By submitting this information, you consent to receiving marketing  communcations regarding home and solar solutions from us. We will never share your information without your explicit permission.</p>
           </div>
       </div>
     </div>

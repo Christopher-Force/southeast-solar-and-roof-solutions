@@ -75,7 +75,8 @@ export default function RoofLanding () {
         );
         sr.reveal(
             `
-            #video2
+            #video2,
+            #info
             `,
             {
                 origin: "bottom",
@@ -111,7 +112,7 @@ export default function RoofLanding () {
                 <div className="container lg:flex justify-center mb-12 lg:mt-12 mx-auto">
                     
                     <div className="basis-1/2 m-4 lg:mr-8">
-                        <label htmlFor="roof-popup" className="modal-button">
+                        <label htmlFor="roof-popup" className="modal-button cursor-pointer">
                             {/* carousel */}
                             <div
                             id="carouselExampleCrossfade"
@@ -199,8 +200,6 @@ export default function RoofLanding () {
                                 <span class="visually-hidden">Next</span>
                             </button>
                             </div>
-                            
-                            {/* <img src={} alt="before and after" className=" cursor-pointer hover:brightness-110" /> */}
                         </label>
                     </div>
                     <div className="basis-1/3 m-4">
@@ -248,7 +247,7 @@ export default function RoofLanding () {
                     </div>
                 </div>
                 {/* F&C Section */}
-                <div className="container px- pb-12 lg:mt-12 mx-auto">
+                <div className="container px- pb-6 lg:mt-12 mx-auto">
                     {/* F&C title */}
                     <div className=""  id="topreveal">
                         <h2 className="text-primary-focus text-2xl title-font font-bold text-center mt-6 lg:-mt-6 ">
@@ -458,7 +457,7 @@ export default function RoofLanding () {
                         <div className="flex justify-center md:my-4"><label htmlFor="roof-popup" className="w-2/3 btn modal-button hover:bg-[#8fe1ff] bg-orange-400 btn-active-secondary text-lg hover:text-black text-slate-800 bg white" id="quote-now">Get Free Quote</label></div>
                         {/* Testimonials */}
                         <div class="text-gray-600 body-font pt-8">
-                            <div class="container px-4 mb-6 mx-auto lg:items-start items-center rounded-md">
+                            <div class="container px-4 mx-auto lg:items-start items-center rounded-md">
                                 <div id="testtitle">
                                     <h2 className="text-primary-focus text-lg title-font font-medium text-center mt-6 lg:-mt-6">
                                     Roof Shampoo Customer Reviews
@@ -503,7 +502,7 @@ export default function RoofLanding () {
                  
             </div>
 
-            <div className="flex justify-center m-4"><a href="https://www.southeastsolarsolutions.com"><img src={thankYou} alt="thank you" className="max-h-[40rem] xl:max-h-[48rem] flex justify-center" /></a></div>
+            <div className="flex justify-center m-4 mb-6" id="info"><a href="https://www.southeastsolarsolutions.com"><img src={thankYou} alt="info" className="max-h-[40rem] xl:max-h-[48rem] flex justify-center border-2" /></a></div>
 
             <div className=" pb-8 pt-8 px-4" style={{"background":"radial-gradient(circle at 50% 20%, #1e4600, #252c49)"}}>
                 <div className="container mx-auto bg-black p-4 rounded-xl">
