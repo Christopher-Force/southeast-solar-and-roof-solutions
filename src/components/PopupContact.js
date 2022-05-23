@@ -26,16 +26,14 @@ export default function PopupContact() {
 
   const subscribeToNewsLetter = (e) => {
     e.preventDefault();
-    quoteButton.click()
+    quoteButton.click();
+    window.fbq('track', 'Lead');
     jsonp(`https://outlook.us5.list-manage.com/subscribe/post-json?u=3cc1f7b3975d56a5edd4b76f8&amp;id=176b82970e&${queryString.stringify(formValue)}`, { param: 'c' }, (err, data) => {
       console.log('err:', err);
       console.log('data:', data);
     }).then(navigate('/thankyou'));
   }
   
-  function handleClick() {
-    window.fbq('track', 'Lead');
-  };
   
   return (
     // Contact Blocks
@@ -139,7 +137,6 @@ export default function PopupContact() {
               onChange={handleChange} 
               type="number" id="number" name="PHONE" className="w-full bg-white bg-opacity-90 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
               <button 
-              onClick={handleClick}
               type="submit" className="btn hover:bg-[#8fe1ff] bg-slate-900 btn-active-secondary text-lg hover:text-black text-primary-focus bg white mt-2 mb-2">Submit</button>
             </form>
             <p className="lg:w-4/5 text-center lg:text-left py-1 text-primary text-xs lg:text-sm leading-none">By submitting this information, you consent to receiving marketing  communcations regarding home and solar solutions from us. We will never share your information without your explicit permission.</p>
