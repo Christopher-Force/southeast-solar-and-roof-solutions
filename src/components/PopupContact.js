@@ -120,7 +120,7 @@ export default function PopupContact() {
             <form
             method="POST"
             action = "https://script.google.com/macros/s/AKfycbysOen8stIGov1Rfrp9bZJNxho3BC_6S4f5DSqULETjcgrutLreyEDVQNEyOEJY35cn4A/exec"
-            onSubmit={handleSubmit}
+            // onSubmit={handleSubmit}
             className="flex flex-col text-green-400 lg:mr-24"
             id="sub-form">
               <label for="names" className="leading-7 text-xs md:text-sm">Name</label>
