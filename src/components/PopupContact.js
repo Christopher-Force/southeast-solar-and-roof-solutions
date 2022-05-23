@@ -25,26 +25,6 @@ export default function PopupContact() {
       .then(navigate('/thankyou'))
       .then(window.location.reload(false))
   }
-
-
-  // const handleSubmit = async() => {
-  //   store the states in the form data
-    // const loginFormData = new FormData();
-    // loginFormData.append("Name", formValue.Name)
-    // loginFormData.append("Email", formValue.Email)
-    // loginFormData.append("Phone", formValue.Phone)
-  
-  //   try {
-  //     make axios post request
-  //     const response = await axios({
-  //       method: "post",
-  //       url: "https://script.google.com/macros/s/AKfycbysOen8stIGov1Rfrp9bZJNxho3BC_6S4f5DSqULETjcgrutLreyEDVQNEyOEJY35cn4A/exec/",
-  //       data: loginFormData
-  //     }).finally(navigate('/thankyou'))
-  //   } catch(error) {
-  //     console.log(error)
-  //   }
-  // };
   
 
   const handleChange = (event) => {
