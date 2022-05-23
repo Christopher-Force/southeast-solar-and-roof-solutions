@@ -106,7 +106,7 @@ export default function RoofLanding () {
                         Increase Your Home's Curb Appeal With A Roof Shampoo!
                     </h2>
                     <div className="flex flex-col items-center text-center justify-center ">
-                        <div className="w-3/5 lg:w-2/5 h-1 bg-orange-400 rounded mt-2 " />
+                        <div className="w-2/5 lg:w-2/5 xl:w-1/5 h-1 bg-orange-400 rounded mt-2 " />
                     </div>
                 </div>
                 <div className="container lg:flex justify-center mb-12 lg:mt-12 mx-auto">
@@ -151,7 +151,7 @@ export default function RoofLanding () {
                                 <div class="carousel-item active float-left w-full"
                                 style={{"transition":"opacity 1s ease-in-out","WebkitTransition":"opacity 1s ease-in-out","MozTransition":"opacity 1s ease-in-out","OTransition":"opacity 1s ease-in-out"}}>
                                 <img
-                                    src={roof1}
+                                    src={roof3}
                                     class="block w-full"
                                     alt="roof 1"
                                 />
@@ -167,7 +167,7 @@ export default function RoofLanding () {
                                 <div class="carousel-item float-left w-full"
                                 style={{"transition":"opacity 1s ease-in-out","WebkitTransition":"opacity 1s ease-in-out","MozTransition":"opacity 1s ease-in-out","OTransition":"opacity 1s ease-in-out"}}>
                                 <img
-                                    src={roof3}
+                                    src={roof4}
                                     class="block w-full"
                                     alt="roof 3"
                                 />
@@ -175,7 +175,7 @@ export default function RoofLanding () {
                                 <div class="carousel-item float-left w-full"
                                 style={{"transition":"opacity 1s ease-in-out","WebkitTransition":"opacity 1s ease-in-out","MozTransition":"opacity 1s ease-in-out","OTransition":"opacity 1s ease-in-out"}}>
                                 <img
-                                    src={roof4}
+                                    src={roof1}
                                     class="block w-full"
                                     alt="roof 4"
                                 />
@@ -328,7 +328,7 @@ export default function RoofLanding () {
                                         <div className="w-48 h-1 bg-primary-focus rounded mt-2 mb-4" />
                                     </div>
                                     <p className="leading-relaxed text-green-200">
-                                        The cleaner your roof, the healthier your roof!  Roof Shampoo professionals use state-of-the-art equipment that delivers a soft, gentle low pressure water wash. NEVER damaging high pressure and absolutely NO scrubbing or brushing. There is no need to prematurely re-roof. Your Southeast Solar Advisor will make your dirty roof look new again.  Go with the true GREEN, roof cleaning method for cleaning roof stains, Roof Shampoo.
+                                        The cleaner your roof, the healthier your roof! Our Southeast Solar Technicians use state-of-the-art equipment that delivers a soft, gentle low pressure water wash. NEVER damaging high pressure and absolutely NO scrubbing or brushing. There is no need to prematurely re-roof. Your Southeast Solar Technician will make your dirty roof look new again. Go with the true GREEN, roof cleaning method for cleaning roof stains, Roof Shampoo.
                                     </p>
                                     </div>
                                 </div>
@@ -348,7 +348,7 @@ export default function RoofLanding () {
                                             <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-4" />
                                         </div>
                                         <p className="leading-relaxed text-green-200">
-                                            The proprietary Roof Shampoo ultra-light low pressure aluminum sprinkler-disc rinse system was engineered specifically for use on asphalt and fiberglass shingles. The sprinkler-disc rinser delivers a gentle, soft water rinse completely safe for all roof surfaces. NEVER damaging high pressure and absolutely NO scrubbing or brushing!
+                                            The proprietary Roof Shampoo ultra-light low pressure aluminum sprinkler-disc rinse system was engineered specifically for use on asphalt and fiberglass shingles. The sprinkler-disc rinser delivers a gentle, soft water rinse completely safe for all roof surfaces. We NEVER use damaging high pressure and absolutely NO scrubbing or brushing!
                                         </p>
                                         <br />
                                     </div>
@@ -405,7 +405,7 @@ export default function RoofLanding () {
                                             <div className="w-48 h-1 bg-red-500 rounded mt-4 md:mt-2 mb-4" />
                                         </div>
                                         <p className="leading-relaxed text-green-200">
-                                        If the Contractor DOES NOT tell you up front that they are NOT using bleach, then they are very likely using bleach. Many contractors who use bleach will use the term "Soft Wash". Or, if they tell you they are using sodium hypochlorite -- you should know that sodium hypochlorite is the chemical name for bleach.
+                                        If your roof cleaner DOES NOT tell you up front that they are NOT using bleach, then they are very likely using bleach. Many contractors who use bleach will use the term "Soft Wash". Or, if they tell you they are using sodium hypochlorite -- you should know that sodium hypochlorite is the chemical name for bleach. Yikes.
                                         </p>
                                     </div>
                                 </div>
@@ -425,7 +425,7 @@ export default function RoofLanding () {
                                         <div className="w-48 h-1 bg-red-500 rounded mt-4 md:mt-2 mb-4" />
                                     </div>
                                     <p className="leading-relaxed text-green-200 text-md">
-                                    Some roof cleaning contractors will spray a chemical on your roof and tell you to wait for weeks or months to see the results. Products which do not require rinsing, but depend on the rain to wash away roof stains often take repeated applications to achieve even marginal results. Some roof cleaning companies actually use this consumer grade product and charge you professional rates for it. We call them 'Splash and Dash' operators.
+                                    Some roof cleaning "experts" will spray a chemical on your roof and tell you to wait for weeks or months to see the results. Products which do not require rinsing, but depend on the rain to wash away roof stains often take repeated applications to achieve even marginal results. Some roof cleaning companies actually use this consumer grade product and charge you professional rates for it. We call them 'Splash and Dash' operators.
                                     </p>
                                     </div>
                                 </div>
@@ -445,7 +445,7 @@ export default function RoofLanding () {
                                             <div className="w-52 h-1 bg-red-500 rounded mt-4 md:mt-2 mb-4" />
                                         </div>
                                         <p className="leading-relaxed text-green-200">
-                                        Some otherroof cleaning contractors use high pressure power washing methods to attempt to remove roofs stains. They blast away on your roof blowing the protective granules off as they go. Not only is this method damaging to your shingles, it's also not an effective way to remove roof stains from algae.
+                                        Other roof cleaning contractors use high pressure power washing methods to attempt to remove roofs stains. They blast away on your roof blowing the protective granules off as they go. Not only is this method damaging to your shingles, it's also not an effective way to remove roof stains from algae.
                                         </p>
                                         <br />
                                     </div>
