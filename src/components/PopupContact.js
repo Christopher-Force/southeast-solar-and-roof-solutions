@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import jsonp from 'jsonp';
+import queryString from 'query-string';
 
 
 export default function PopupContact() {
@@ -8,22 +10,14 @@ export default function PopupContact() {
   const navigate = useNavigate();
 
   const [formValue, setformValue] = useState({
-    Name: '',
-    Email: '',
-    Phone: ''
+    NAME: '',
+    EMAIL: '',
+    PHONE: ''
   });
 
   const handleSubmit = (e)  =>  {
-      e.preventDefault();
-      console.log(e.target)
-      const data = new FormData(e.target);
-      const action = e.target.action
-      fetch(action, {
-        method: 'POST',
-        body: data,
-      })
-      .then(navigate('/thankyou'))
-      .then(window.location.reload(false))
+      navigate('/thankyou');
+      window.location.reload(false);
   }
   
 
@@ -31,6 +25,14 @@ export default function PopupContact() {
     setformValue({
       ...formValue,
       [event.target.name]: event.target.value
+    });
+  }
+
+  const subscribeToNewsLetter = (e) => {
+    e.preventDefault();
+    jsonp(`https://outlook.us5.list-manage.com/subscribe/post-json?u=3cc1f7b3975d56a5edd4b76f8&amp;id=176b82970e&${queryString.stringify(formValue)}`, { param: 'c' }, (err, data) => {
+      console.log('err:', err);
+      console.log('data:', data);
     });
   }
   
@@ -118,25 +120,23 @@ export default function PopupContact() {
           </div>
           <div className="lg:basis-2/3 flex flex-col justify-center md:ml-2 lg:justify-self-start pt-2">
             <form
-            method="POST"
-            action = "https://script.google.com/macros/s/AKfycbysOen8stIGov1Rfrp9bZJNxho3BC_6S4f5DSqULETjcgrutLreyEDVQNEyOEJY35cn4A/exec"
-            // onSubmit={handleSubmit}
+            onSubmit={subscribeToNewsLetter}
             className="flex flex-col text-green-400 lg:mr-24"
             id="sub-form">
               <label for="names" className="leading-7 text-xs md:text-sm">Name</label>
               <input 
-              value={formValue.Name}
+              value={formValue.NAME}
               onChange={handleChange}
-              type="text" id="name" name="Name" className="w-full bg-white bg-opacity-90 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+              type="text" id="name" name="NAME" className="w-full bg-white bg-opacity-90 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
               <label for="email" className="leading-7 text-xs md:text-sm">Email</label>
               <input
-              value={formValue.Email}
+              value={formValue.EMAIL}
               onChange={handleChange}
-              type="email" id="email" name="Email" className="w-full bg-white bg-opacity-90 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+              type="email" id="email" name="EMAIL" className="w-full bg-white bg-opacity-90 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
               <label for="phone" className="leading-7 text-xs md:text-sm">Phone</label>
-              <input value={formValue.Phone}
+              <input value={formValue.PHONE}
               onChange={handleChange} 
-              type="number" id="number" name="Phone" className="w-full bg-white bg-opacity-90 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+              type="number" id="number" name="PHONE" className="w-full bg-white bg-opacity-90 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
               <button type="submit" className="btn hover:bg-[#8fe1ff] bg-slate-900 btn-active-secondary text-lg hover:text-black text-primary-focus bg white mt-2 mb-2">Submit</button>
             </form>
             <p className="lg:w-4/5 text-center lg:text-left py-1 text-primary text-xs lg:text-sm leading-none">By submitting this information, you consent to receiving marketing  communcations regarding home and solar solutions from us. We will never share your information without your explicit permission.</p>
