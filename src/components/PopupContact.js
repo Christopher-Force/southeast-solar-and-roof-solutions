@@ -34,7 +34,7 @@ export default function PopupContact() {
   }
   
   function handleClick() {
-    fbq('track', 'Lead');
+    window.fbq('track', 'Lead');
   };
   
   return (
