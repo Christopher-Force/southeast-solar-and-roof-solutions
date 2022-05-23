@@ -134,7 +134,9 @@ export default function PopupContact() {
               <input value={formValue.PHONE}
               onChange={handleChange} 
               type="number" id="number" name="PHONE" className="w-full bg-white bg-opacity-90 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
-              <button type="submit" className="btn hover:bg-[#8fe1ff] bg-slate-900 btn-active-secondary text-lg hover:text-black text-primary-focus bg white mt-2 mb-2">Submit</button>
+              <button 
+              onClick={e => window.fbq('track', 'Lead')}
+              type="submit" className="btn hover:bg-[#8fe1ff] bg-slate-900 btn-active-secondary text-lg hover:text-black text-primary-focus bg white mt-2 mb-2">Submit</button>
             </form>
             <p className="lg:w-4/5 text-center lg:text-left py-1 text-primary text-xs lg:text-sm leading-none">By submitting this information, you consent to receiving marketing  communcations regarding home and solar solutions from us. We will never share your information without your explicit permission.</p>
           </div>
