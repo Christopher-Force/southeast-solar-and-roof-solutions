@@ -34,11 +34,11 @@ export default function ContractForm () {
     // text-orange-400, text-[#8fe1ff] (blue), #00c924 (Green)
 
     return (
-      <div className="bodygradient flex flex-col justify-center h-full mx-8 md:mx-16 pt-4">
+      <div className="bodygradient flex flex-col justify-center h-full mx-8 md:mx-16 pt-4 pb-8">
         <div className="flex flex-col justify-center lg:pt-4">
           <h1 className="text-[#00c924] text-3xl font-bold text-center">Southeast Solar Solutions</h1><br />
   
-          <h2 className="text-xl text-center">We offer professional solutions to keep your solar panels working at peak efficiency</h2><br />
+          <h2 className="text-xl text-center pb-2">We offer professional solutions to keep your solar panels working at peak efficiency</h2><br />
 
             <div className="rounded-md border-2 flex justify-center ">
               <figure className="">
