@@ -38,7 +38,7 @@ export default function ContractForm () {
         <div className="flex flex-col justify-center lg:pt-4">
           <h1 className="text-[#00c924] text-3xl font-bold text-center">Southeast Solar Solutions</h1><br />
   
-          <h2 className="text-xl text-center pb-2">We offer professional solutions to keep your solar panels working at peak efficiency</h2><br />
+          <h2 className="text-xl text-center pb-2">We offer professional solutions to keep your solar panels working at peak efficiency!</h2><br />
 
             <div className="rounded-md border-2 flex justify-center ">
               <figure className="">
