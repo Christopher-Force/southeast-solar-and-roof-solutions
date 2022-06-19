@@ -1,5 +1,4 @@
 import logo from "../assets/img/Logo dark.png"
-import MaterialIcon from 'material-icons-react';
 import { Link } from "react-router-dom"
 
 export default function Nav () {
@@ -13,10 +12,13 @@ export default function Nav () {
             <Link to="/">
               <span className="hidden sm:inline-flex mt-2">
                 <span className="absolute hover:animate-ping">
-                  <MaterialIcon icon="arrow_back" color="#FAFAFA" size="small"  />
+                  <span class="material-icons " style={{fontSize: '24px'}}>
+                    arrow_back
+                  </span>
+                
                 </span>
-                <span className="relative -z-10 ">
-                  <MaterialIcon icon="arrow_back" color="#FAFAFA" size="small"  />
+                <span class="relative -z-10 material-icons " style={{fontSize: '24px'}}>
+                  arrow_back
                 </span>
               </span>
             </Link>
@@ -34,25 +36,29 @@ export default function Nav () {
                 </div>
               {/* <Link> */}
                 <div className="btn btn-ghost btn-sm rounded-btn">
-                <span className="">
-                  <MaterialIcon icon="roofing" color="#FAFAFA" />
-                </span>
+                  <span class="material-icons " style={{fontSize: '24px'}}>
+                    roofing
+                  </span>
+                
                   <span className="pl-2">
                     <Link to="/RoofShampoo">Roof Shampoo</Link>
                   </span>
                 </div>
               {/* <Link> */}
               <div className="btn btn-ghost btn-sm rounded-btn">
-                <span className="">
-                  <MaterialIcon icon="calendar_view_day" color="#FAFAFA" />
-                </span>
+                
+                <span class="material-icons " style={{fontSize: '24px'}}>
+                  calendar_view_day
+                  </span>
                   <span className="pl-2">
                     <Link to="/gutters">Gutter Cleaning</Link>
                   </span>
                 </div>
               {/* </Link> */}
               <a href="https://fcskylights.net/" target="_blank" rel="noreferrer noopener" className="btn btn-ghost btn-sm rounded-btn">
-              <MaterialIcon icon="wb_sunny" color="#FAFAFA" />
+                <span class="material-icons " style={{fontSize: '24px'}}>
+                  wb_sunny
+                </span>
                 <span className="pl-2">
                       Skylights
                 </span>
