@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'constantia-bold';
+    src: local('constanb'), url(./../../assets/fonts/constanb.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'constantia-regular';
+    src: local('constan'), url(./../../assets/fonts/constan.TTF) format('truetype');
+}
+
+@font-face {
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                                'embedded-opentype', and 'svg' */
+
+    font-family: 'neuehassunica-regular';
+    src: local('NeueHaasUnica-Medium'), url(../../assets/fonts/NeueHaasUnica-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                                'embedded-opentype', and 'svg' */
+
+    font-family: 'neuehassunica-italic';
+    src: local('NeueHaasUnica-Italic'), url(../../assets/fonts/NeueHaasUnica-Italic.woff) format('woff');
+}
+
+@font-face {
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                                'embedded-opentype', and 'svg' */
+
+    font-family: 'electra-regular';
+    src: local('ElectraLTStd-Regular'), url(../../assets/fonts/ElectraLTStd-Regular.otf) format('opentype');
+}
+  
+h1 {
+    font-family: 'constantia-bold';
+}
+
+h2 {
+    font-family: 'constantia-regular';
+}
+
+p {
+    font-family: 'neuehassunica-regular'
+}
+
+figcaption {
+    font-family: 'neuehassunica-italic';
+    margin: 10px 0px 5px 0px;
+}
+
+.ontop {
+    position: relative;
+    z-index: 5;
+}

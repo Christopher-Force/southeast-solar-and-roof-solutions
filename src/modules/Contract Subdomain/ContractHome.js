@@ -1,11 +1,14 @@
 import ContractForm from "../../components/Contract Subdomain/ContractForm";
 
+
 export default function ContractHome () {
     return (
-        <section>
-            <div className=" flex justify-center pt-4">
-                <div className="lg:w-2/3">
-                    <ContractForm />
+        <section className="flex justify-center" >
+            <div className="lg:w-2/3 bg-blue-400 flex justify-center">
+                <div className="bg-black">
+                    <div className="">
+                        <ContractForm />
+                    </div>
                 </div>
             </div>
         </section>
