@@ -22,7 +22,6 @@ import ThankYou from "./modules/ThankYou";
 import PopupContact from "./components/PopupContact";
 import ContractNav from "./modules/Contract Subdomain/ContractNav";
 import ContractHome from "./modules/Contract Subdomain/ContractHome";
-// import ReactGA from 'react-ga'; 
 
 // const TRACKING_ID = "G-WHY9CP368R"; // OUR_TRACKING_ID
 // ReactGA.initialize(TRACKING_ID);git pull
