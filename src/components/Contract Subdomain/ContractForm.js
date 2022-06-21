@@ -20,6 +20,7 @@ export default function ContractForm () {
       EMAIL: '',
       PHONE: '',
       COMPANY: '',
+      COMPANYPHONE: '',
       SALESPERSON: ''
     });
   
@@ -160,22 +161,22 @@ export default function ContractForm () {
           className=" flex flex-col justify-center text-green-400"
           id="sub-form">
             <span><h1 className="text-2xl text-center text-orange-400 pb-4">Take advantage of today’s discount prices for the next 5 years!</h1><br /></span>
-            <label for="names" className="leading-7 text-xs md:text-sm py-1">Homeowner First Name</label>
+            <label for="names" className="leading-7 text-xs md:text-sm py-1">Homeowner's First Name</label>
             <input 
             value={formValue.FIRSTNAME}
             onChange={handleChange}
             type="text" id="first-name" name="FIRSTNAME" className="w-full bg-white bg-opacity-90 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
-            <label for="names" className="leading-7 text-xs md:text-sm py-1">Homeowner Last Name</label>
+            <label for="names" className="leading-7 text-xs md:text-sm py-1">Homeowner's Last Name</label>
             <input 
             value={formValue.LASTNAME}
             onChange={handleChange}
             type="text" id="last-name" name="LASTNAME" className="w-full bg-white bg-opacity-90 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
-            <label for="email" className="leading-7 text-xs md:text-sm py-1">Homeowner Email</label>
+            <label for="email" className="leading-7 text-xs md:text-sm py-1">Homeowner's Email</label>
             <input
             value={formValue.EMAIL}
             onChange={handleChange}
             type="email" id="email" name="EMAIL" className="w-full bg-white bg-opacity-90 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
-            <label for="phone" className="leading-7 text-xs md:text-sm py-1">Homeowner Phone</label>
+            <label for="phone" className="leading-7 text-xs md:text-sm py-1">Homeowner's Phone</label>
             <input value={formValue.PHONE}
             onChange={handleChange} 
             type="number" id="number" name="PHONE" className="w-full bg-white bg-opacity-90 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
@@ -183,10 +184,15 @@ export default function ContractForm () {
             <input value={formValue.COMPANY}
             onChange={handleChange} 
             type="text" id="company" name="COMPANY" className="w-full bg-white bg-opacity-90 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+            <label for="COMPANYPHONE" className="leading-7 text-xs md:text-sm py-1">Referring Company's Phone</label>
+            <input value={formValue.COMPANYPHONE}
+            onChange={handleChange} 
+            type="text" id="company-phone" name="COMPANYPHONE" className="w-full bg-white bg-opacity-90 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
             <label for="SALESPERSON" className="leading-7 text-xs md:text-sm py-1">Salesperson's Name</label>
             <input value={formValue.SALESPERSON}
             onChange={handleChange} 
             type="text" id="salesperson" name="SALESPERSON" className="w-full bg-white bg-opacity-90 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+            
             <div class="form-control">
               <label class="label cursor-pointer justify-start">
                  
