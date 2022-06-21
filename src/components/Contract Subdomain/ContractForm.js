@@ -304,7 +304,7 @@ export default function ContractForm () {
             <div class="form-control">
               <label class="label cursor-pointer justify-start">
                 
-                <input type="radio" name="radio-6" class="checked:bg-green-500 checkbox-magic" checked />
+                <input type="radio" name="radio-6" class="checked:bg-green-500 checkbox-magic" />
                 <span class="label-text ml-2">One-Time Cleaning</span>
               </label>
             </div>
