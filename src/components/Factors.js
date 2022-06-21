@@ -22,13 +22,13 @@ export default function Factors() {
             </div>
           </div>
           <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
-          <h2 className="text-primary-focus text-lg title-font font-medium text-center mt-6 lg:-mt-6">
-                  {/* span is inline icon */}
-                  We Observe Four Factors That May Affect Your Pricing
-                </h2>
-                <div className="flex flex-col items-center text-center justify-center">
-                  <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-8 "></div>
-                </div>
+            <h2 className="text-primary-focus text-lg title-font font-medium text-center mt-6 lg:-mt-6">
+              {/* span is inline icon */}
+              We Observe Four Factors That May Affect Your Pricing
+            </h2>
+            <div className="flex flex-col items-center text-center justify-center">
+              <div className="w-52 h-1 bg-primary-focus rounded mt-2 mb-8 "></div>
+            </div>
             <div className="flex flex-col mb-10 lg:items-start items-center">
               
               <div className="flex-grow">
