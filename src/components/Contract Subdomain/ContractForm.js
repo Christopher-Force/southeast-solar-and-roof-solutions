@@ -286,25 +286,25 @@ export default function ContractForm () {
             <label for="SALESPERSON" className="leading-7 text-xs md:text-sm py-1">Salesperson's Name</label>
             <input value={formValue.SALESPERSON}
             onChange={handleChange} 
-            type="text" id="company" name="COMPANY" className="w-full bg-white bg-opacity-90 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
+            type="text" id="salesperson" name="SALESPERSON" className="w-full bg-white bg-opacity-90 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-black md:py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required />
             <div class="form-control">
               <label class="label cursor-pointer justify-start">
                  
-                <input type="radio" name="radio-6" class="checked:bg-green-500 " checked />
+                <input type="radio" name="radio-6" class="checked:bg-green-500 " required />
                 <span class="label-text ml-2">5-Year Annual Contract</span>
               </label>
             </div>
             <div class="form-control">
               <label class="label cursor-pointer justify-start">
                 
-                <input type="radio" name="radio-6" class="checked:bg-green-500 " checked />
+                <input type="radio" name="radio-6" class="checked:bg-green-500 " required />
                 <span class="label-text ml-2">5-Year Semi-Annual Contract</span>
               </label>
             </div>
             <div class="form-control">
               <label class="label cursor-pointer justify-start">
                 
-                <input type="radio" name="radio-6" class="checked:bg-green-500 checkbox-magic" />
+                <input type="radio" name="radio-6" class="checked:bg-green-500 " required />
                 <span class="label-text ml-2">One-Time Cleaning</span>
               </label>
             </div>
