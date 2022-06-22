@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import cleaningVideo from "../../assets/video/cleaningVideo.mp4"
 import sixBubble from "../../assets/img/sixBubble.png";
 import dirtyBubble from "../../assets/img/dirtyBubble.png";
@@ -21,9 +20,15 @@ export default function ContractForm () {
       PHONE: '',
       COMPANY: '',
       COMPANYPHONE: '',
-      SALESPERSON: ''
+      SALESPERSON: '',
+      FREQUENCY: ''
     });
-  
+    
+    const [freqCheckbox, setfreqCheckbox] = useState('');
+
+    const handleCheckbox = (e) => {
+      setfreqCheckbox ( e.target.value )
+    }
     
     const handleChange = (event) => {
       setformValue({
@@ -32,23 +37,32 @@ export default function ContractForm () {
       });
     }
   
+    
+    function getFormData(object) {
+      const formData = new FormData();
+      Object.keys(object).forEach(key => formData.append(key, object[key]));
+      return formData;
+    }
+
     const submitContract = (e) => {
       e.preventDefault();
       fetch('https://script.google.com/macros/s/AKfycbzShg_scb9UKDq-yXrsVZnA5_kYXRo1JcyiatfmjMmn2_PtvELJozXLpae6ZHTe0WvZRg/exec', {
+            mode: 'no-cors',
             method: 'post',
-            headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({
-                email: this.state.signInEmail,
-                password: this.state.signInPassword
+            body: getFormData({
+                First: formValue.FIRSTNAME,
+                Last: formValue.LASTNAME,
+                Email: formValue.EMAIL,
+                Phone: formValue.PHONE,
+                Company: formValue.COMPANY,
+                CompanyPhone: formValue.COMPANYPHONE,
+                Salesperson: formValue.SALESPERSON,
+                Frequency: freqCheckbox
             })
         })
-        .then(response => response.json())
-        .then(user => {
-          if(user.id){ // does the user exist? Did we receive a user with a property of id?
-            this.props.loadUser(user);
-            this.props.onRouteChange('home');
-          }
-      })
+        .then(() => {
+          alert("Success!");
+        })
     }
 
     const featureList = [
@@ -196,17 +210,28 @@ export default function ContractForm () {
             <div class="form-control">
               <label class="label cursor-pointer justify-start">
                  
-                <input type="radio" name="radio-6" class="checked:bg-green-500 " required />
+                <input type="radio" name="radio-6" 
+                onChange={handleCheckbox}
+                class="checked:bg-green-500 " 
+                Value="Annual" 
+                required />
                 <span class="label-text ml-2">5-Year Annual Contract</span>
               </label>
             </div>
             <div class="form-control">
               <label class="label cursor-pointer justify-start">
                 
-                <input type="radio" name="radio-6" class="checked:bg-green-500 " required />
+                <input 
+                type="radio" 
+                onChange={handleCheckbox} 
+                name="radio-6" 
+                class="checked:bg-green-500 " 
+                value="Semi-Annual" 
+                required />
                 <span class="label-text ml-2">5-Year Semi-Annual Contract</span>
               </label>
             </div>
+
             <button 
             type="submit" className="btn hover:bg-[#8fe1ff] bg-slate-900 btn-active-secondary text-lg hover:text-black text-primary-focus bg white mt-2 mb-2">Submit</button>
             <p className="text-center py-1 text-primary text-xs lg:text-sm leading-none">By submitting this information, you consent to receiving marketing communcations regarding home and solar solutions from us. We will never share your information without your explicit permission.</p>
