@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import cleaningVideo from "../../assets/video/cleaningVideo.mp4"
 import sixBubble from "../../assets/img/sixBubble.png";
 import dirtyBubble from "../../assets/img/dirtyBubble.png";
@@ -11,7 +12,7 @@ import '../../styles/borderanimation.css'
 
 export default function ContractForm () {
 
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
 
     const [formValue, setformValue] = useState({
       FIRSTNAME: '',
@@ -46,23 +47,26 @@ export default function ContractForm () {
 
     const submitContract = (e) => {
       e.preventDefault();
+      const data = getFormData({
+        First: formValue.FIRSTNAME,
+        Last: formValue.LASTNAME,
+        Email: formValue.EMAIL,
+        Phone: formValue.PHONE,
+        Company: formValue.COMPANY,
+        CompanyPhone: formValue.COMPANYPHONE,
+        Salesperson: formValue.SALESPERSON,
+        Frequency: freqCheckbox
+      });
       fetch('https://script.google.com/macros/s/AKfycbzShg_scb9UKDq-yXrsVZnA5_kYXRo1JcyiatfmjMmn2_PtvELJozXLpae6ZHTe0WvZRg/exec', {
             mode: 'no-cors',
             method: 'post',
-            body: getFormData({
-                First: formValue.FIRSTNAME,
-                Last: formValue.LASTNAME,
-                Email: formValue.EMAIL,
-                Phone: formValue.PHONE,
-                Company: formValue.COMPANY,
-                CompanyPhone: formValue.COMPANYPHONE,
-                Salesperson: formValue.SALESPERSON,
-                Frequency: freqCheckbox
-            })
+            body: data
         })
+        .then(navigate('/thankyou'))
         .then(() => {
-          alert("Success!");
+          alert("Success!")
         })
+        
     }
 
     const featureList = [
