@@ -9,11 +9,9 @@
   </a>
 </div>
 <h1 align="center">
-  Hi there!
+  Hi there! 
 </h1>
-  <a href="https://www.linkedin.com/in/christopher-force-dev/">
-    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"/>
-  </a>
+  
 
 
 
@@ -25,5 +23,7 @@
     <br/>✓ Integrated client media and content, and created custom SVG animations. 
     <br/>✓ Designed graphics for digital and print marketing campaigns.
   </p>
-  <h2 align="center">This project is now retired after a year of development and maintenance. <br/>[Jan 2022 - Jan 2023]</h2>
+  <h2 align="center">This project is now retired after a year of development and maintenance. <br/>[Jan 2022 - Jan 2023] <a href="https://www.linkedin.com/in/christopher-force-dev/">
+    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"/>
+  </a></h2> 
 </div>
