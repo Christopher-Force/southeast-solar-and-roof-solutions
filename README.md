@@ -1,9 +1,12 @@
-<div id="header" align="center">
+
+<div>
+
+<div id="header" align="right">
   <a href="https://christopherforce.com/" alt="Portfolio Website">
     <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
   </a>
 </div>
-<div id="badges" align="center">
+<div id="badges" align="right">
   <a href="https://www.linkedin.com/in/christopher-force-dev/">
     <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
   </a>
@@ -11,6 +14,7 @@
 <h1 align="left">
   Hi there! 
 </h1>
+</div>
   
 
 
@@ -19,6 +23,9 @@
 
 
 <h1>Southeast Solar and Roof Solutions Web Application</h1>
+  <p align="left"><strong>This project is now retired after a year of development and maintenance. <br/>[Jan 2022 - Jan 2023]</strong <a href="https://www.linkedin.com/in/christopher-force-dev/">
+    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20"/>
+  </a></p> 
 <p>Welcome to my repository for the Southeast Solar and Roof Solutions web application! This project showcases a highly interactive and visually appealing user interface designed for a solar and roof cleaning company. I personally developed and maintained it from January 2022 to January 2023.</p>
 <h2>Key Features &amp; Accomplishments</h2>
 <ul>
@@ -41,8 +48,4 @@
 <h2>Contact Information</h2>
 <p>If you have any questions, suggestions, or would like to get in touch regarding potential job opportunities, please reach out to me via:</p>
 
-<div>
-  <p align="center"><strong>This project is now retired after a year of development and maintenance. <br/>[Jan 2022 - Jan 2023]</strong <a href="https://www.linkedin.com/in/christopher-force-dev/">
-    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20"/>
-  </a></p> 
-</div>
+
