@@ -10,13 +10,11 @@
   Hi there!
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"/>
 </h1>
-<h2>This project is now retired after a year of development and maintenance. [Jan 2022 - Jan 2023]</h2>
+<h2 align="center">This project is now retired after a year of development and maintenance. <br/>[Jan 2022 - Jan 2023]</h2>
 <div>
-  <p>Completely built the UI for the company web application utilizing React.js and designed with Tailwind CSS. Connected HTML     form with Mailchimp Autoresponder. Communicated daily with goals, progress, and tasks at hand. Optimized website playable media with compression tools, such as Handbrake. Integrated client media, content, and created custom SVG animation. Design graphics for digital/magazine marketing.</p>
-
-<p>Key Components:
-  <ul>
-<li>Application built from the ground up specifically for marketing campaigns. </li>
-<li>Effectively created a healthy and communicative environment. </li>
-<li>Deployed client’s web app with Netlify and manage the website with monthly maintenance.</li></ul></p>
+  <p>Built and designed the user interface for a web application using React.js and Tailwind CSS.
+Implemented HTML form integration with Mailchimp Autoresponder. Communicated daily
+with client to ensure progress, goals and tasks were met. Integrated client media and
+content and created custom SVG animations. Designed graphics for digital and print
+marketing campaigns.</p>
 </div>
