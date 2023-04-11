@@ -16,7 +16,7 @@
 
 
 <div>
-  <p><strong>For Southeast and Solar Solutions, I:</strong>
+  <p><strong>For Southeast Solar and Roof Solutions, I:</strong>
     <br/>
     <br/>✓ Built and designed the user interface for a web application using React.js and Tailwind CSS.
     <br/>✓ Implemented HTML form integration with Mailchimp Autoresponder. 
