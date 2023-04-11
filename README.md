@@ -24,7 +24,7 @@
     <br/>✓ Integrated client media and content, and created custom SVG animations. 
     <br/>✓ Designed graphics for digital and print marketing campaigns.
   </p>
-  <h3 align="center">This project is now retired after a year of development and maintenance. <br/>[Jan 2022 - Jan 2023] <a href="https://www.linkedin.com/in/christopher-force-dev/">
+  <p align="center"><strong>This project is now retired after a year of development and maintenance. <br/>[Jan 2022 - Jan 2023]</strong <a href="https://www.linkedin.com/in/christopher-force-dev/">
     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"/>
-  </a></h2> 
+  </a></p> 
 </div>
