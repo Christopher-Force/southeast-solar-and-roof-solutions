@@ -13,10 +13,10 @@
 <h2 align="center">This project is now retired after a year of development and maintenance. <br/>[Jan 2022 - Jan 2023]</h2>
 <div>
   <p>
-         ✓Built and designed the user interface for a web application using React.js and Tailwind CSS.
-    <br/>✓Implemented HTML form integration with Mailchimp Autoresponder. 
-    <br/>✓Communicated daily with client to ensure progress, goals and tasks were met. 
-    <br/>✓Integrated client media and content, and created custom SVG animations. 
-    <br/>✓Designed graphics for digital and print marketing campaigns.
+         ✓ Built and designed the user interface for a web application using React.js and Tailwind CSS.
+    <br/>✓ Implemented HTML form integration with Mailchimp Autoresponder. 
+    <br/>✓ Communicated daily with client to ensure progress, goals and tasks were met. 
+    <br/>✓ Integrated client media and content, and created custom SVG animations. 
+    <br/>✓ Designed graphics for digital and print marketing campaigns.
   </p>
 </div>
