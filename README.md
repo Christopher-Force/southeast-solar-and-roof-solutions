@@ -47,5 +47,11 @@
 <p>This project is now retired after a successful year of development and maintenance. While contributions are not being accepted, feel free to fork the repository and explore the codebase for learning purposes.</p>
 <h2>Contact Information</h2>
 <p>If you have any questions, suggestions, or would like to get in touch regarding potential job opportunities, please reach out to me via:</p>
+<ul>
+<li>Email: <a href="mailto:christopher@christopherforce.com" target="_new">Christopher@ChristopherForce.com</a></li>
+<li>Portfolio: <a href="https://christopherforce.com" target="_new">www.ChristopherForce.com</a></li>
+<li>GitHub: <a href="https://github.com/Christopher-Force" target="_new">@Christopher-Force</a></li>
+
+</ul>
 
 
