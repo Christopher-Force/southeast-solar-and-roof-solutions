@@ -16,8 +16,8 @@
 
 
 <div>
-  <p>
-         ✓ Built and designed the user interface for a web application using React.js and Tailwind CSS.
+  <p>For a Solar and Roof Cleaning company, I:
+    <br/>✓ Built and designed the user interface for a web application using React.js and Tailwind CSS.
     <br/>✓ Implemented HTML form integration with Mailchimp Autoresponder. 
     <br/>✓ Communicated daily with client to ensure progress, goals and tasks were met. 
     <br/>✓ Integrated client media and content, and created custom SVG animations. 
