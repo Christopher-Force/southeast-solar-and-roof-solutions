@@ -76,6 +76,32 @@ function App() {
         </div>
       </Router>
     );
+  }if (window.location.host.split(".")[0] === "contract") {
+    return (
+      <Router>
+          <div className="bg-black">
+            <Wrapper>
+              <div>
+                <Nav />
+                <Banner />
+              </div>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/cleaning" element={<SolarCleaning />} />
+                <Route path="/statewide" element={<Statewide />} />
+                <Route path="/contactus" element={<ContactUs />} />
+                <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+                <Route path="/estimate" element={<Estimate  />} />
+                <Route path="/roofshampoo" element={<RoofShampoo />} />
+                <Route path="/gutters" element={<GutterCleaning />} />
+              </Routes>
+              <div>
+                <Footer />
+              </div>
+            </Wrapper>
+          </div>
+        </Router>
+    );
   } else {
       return (
         <Router>
